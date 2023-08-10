@@ -8,7 +8,7 @@ import "./Styles.css";
 const Fonts = () => {
   const cardData = [
     {
-      title: "1001freefonts",
+      title: "1001 freefonts",
       imageUrl: "./font1.png",
       cardText: "The Ultimate Font Download",
       cardLink: "https://www.1001freefonts.com/",
@@ -26,7 +26,7 @@ const Fonts = () => {
       cardLink: "https://www.dafont.com/",
     },
     {
-      title: "Creativefabrica",
+      title: "Creative fabrica",
       imageUrl: "./font4.png",
       cardText: "We bring the best possible tools for improving your creativity and productivity",
       cardLink: "https://www.creativefabrica.com/",
@@ -38,7 +38,7 @@ const Fonts = () => {
       cardLink: "https://befonts.com/",
     },
     {
-      title: "Fontbundles",
+      title: "Font bundles",
       imageUrl: "font6.png",
       cardText: "Fontbundles.net offer exclusive deals on the highest quality premium and free fonts from independent designers",
       cardLink: "https://fontbundles.net/free-fonts",
@@ -50,7 +50,7 @@ const Fonts = () => {
     <>
       <div className="card-container">
         {cardData.map((card, index) => (
-          <Card key={index} sx={{ maxWidth: 345, margin: "16px" }}>
+          <Card key={index} sx={{ maxWidth: 345, minWidth: 350, margin: "16px" }}>
             <CardMedia
               component="img"
               height="140"
