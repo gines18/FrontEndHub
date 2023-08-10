@@ -29,10 +29,11 @@ const title = [
 const CardContainer = () => {
   return (
     <motion.div className="card-container-title"
-    initial = {{ x: -1000}}
-    animate = {{x: 0}}
+    initial = {{ y: 2000}}
+    animate = {{y: 0}}
     transition={{
-      duration: 1
+      duration: 1,
+     delay: 0.5
     }}
 
 
