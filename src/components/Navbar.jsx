@@ -22,11 +22,18 @@ const Navbar = () => {
           <a href="#">About</a>
         </li>
         <li>
-          <a href="#">Category</a>
+          <a href="#">Colors</a>
         </li>
         <li>
-          <a href="#">Contact</a>
+          <a href="#">Backgrounds</a>
         </li>
+        <li>
+          <a href="#">Fonts</a>
+        </li>
+        <li>
+          <a href="#">Photo Editor</a>
+        </li>
+        
       </ul>
     </nav>
   );
