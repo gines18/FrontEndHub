@@ -9,9 +9,9 @@
   }
   
   .welcome {
-    flex: 1;
+    flex: 0.5;
     padding: 2rem;
-    text-align: left;
+    text-align: center;
   }
   
   .welcome h1 {

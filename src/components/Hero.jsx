@@ -1,5 +1,6 @@
 import React from "react";
-import "./Hero.css"; // Create a CSS file for styling
+import "./Hero.css"; 
+import { motion } from "framer-motion"
 
 const Hero = () => {
   return (
@@ -8,7 +9,15 @@ const Hero = () => {
         <h1>Welcome to Our Website</h1>
         <p>Your go-to destination for amazing content.</p>
       </div>
-      <div className="image"></div>
+      <motion.div className="image"
+      initial= {{scale: 0}}
+      animate={{scale: 1}}
+      transition={{
+        duration: 1.5
+      }}
+      
+      
+      ></motion.div>
     </div>
   );
 };

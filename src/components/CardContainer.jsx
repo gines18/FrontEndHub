@@ -4,6 +4,8 @@ import Colors from "./Colors.jsx";
 import Background from "./Background.jsx";
 import Fonts from "./Fonts";
 import PhotoEditor from "./PhotoEditor";
+import { motion } from "framer-motion"
+
 
 const title = [
   {
@@ -26,7 +28,15 @@ const title = [
 
 const CardContainer = () => {
   return (
-    <div className="card-container-title">
+    <motion.div className="card-container-title"
+    initial = {{ x: -1000}}
+    animate = {{x: 0}}
+    transition={{
+      duration: 1
+    }}
+
+
+    >
       {title.map((card, index) => (
         <div key={index} className="card-item">
           <div className="title">
@@ -36,7 +46,7 @@ const CardContainer = () => {
           <div className="cards"></div>
         </div>
       ))}
-    </div>
+    </motion.div>
   );
 };
 
