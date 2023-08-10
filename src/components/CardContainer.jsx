@@ -1,5 +1,5 @@
 import React from "react";
-import "./CardContainer.css";
+import "./Styles.css";
 import Colors from "./Colors.jsx";
 import Background from "./Background.jsx";
 import Fonts from "./Fonts";
