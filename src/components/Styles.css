@@ -153,3 +153,8 @@ a {
 }
 
 
+@media (max-width: 390px) {
+  html{
+    width: 100%!important;
+  }
+}
