@@ -3,14 +3,14 @@ import Card from "@mui/material/Card";
 import CardContent from "@mui/material/CardContent";
 import CardMedia from "@mui/material/CardMedia";
 import Typography from "@mui/material/Typography";
-import './Styles.css';
+import "./Styles.css";
+import { motion } from "framer-motion";
 
 const Colors = () => {
-
   const cardData = [
     {
       title: "Coolors ",
-      imageUrl: './colors.png',
+      imageUrl: "./colors.png",
       cardText: "The super fast color pallet generator",
       cardLink: "https://coolors.co/",
     },
@@ -35,47 +35,52 @@ const Colors = () => {
     {
       title: "Colormind",
       imageUrl: "color5.png",
-      cardText: "Applying a color palette is an interpretive art. This page might give you some ideas",
+      cardText:
+        "Applying a color palette is an interpretive art. This page might give you some ideas",
       cardLink: "http://colormind.io/",
     },
     {
       title: "htmlcolorcodes",
       imageUrl: "color6.png",
-      cardText: "Get HTML color codes, Hex color codes, RGB and HSL values with our color picker, color chart and HTML color names. Let's go!",
+      cardText:
+        "Get HTML color codes, Hex color codes, RGB and HSL values with our color picker, color chart and HTML color names. Let's go!",
       cardLink: "https://htmlcolorcodes.com/",
     },
-
   ];
 
   return (
     <>
-    <div className="card-container">
-      {cardData.map((card, index) => (
-        <Card key={index} sx={{ maxWidth: 345, minWidth: 350, margin: '16px' }}>
-          <CardMedia
-            component="img"
-            height="140"
-            image={card.imageUrl}
-            alt="Card Image"
-           
-          />
-          <CardContent>
-            <Typography variant="h6" component="div">
-              {card.title}
-            </Typography>
-            <Typography variant="body2" color="text.secondary">
-              {card.cardText}
-            </Typography>
-            <Typography variant="body2" color="text.secondary">
-            <a href={card.cardLink} target="_blank">Visit website</a> 
-            </Typography>
-         
-          </CardContent>
-        </Card>
-      ))}
-    </div>
+      <div className="card-container">
+        {cardData.map((card, index) => (
+          <Card
+            key={index}
+            id="card_hover"
+            sx={{ maxWidth: 345, minWidth: 350, margin: "16px" }}
+          >
+            <CardMedia
+              component="img"
+              height="140"
+              image={card.imageUrl}
+              alt="Card Image"
+            />
+            <CardContent>
+              <Typography variant="h6" component="div">
+                {card.title}
+              </Typography>
+              <Typography variant="body2" color="text.secondary">
+                {card.cardText}
+              </Typography>
+              <Typography variant="body2" color="text.secondary">
+                <a href={card.cardLink} target="_blank">
+                  Visit website
+                </a>
+              </Typography>
+            </CardContent>
+          </Card>
+        ))}
+      </div>
     </>
   );
-      }
+};
 
 export default Colors;

@@ -39,13 +39,13 @@ const CardContainer = () => {
 
     >
       {title.map((card, index) => (
-        <div key={index} className="card-item">
+        <motion.div key={index} className="card-item">
           <div className="title">
             <h1>{card.title}</h1>
           </div>
           <h1>{card.cardText}</h1>
           <div className="cards"></div>
-        </div>
+        </motion.div>
       ))}
     </motion.div>
   );

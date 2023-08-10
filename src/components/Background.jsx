@@ -52,7 +52,7 @@ const Background = () => {
     <>
     <div className="card-container">
       {cardData.map((card, index) => (
-        <Card key={index} sx={{ maxWidth: 345, minWidth: 350, margin: '16px' }}>
+        <Card id="card_hover" key={index} sx={{ maxWidth: 345, minWidth: 350, margin: '16px' }}>
           <CardMedia
             component="img"
             height="140"
