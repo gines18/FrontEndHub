@@ -57,6 +57,7 @@ const Colors = () => {
             height="140"
             image={card.imageUrl}
             alt="Card Image"
+           
           />
           <CardContent>
             <Typography variant="h6" component="div">
