@@ -35,7 +35,7 @@ const Colors = () => {
     {
       title: "Colormind",
       imageUrl: "color5.png",
-      cardText: "Applying a color palette is an interpretive art. This page might give you some ideas.",
+      cardText: "Applying a color palette is an interpretive art. This page might give you some ideas",
       cardLink: "http://colormind.io/",
     },
     {
