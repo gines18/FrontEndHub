@@ -1,44 +1,41 @@
 import React from "react";
 import "./Styles.css";
-import Colors from "./Colors.jsx";
-import Background from "./Background.jsx";
-import Fonts from "./Fonts";
-import PhotoEditor from "./PhotoEditor";
-import { motion } from "framer-motion"
+import Cards from "./Cards.jsx";
 
+import { motion } from "framer-motion";
+import { colors, fonts, background, photoEditor } from "./Data";
 
-const title = [
+const category = [
   {
     title: "Colors",
-    cardText: <Colors />,
-  },
-  {
-    title: "Background",
-    cardText: <Background />,
+    cardText: <Cards photoData={colors} />,
   },
   {
     title: "Fonts",
-    cardText: <Fonts />,
+    cardText: <Cards photoData={fonts} />,
+  },
+  {
+    title: "Background",
+    cardText: <Cards photoData={background} />,
   },
   {
     title: "Photo Editor",
-    cardText: <PhotoEditor />,
+    cardText: <Cards photoData={photoEditor} />,
   },
 ];
 
 const CardContainer = () => {
   return (
-    <motion.div className="card-container-title"
-    initial = {{ y: 2000}}
-    animate = {{y: 0}}
-    transition={{
-      duration: 1,
-     delay: 0.5
-    }}
-
-
+    <motion.div
+      className="card-container-title"
+      initial={{ y: 2000 }}
+      animate={{ y: 0 }}
+      transition={{
+        duration: 1,
+        delay: 0.5,
+      }}
     >
-      {title.map((card, index) => (
+      {category.map((card, index) => (
         <motion.div key={index} className="card-item">
           <div className="title">
             <h1>{card.title}</h1>
