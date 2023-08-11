@@ -4,6 +4,7 @@ import { motion } from "framer-motion";
 
 const Hero = () => {
   return (
+    <header>
     <motion.div
       className="hero"
       initial={{ opacity: 0 }}
@@ -18,6 +19,7 @@ const Hero = () => {
       </div>
       <div className="image"></div>
     </motion.div>
+    </header>
   );
 };
 
