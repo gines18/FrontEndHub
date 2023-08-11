@@ -32,7 +32,7 @@ const CardContainer = () => {
       animate={{ y: 0 }}
       transition={{
         duration: 1,
-        delay: 0.5,
+       
       }}
     >
       {category.map((card, index) => (

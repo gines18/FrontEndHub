@@ -112,7 +112,7 @@ export const background = [
     imageUrl: "./background5.png",
     cardText:
       "Haikei is built around generators. Each generator has a unique set of properties and features to help you discover and create unlimited design assets.",
-    cardLink: "https://https://haikei.app/generators/.com/",
+    cardLink: "https://haikei.app/generators/.com/",
   },
   {
     title: "SVG backgrounds",

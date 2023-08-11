@@ -2,7 +2,7 @@ import React from "react";
 import Navbar from "./components/Navbar";
 import Hero from "./components/Hero";
 
-import CardContainer from "./components/CardContainer";
+import CardContainer from "./components/CardsContainer";
 
 function App() {
   return (
