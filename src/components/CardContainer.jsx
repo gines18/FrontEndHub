@@ -41,7 +41,7 @@ const CardContainer = () => {
             <h1>{card.title}</h1>
           </div>
           <h1>{card.cardText}</h1>
-          <div className="cards"></div>
+         
         </motion.div>
       ))}
     </motion.div>
