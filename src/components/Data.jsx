@@ -153,7 +153,7 @@ export  const photoEditor = [
       cardLink: "https://picsart.com/"
     },
     {
-      title: "Card 1",
+      title: "Online-image-editor",
       imageUrl: "./photoeditor6.png",
       cardText: "Free Online Image Editor",
       cardLink: "https://www.online-image-editor.com/"
