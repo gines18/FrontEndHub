@@ -160,3 +160,9 @@ a {
   }
 }
 
+@media (max-width: 768px) {
+  .card-container-title{
+    margin: 0;
+  }
+}
+

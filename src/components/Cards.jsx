@@ -5,12 +5,12 @@ import CardMedia from "@mui/material/CardMedia";
 import Typography from "@mui/material/Typography";
 import "./Styles.css";
 
-const Cards = ({photoData}) => {
+const Cards = ({cardData}) => {
  
   return (
     <>
       <div className="card-container">
-        {photoData.map((card, index) => (
+        {cardData.map((card, index) => (
           <Card
             key={index}
             id="card_hover"

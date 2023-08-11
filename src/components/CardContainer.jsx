@@ -8,19 +8,19 @@ import { colors, fonts, background, photoEditor } from "./Data";
 const category = [
   {
     title: "Colors",
-    cardText: <Cards photoData={colors} />,
+    cardText: <Cards cardData={colors} />,
   },
   {
     title: "Fonts",
-    cardText: <Cards photoData={fonts} />,
+    cardText: <Cards cardData={fonts} />,
   },
   {
     title: "Background",
-    cardText: <Cards photoData={background} />,
+    cardText: <Cards cardData={background} />,
   },
   {
     title: "Photo Editor",
-    cardText: <Cards photoData={photoEditor} />,
+    cardText: <Cards cardData={photoEditor} />,
   },
 ];
 
