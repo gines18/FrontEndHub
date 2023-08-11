@@ -28,7 +28,7 @@ Experience the future of frontend development with our AI-powered tools. Harness
 
 ## Getting Started
 
-Visit our website at [https://www.frontendhub.com](https://shiny-semolina-7d95a0.netlify.app) to start exploring our vast collection of fonts, colors, backgrounds, photo editors, and AI tools. Our intuitive interface and streamlined navigation ensure that you can quickly find and utilize the resources you need.
+Visit our website at [Netlify](https://shiny-semolina-7d95a0.netlify.app) to start exploring our vast collection of fonts, colors, backgrounds, photo editors, and AI tools. Our intuitive interface and streamlined navigation ensure that you can quickly find and utilize the resources you need.
 
 ## Contributing
 
