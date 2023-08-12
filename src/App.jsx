@@ -1,13 +1,13 @@
 import React from "react";
-import Navbar from "./components/Navbar";
 import Hero from "./components/Hero";
 import Welcome from "./components/Welcome";
 import CardContainer from "./components/CardsContainer";
+import NavbarSlide from "./components/NavbarSlide";
 
 function App() {
   return (
     <>
-      <Navbar />
+      <NavbarSlide />
       <Welcome/>
       <Hero />
       <CardContainer />
