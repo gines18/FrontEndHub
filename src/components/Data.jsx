@@ -1,9 +1,13 @@
+
+
+
 export const colors = [
   {
     title: "Coolors ",
-    imageUrl: "./colors.png",
+    imageUrl: "colors.png",
     cardText: "The super fast color pallet generator",
     cardLink: "https://coolors.co/",
+
   },
   {
     title: "Adobe",
@@ -160,5 +164,44 @@ export const photoEditor = [
     imageUrl: "./photoeditor6.png",
     cardText: "Free Online Image Editor",
     cardLink: "https://www.online-image-editor.com/",
+  },
+];
+
+export const photoEditorAI = [
+  {
+    title: "Adobe Firefly",
+    imageUrl: "./Ai1.png",
+    cardText: "Free for now. In-house text-to-image model by Adobe. Has promising features like image expansion and sketch-to-image",
+    cardLink: "https://www.adobe.com/uk/sensei/generative-ai/firefly.html",
+  },
+  {
+    title: "Lexica",
+    imageUrl: "./Ai2.png",
+    cardText: "Effortless to use. Only 2 models are available (fn). Generate 100 images per month for free",
+    cardLink: "https://lexica.art/",
+  },
+  {
+    title: "Leonardo AI",
+    imageUrl: "./Ai3.png",
+    cardText: "Train your own visual model. Best for generating game assets. Character portraits are quite good",
+    cardLink: "https://leonardo.ai/",
+  },
+  {
+    title: "Bing Image Creator",
+    imageUrl: "./Ai4.png",
+    cardText: "Powered by DALL·E. Integrated with Bing Chat. Best free AI image generator.",
+    cardLink: "https://www.bing.com/create?toWww=1&redig=3797DDC6D8EA4E099C21C7F1D4163135",
+  },
+  {
+    title: "Playground",
+    imageUrl: "./Ai5.png",
+    cardText: "Create and Edit Images like a pro without being one",
+    cardLink: "https://playgroundai.com/",
+  },
+  {
+    title: "BlueWillow",
+    imageUrl: "./Ai6.png",
+    cardText: "BlueWillow converts your prompt into AI artwork. Give it a try!",
+    cardLink: "https://www.bluewillow.ai/",
   },
 ];

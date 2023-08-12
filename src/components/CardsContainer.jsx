@@ -2,8 +2,10 @@ import React from "react";
 import "./Styles.css";
 import Cards from "./Cards.jsx";
 
+import Tips from "./Tips";
 
-import { colors, fonts, background, photoEditor } from "./Data";
+
+import { colors, fonts, background, photoEditor, photoEditorAI } from "./Data";
 
 const category = [
   {
@@ -22,24 +24,33 @@ const category = [
     title: "Photo Editor",
     cardText: <Cards cardData={photoEditor} />,
   },
+  {
+    title: "AI Photo Editor",
+    cardText: <Cards cardData={photoEditorAI} />,
+  },
 ];
 
 const CardContainer = () => {
   return (
+    <>
+    
     <div
       className="card-container-title"
   initial={{ opacity: 0 }}
     >
       {category.map((card, index) => (
+        
         <div key={index} className="card-item">
           <div className="title">
             <h1>{card.title}</h1>
           </div>
           <h1>{card.cardText}</h1>
          
+         {card.title === "Fonts" && <Tips />}
         </div>
       ))}
     </div>
+    </>
   );
 };
 
