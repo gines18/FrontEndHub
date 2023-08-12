@@ -19,7 +19,7 @@ const Cards = ({cardData}) => {
             <CardMedia
               component="img"
               height="140"
-              src={card.imageUrl || card.imgBackground}
+              src={card.imageUrl}
 
               alt="Card Image"
             />

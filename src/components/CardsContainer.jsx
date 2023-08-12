@@ -38,18 +38,18 @@ const CardContainer = () => {
       className="card-container-title"
   initial={{ opacity: 0 }}
     >
-      {category.map((card, index) => (
+        {category.map((card, index) => (
         
-        <div key={index} className="card-item">
-          <div className="title">
-            <h1>{card.title}</h1>
+          <div key={index} className="card-item">
+            <div className="title">
+              <h1>{card.title}</h1>
+            </div>
+            <h1>{card.cardText}</h1>
+
+            {card.title === "Fonts" && <Tips />}
           </div>
-          <h1>{card.cardText}</h1>
-         
-         {card.title === "Fonts" && <Tips />}
-        </div>
-      ))}
-    </div>
+        ))}
+      </div>
     </>
   );
 };

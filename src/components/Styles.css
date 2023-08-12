@@ -138,6 +138,10 @@ a {
 .welcome h1 {
   font-size: 2rem;
   margin-bottom: 1rem;
+  padding: 40px;
+}
+.welcome p {
+  padding: 40px;
 }
 
 .image {
@@ -171,3 +175,59 @@ a {
   }
 }
 
+/* Tips */
+
+.hero-tips {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 600px;
+  background-color: #f5f5f5;
+}
+
+.welcome-tips {
+  flex: 1;
+padding: 60px;
+  text-align: center;
+}
+
+.welcome-tips h1 {
+  font-size: 2rem;
+  margin-bottom: 1rem;
+}
+
+.image-tips {
+  flex: 1;
+  height: 100%;
+  background-image: url(/img-tips.jpeg);
+  background-size: cover;
+  background-position: center;
+}
+
+@media (max-width: 768px) {
+  .hero-tips {
+    flex-direction: column;
+    height: auto;
+  }
+  .welcome-tips h1, p{
+    padding: 60px;
+  }
+
+  .welcome-tips,
+  .image-tips {
+    flex: none;
+    width: 100%;
+    padding: 60px;
+  }
+
+  .image-tips {
+    height: 300px;
+  }
+}
+
+@media (max-width: 390px) {
+  .welcome-tips h1, p{
+    padding: 60px;
+  }
+
+}
