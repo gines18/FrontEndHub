@@ -30,6 +30,7 @@ html,
 body {
   width: 100%;
   overflow-x: hidden;
+  
 }
 
 body {
@@ -126,6 +127,9 @@ a {
   .image {
     flex: none;
     width: 100%;
+    margin-top: 350px;
+    
+    
   }
 
   .image {
@@ -200,22 +204,127 @@ padding: 60px;
 
 #welcome-container{
   display: flex;
-  width: 100%;
-  flex-direction: row;
-  height: 80vh;
+  width: 100vw;
+  height: 100vh;
+  flex-direction: column;
+
   align-items: center;
-padding: 40px;
+
 }
 
+
+
 #welcome-text{
-  display: flex;
-  width: 1200px;
-  height: 100%;
+
+  width: 100%;
+  
   flex-direction: column;
   align-items: center;
-  justify-content: space-around;
-  font-size: 4rem;
+  justify-content: center;
+  font-size: 7rem;
+  padding: 0;
 }
+
+#font{
+  position: relative;
+  top: 10%;
+  left: 14%;
+  font-size: 6vw;
+  width: 200px;
+  margin: 0;
+}
+
+#node-js{
+  position: relative;
+  top: 15%;
+  left: 15%;
+  font-size: 3vw;
+  width: 200px;
+  margin: 0;
+}
+
+#photoeditor{
+  position: relative;
+  top: 12%;
+  left: 70%;
+  font-size: 3vw;
+  width: 300px;
+  margin: 0;
+}
+
+#html{
+  position: relative;
+  top: 7%;
+  left: 40%;
+  font-size: 3vw;
+  width: 100px;
+  margin: 0;
+}
+
+#css{
+  position: relative;
+  top: 18%;
+  left: 25%;
+  font-size: 3vw;
+  width: 100px;
+  margin: 0;
+}
+
+#FrontEnd{
+  position: relative;
+  top: 15%;
+  left: 45%;
+  font-size: 3vw;
+  width: 100px;
+  margin: 0;
+}
+
+#vscode{
+  position: relative;
+  top: -5%;
+  left: 30%;
+  font-size: 6vw;
+  width: 900px;
+  margin: 0;
+}
+
+#color{
+    position: relative;
+    top: -25%;
+    left: 55%;
+    font-size: 8vw;
+    width: 400px;
+  margin: 0;
+  }
+
+  .background-welcome{
+    position: relative;
+    top: -17%;
+    left: 50%;
+    font-size: 7vw;
+  }
+
+  #javascript{
+    position: relative;
+    top: -38%;
+    left: 30%;
+    font-size: 8vw;
+    width: 700px;
+    margin: 0;
+  }
+  @media  (max-width: 390px) {
+    #javascript{
+      position: relative;
+      top: -36%;
+      left: 30%;
+      font-size: 8vw;
+      width: 700px;
+      margin: 0;
+    }
+  }
+    
+  
+
 
 #welcome-img{
   display: flex;
@@ -234,31 +343,40 @@ padding: 40px;
   background-image: linear-gradient(90deg, rgba(0, 0, 255, 1) 0%, rgba(238, 130, 238, 1) 100%);
 }
 
+#background-react{
+  position: relative;
+  top: -37%;
+  left: 20%;
+ width: 500px;
+ margin: 0;
+ padding: 0;
+ font-size: 8vw;
+  background-clip: text;
+  -webkit-background-clip: text;
+  color: transparent;  
+  background-image: linear-gradient(90deg, rgba(255, 255, 0, 1) 0%, rgba(0, 188, 212, 1) 50%, rgba(238, 130, 238, 1) 100%);
+}
+
+
+
 @media (max-width: 390px) {
-  #welcome-container{
-    display: flex;
-    width: 100%;
-    flex-direction: column;
-    height: 100% ;
-    align-items: center;
-  padding: 10px;
-  }
-  #welcome-text{
-    display: flex;
-    width: 100%;
-    flex-direction: column;
-    align-items: center;
-    justify-content: space-around;
-    font-size: 2rem;
-  }
+
+
   #welcome-img{
     display: flex;
-    margin-bottom: 30px;
+   
+    margin-bottom: 400px;
   }
   .image{
     display: none;
+
   }
+
 }
+
+ 
+
+
 
 /* NavbarSlide */
 
@@ -359,5 +477,13 @@ button:hover i::after {
   }
   100% {
     box-shadow: #27272c;
+  }
+}
+
+@media (min-width: 390px) {
+  /* Disable Framer Motion animations */
+  .framer-motion-element {
+    animation: none !important;
+    transition: none !important;
   }
 }
