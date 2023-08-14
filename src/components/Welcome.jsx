@@ -130,7 +130,7 @@ function Welcome() {
         </motion.p>
       </div>
 
-      <div id="welcome-img">
+      {/* <div id="welcome-img">
         <motion.img
           src="./fonts_welcome.png"
           alt=""
@@ -152,7 +152,7 @@ function Welcome() {
           animate={{ opacity: 1, x: 0 }}
           transition={{ duration: 3 }}
         />
-      </div>
+      </div> */}
     </div>
   );
 }
