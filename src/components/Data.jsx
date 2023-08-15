@@ -82,6 +82,12 @@ export const fonts = [
       "Fontbundles.net offer exclusive deals on the highest quality premium and free fonts from independent designers",
     cardLink: "https://fontbundles.net/free-fonts",
   },
+  {
+    "title": "WhatTheFont",
+    "imageUrl": "./website9.png",
+    "cardText": "Identify fonts from images.",
+    "cardLink": "https://www.myfonts.com/WhatTheFont/"
+  },
 ];
 
 export const background = [
@@ -206,35 +212,6 @@ export const photoEditorAI = [
   },
 ];
 
-// export const goodByAI = [
-//   {
-//     title: "Kickresume",
-//     imageUrl: "./goodbyAI.png",
-//     cardText: "Automate your CV creation with our AI resume builder",
-//     cardLink: "https://www.kickresume.com/en/ai-resume-writer"
-//   },
-//   {
-//     title: "Landingsite",
-//     imageUrl: "./goodbyAI2.png",
-//     cardText: "Easily Create Eye-Catching Websites Using AI",
-//     cardLink: "https://landingsite.ai/"
-//   },
-//   {
-//     title: "Tugan",
-//     imageUrl: "./goodbyAI3.png",
-//     cardText: "Generate Emails, Newsletters, Threads, Tweets, and Linkedin Posts That People Love To Read",
-//     cardLink: "https://www.tugan.ai"
-//   },
-//   {
-//     title: "Tryleap",
-//     imageUrl: "./goodbyAI4.png",
-//     cardText: 'Generate images, music, and more directly in our dashboard or add these features into your apps with our API & SDK',
-  
-//     cardLink: "https://tryleap.ai/?ref=Profile"
-//   },
-// ]
-
-
 export const goodByAI = [
   {
     "title": "AI Resume Builder",
@@ -334,12 +311,6 @@ export const usefulWebsites = [
     "imageUrl": "./website8.png",
     "cardText": "Create diagrams and flowcharts.",
     "cardLink": "https://app.diagrams.net/"
-  },
-  {
-    "title": "WhatTheFont",
-    "imageUrl": "./website9.png",
-    "cardText": "Identify fonts from images.",
-    "cardLink": "https://www.myfonts.com/WhatTheFont/"
   },
   {
     "title": "Temp Email",

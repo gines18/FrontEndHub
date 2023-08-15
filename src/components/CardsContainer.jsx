@@ -33,7 +33,7 @@ const category = [
     cardText: <Cards cardData={goodByAI} />,
   },
   {
-    title: "AI tools",
+    title: "Useful websites",
     cardText: <Cards cardData={usefulWebsites} />,
   },
 ];
