@@ -5,9 +5,10 @@
   justify-content: space-around;
   align-items: center;
   width: 100%;
-  height: 80px;
+  height: 100px;
   color: white;
   flex-direction: row;
+  position: absolute;
 }
 
 #nav-slide-button {
@@ -18,7 +19,7 @@
   width: 100%;
   height: 40px;
 
-  padding-top: 20px;
+  padding-top: 100px;
 }
 
 /* html/body */
@@ -27,6 +28,8 @@ html,
 body {
   width: 100%;
   overflow-x: hidden;
+
+
 }
 
 body {

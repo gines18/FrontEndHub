@@ -205,3 +205,147 @@ export const photoEditorAI = [
     cardLink: "https://www.bluewillow.ai/",
   },
 ];
+
+// export const goodByAI = [
+//   {
+//     title: "Kickresume",
+//     imageUrl: "./goodbyAI.png",
+//     cardText: "Automate your CV creation with our AI resume builder",
+//     cardLink: "https://www.kickresume.com/en/ai-resume-writer"
+//   },
+//   {
+//     title: "Landingsite",
+//     imageUrl: "./goodbyAI2.png",
+//     cardText: "Easily Create Eye-Catching Websites Using AI",
+//     cardLink: "https://landingsite.ai/"
+//   },
+//   {
+//     title: "Tugan",
+//     imageUrl: "./goodbyAI3.png",
+//     cardText: "Generate Emails, Newsletters, Threads, Tweets, and Linkedin Posts That People Love To Read",
+//     cardLink: "https://www.tugan.ai"
+//   },
+//   {
+//     title: "Tryleap",
+//     imageUrl: "./goodbyAI4.png",
+//     cardText: 'Generate images, music, and more directly in our dashboard or add these features into your apps with our API & SDK',
+  
+//     cardLink: "https://tryleap.ai/?ref=Profile"
+//   },
+// ]
+
+
+export const goodByAI = [
+  {
+    "title": "AI Resume Builder",
+    "imageUrl": "./goodbyAI.png",
+    "cardText": "Create a professional resume with AI assistance.",
+    "cardLink": "http://kickresume.com/en/ai-resume-writer/"
+  },
+  {
+    "title": "Website Builder",
+    "imageUrl": "./goodbyAI2.png",
+    "cardText": "Build your own website easily with AI-powered tools.",
+    "cardLink": "http://landingsite.ai"
+  },
+  {
+    "title": "Create viral posts on X or Twitter",
+    "imageUrl": "./goodbyAI3.png",
+    "cardText": "Generate engaging content for social media platforms.",
+    "cardLink": "http://tugan.ai"
+  },
+  {
+    "title": "Professional Headshots",
+    "imageUrl": "./goodbyAI4.png",
+    "cardText": "Get high-quality professional headshots for your profile.",
+    "cardLink": "http://tryleap.ai/?ref=Profile"
+  },
+  {
+    "title": "Coding Assistant for Developers",
+    "imageUrl": "./goodbyAI5.png",
+    "cardText": "Boost your coding productivity with AI-powered assistance.",
+    "cardLink": "http://Codeium.com"
+  },
+  {
+    "title": "SEO based content",
+    "imageUrl": "./goodbyAI6.png",
+    "cardText": "Create SEO-optimized content for your website.",
+    "cardLink": "http://seodity.com/?via=profile"
+  },
+  {
+    "title": "Logo in 5 minutes",
+    "imageUrl": "./goodbyAI7.png",
+    "cardText": "Design a professional logo in just five minutes.",
+    "cardLink": "http://logomaster.ai"
+  },
+  {
+    "title": "Form builder",
+    "imageUrl": "./goodbyAI8.png",
+    "cardText": "Easily create online forms and collect data.",
+    "cardLink": "http://fillout.com"
+  }
+]
+
+export const usefulWebsites = [
+  {
+    "title": "CleanPNG",
+    "imageUrl": "./website.png",
+    "cardText": "Find high-quality transparent PNG images.",
+    "cardLink": "https://www.cleanpng.com/"
+  },
+  {
+    "title": "AlternativeTo",
+    "imageUrl": "./website2.png",
+    "cardText": "Find alternative software and apps.",
+    "cardLink": "https://alternativeto.net/"
+  },
+  {
+    "title": "Autodraw",
+    "imageUrl": "./website3.png",
+    "cardText": "Draw with AI assistance and turn doodles into art.",
+    "cardLink": "https://www.autodraw.com/"
+  },
+  {
+    "title": "Pixabay",
+    "imageUrl": "./website4.png",
+    "cardText": "Discover and share stunning free images and videos.",
+    "cardLink": "https://pixabay.com/"
+  },
+  {
+    "title": "Down for Everyone or Just Me",
+    "imageUrl": "./website5.png",
+    "cardText": "Check if a website is down for everyone or just you.",
+    "cardLink": "https://downforeveryoneorjustme.com/"
+  },
+  {
+    "title": "PDF Escape",
+    "imageUrl": "./website6.png",
+    "cardText": "Edit and annotate PDF files online.",
+    "cardLink": "https://www.pdfescape.com/"
+  },
+  {
+    "title": "Wetransfer",
+    "imageUrl": "./website7.png",
+    "cardText": "Transfer large files easily.",
+    "cardLink": "https://wetransfer.com/"
+  },
+  {
+    "title": "draw.io",
+    "imageUrl": "./website8.png",
+    "cardText": "Create diagrams and flowcharts.",
+    "cardLink": "https://app.diagrams.net/"
+  },
+  {
+    "title": "WhatTheFont",
+    "imageUrl": "./website9.png",
+    "cardText": "Identify fonts from images.",
+    "cardLink": "https://www.myfonts.com/WhatTheFont/"
+  },
+  {
+    "title": "Temp Email",
+    "imageUrl": "./website10.png",
+    "cardText": "Get temporary email addresses for quick use.",
+    "cardLink": "https://temp-mail.org/"
+  }
+]
+  

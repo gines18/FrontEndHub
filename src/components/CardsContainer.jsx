@@ -5,7 +5,7 @@ import Cards from "./Cards.jsx";
 import Tips from "./Tips";
 
 
-import { colors, fonts, background, photoEditor, photoEditorAI } from "./Data";
+import { colors, fonts, background, photoEditor, photoEditorAI, goodByAI, usefulWebsites } from "./Data";
 
 const category = [
   {
@@ -27,6 +27,14 @@ const category = [
   {
     title: "AI Photo Editor",
     cardText: <Cards cardData={photoEditorAI} />,
+  },
+  {
+    title: "AI tools",
+    cardText: <Cards cardData={goodByAI} />,
+  },
+  {
+    title: "AI tools",
+    cardText: <Cards cardData={usefulWebsites} />,
   },
 ];
 

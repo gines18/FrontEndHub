@@ -11,7 +11,7 @@ const Hero = () => {
       opacity: 1,
        y: 0,
       transition: { duration: 2,
-      borderRadius: 5
+      borderRadius: 3
       }
       },
     hidden: { opacity: 0, y: 20 },
@@ -26,6 +26,7 @@ const Hero = () => {
         initial="hidden"
         animate={inView ? "visible" : "hidden"}
         variants={variants}
+        
       >
         <div className="welcome">
           <h1>Welcome to Our Website</h1>
