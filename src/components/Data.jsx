@@ -266,7 +266,7 @@ export const goodByAI = [
 export const usefulWebsites = [
   {
     "title": "CleanPNG",
-    "imageUrl": "./website.png",
+    "imageUrl": "./certificate.png",
     "cardText": "Find high-quality transparent PNG images.",
     "cardLink": "https://www.cleanpng.com/"
   },
@@ -320,3 +320,67 @@ export const usefulWebsites = [
   }
 ]
   
+
+  export const certificates = [
+    {
+      "title": "Applied Data Science with Python",
+      "imageUrl": "./certificate.png",
+      "cardText": "Learn data science with Python.",
+      "cardLink": "https://simplilearn.com/getting-started-data-science-with-python-skillup"
+    },
+    {
+      "title": "Fundamentals of Digital Marketing",
+      "imageUrl": "./certificate2.png",
+      "cardText": "Master the basics of digital marketing.",
+      "cardLink": "https://skillshop.exceedlms.com/student/collection/654330-digital-marketing"
+    },
+    {
+      "title": "Google Analytics Certification",
+      "imageUrl": "./certificate3.png",
+      "cardText": "Get certified in Google Analytics.",
+      "cardLink": "https://skillshop.exceedlms.com/student/path/508845-google-analytics-certification"
+    },
+    {
+      "title": "Google Ads Search Certification",
+      "imageUrl": "./certificate4.png",
+      "cardText": "Become certified in Google Ads Search.",
+      "cardLink": "https://skillshop.exceedlms.com/student/path/18128-google-ads-search-certification"
+    },
+    {
+      "title": "Google Ads Display Certification",
+      "imageUrl": "./certificate5.png",
+      "cardText": "Earn your Google Ads Display certification.",
+      "cardLink": "https://skillshop.exceedlms.com/student/path/18061-google-ads-display-certification"
+    },
+    {
+      "title": "YouTube Music Certification",
+      "imageUrl": "./certificate6.png",
+      "cardText": "Certify your expertise in YouTube Music.",
+      "cardLink": "https://skillshop.exceedlms.com/student/path/13996-youtube-music-certification"
+    },
+    {
+      "title": "Get started with Google Maps Platform",
+      "imageUrl": "./certificate7.png",
+      "cardText": "Begin your journey with Google Maps Platform.",
+      "cardLink": "https://developers.google.com/learn/pathways/get-started-maps"
+    },
+    {
+      "title": "Build apps with Flutter",
+      "imageUrl": "./certificate8.png",
+      "cardText": "Create apps using Flutter.",
+      "cardLink": "https://developers.google.com/learn/pathways/intro-to-flutter"
+    },
+    {
+      "title": "Introduction to SQL",
+      "imageUrl": "./certificate9.png",
+      "cardText": "Learn the basics of SQL.",
+      "cardLink": "https://developer.android.com/courses/pathways/android-basics-compose-unit-6-pathway-1"
+    },
+    {
+      "title": "Generative AI [Mega Course]",
+      "imageUrl": "./certificate10.png",
+      "cardText": "Take a comprehensive Generative AI course.",
+      "cardLink": "https://cloudskillsboost.google/journeys/118"
+    }
+  ]
+

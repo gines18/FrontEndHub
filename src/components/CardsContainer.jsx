@@ -5,7 +5,7 @@ import Cards from "./Cards.jsx";
 import Tips from "./Tips";
 
 
-import { colors, fonts, background, photoEditor, photoEditorAI, goodByAI, usefulWebsites } from "./Data";
+import { colors, fonts, background, photoEditor, photoEditorAI, goodByAI, usefulWebsites, certificates } from "./Data";
 
 const category = [
   {
@@ -35,6 +35,10 @@ const category = [
   {
     title: "Useful websites",
     cardText: <Cards cardData={usefulWebsites} />,
+  },
+  {
+    title: "Free Google certificates",
+    cardText: <Cards cardData={certificates} />,
   },
 ];
 
