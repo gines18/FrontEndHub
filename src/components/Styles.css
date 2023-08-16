@@ -28,8 +28,6 @@ html,
 body {
   width: 100%;
   overflow-x: hidden;
-
-
 }
 
 body {
@@ -39,7 +37,6 @@ body {
   background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='100%25' height='100%25' viewBox='0 0 100 60'%3E%3Cg %3E%3Crect fill='%23cc5577' width='11' height='11'/%3E%3Crect fill='%23ce5776' x='10' width='11' height='11'/%3E%3Crect fill='%23d05a76' y='10' width='11' height='11'/%3E%3Crect fill='%23d15c75' x='20' width='11' height='11'/%3E%3Crect fill='%23d35f74' x='10' y='10' width='11' height='11'/%3E%3Crect fill='%23d46174' y='20' width='11' height='11'/%3E%3Crect fill='%23d66473' x='30' width='11' height='11'/%3E%3Crect fill='%23d76673' x='20' y='10' width='11' height='11'/%3E%3Crect fill='%23d96972' x='10' y='20' width='11' height='11'/%3E%3Crect fill='%23da6c72' y='30' width='11' height='11'/%3E%3Crect fill='%23db6e71' x='40' width='11' height='11'/%3E%3Crect fill='%23dc7171' x='30' y='10' width='11' height='11'/%3E%3Crect fill='%23dd7471' x='20' y='20' width='11' height='11'/%3E%3Crect fill='%23de7671' x='10' y='30' width='11' height='11'/%3E%3Crect fill='%23df7971' y='40' width='11' height='11'/%3E%3Crect fill='%23e07c71' x='50' width='11' height='11'/%3E%3Crect fill='%23e17e71' x='40' y='10' width='11' height='11'/%3E%3Crect fill='%23e28171' x='30' y='20' width='11' height='11'/%3E%3Crect fill='%23e38471' x='20' y='30' width='11' height='11'/%3E%3Crect fill='%23e38771' x='10' y='40' width='11' height='11'/%3E%3Crect fill='%23e48972' y='50' width='11' height='11'/%3E%3Crect fill='%23e58c72' x='60' width='11' height='11'/%3E%3Crect fill='%23e58f73' x='50' y='10' width='11' height='11'/%3E%3Crect fill='%23e69173' x='40' y='20' width='11' height='11'/%3E%3Crect fill='%23e69474' x='30' y='30' width='11' height='11'/%3E%3Crect fill='%23e79775' x='20' y='40' width='11' height='11'/%3E%3Crect fill='%23e79a75' x='10' y='50' width='11' height='11'/%3E%3Crect fill='%23e89c76' x='70' width='11' height='11'/%3E%3Crect fill='%23e89f77' x='60' y='10' width='11' height='11'/%3E%3Crect fill='%23e8a278' x='50' y='20' width='11' height='11'/%3E%3Crect fill='%23e9a47a' x='40' y='30' width='11' height='11'/%3E%3Crect fill='%23e9a77b' x='30' y='40' width='11' height='11'/%3E%3Crect fill='%23e9aa7c' x='20' y='50' width='11' height='11'/%3E%3Crect fill='%23e9ac7e' x='80' width='11' height='11'/%3E%3Crect fill='%23eaaf7f' x='70' y='10' width='11' height='11'/%3E%3Crect fill='%23eab281' x='60' y='20' width='11' height='11'/%3E%3Crect fill='%23eab482' x='50' y='30' width='11' height='11'/%3E%3Crect fill='%23eab784' x='40' y='40' width='11' height='11'/%3E%3Crect fill='%23eaba86' x='30' y='50' width='11' height='11'/%3E%3Crect fill='%23ebbc88' x='90' width='11' height='11'/%3E%3Crect fill='%23ebbf8a' x='80' y='10' width='11' height='11'/%3E%3Crect fill='%23ebc18c' x='70' y='20' width='11' height='11'/%3E%3Crect fill='%23ebc48e' x='60' y='30' width='11' height='11'/%3E%3Crect fill='%23ebc790' x='50' y='40' width='11' height='11'/%3E%3Crect fill='%23ebc992' x='40' y='50' width='11' height='11'/%3E%3Crect fill='%23ebcc94' x='90' y='10' width='11' height='11'/%3E%3Crect fill='%23ebce97' x='80' y='20' width='11' height='11'/%3E%3Crect fill='%23ebd199' x='70' y='30' width='11' height='11'/%3E%3Crect fill='%23ecd39c' x='60' y='40' width='11' height='11'/%3E%3Crect fill='%23ecd69e' x='50' y='50' width='11' height='11'/%3E%3Crect fill='%23ecd8a1' x='90' y='20' width='11' height='11'/%3E%3Crect fill='%23ecdba4' x='80' y='30' width='11' height='11'/%3E%3Crect fill='%23ecdda6' x='70' y='40' width='11' height='11'/%3E%3Crect fill='%23ece0a9' x='60' y='50' width='11' height='11'/%3E%3Crect fill='%23ede2ac' x='90' y='30' width='11' height='11'/%3E%3Crect fill='%23ede4af' x='80' y='40' width='11' height='11'/%3E%3Crect fill='%23ede7b2' x='70' y='50' width='11' height='11'/%3E%3Crect fill='%23ede9b5' x='90' y='40' width='11' height='11'/%3E%3Crect fill='%23eeecb8' x='80' y='50' width='11' height='11'/%3E%3Crect fill='%23EEB' x='90' y='50' width='11' height='11'/%3E%3C/g%3E%3C/svg%3E");
   background-attachment: fixed;
   background-size: cover;
-
 }
 
 /* Cards */
@@ -90,7 +87,7 @@ a {
   height: 600px;
   background-color: #f5f5f5;
   margin: 120px 30px 30px;
-  border-radius: 50px ;
+  border-radius: 50px;
 }
 
 .welcome {
@@ -109,7 +106,6 @@ a {
 }
 
 .image {
- 
   flex: 1;
   height: 100%;
   background-image: url(/developer.jpeg);
@@ -128,8 +124,7 @@ a {
   .image {
     flex: none;
     width: 100%;
-    height:50%;
-    
+    height: 50%;
   }
 
   .image {
@@ -167,7 +162,6 @@ a {
 }
 
 .image-tips {
-  
   flex: 1;
   height: 100%;
   background-image: url(/img-tips.jpeg);
@@ -185,14 +179,11 @@ a {
   .welcome-tips,
   .image-tips {
     flex: none;
-
-
   }
 
   .image-tips {
     height: 300px;
     width: 100%;
-    
   }
 }
 
@@ -204,20 +195,18 @@ a {
 }
 
 /* Welcome */
-#welcome-container{
+#welcome-container {
   width: 100%;
   position: relative;
-  
 }
 
-#welcome-text{
- position: relative;
+#welcome-text {
+  position: relative;
   padding: 100px;
-  
 }
 
 #font {
-position: absolute;
+  position: absolute;
   top: 10%;
   left: 20%;
   font-size: 6vw;
@@ -304,9 +293,6 @@ position: absolute;
   margin: 0;
 }
 
-
-
-
 #background {
   background-clip: text;
   -webkit-background-clip: text;
@@ -338,30 +324,28 @@ position: absolute;
 }
 
 @media (max-width: 390px) {
-  #javascript{
+  #javascript {
     top: 65%;
   }
-  #html{
+  #html {
     top: 45%;
   }
-  #color{
+  #color {
     top: 15%;
   }
-  #font{
+  #font {
     top: 20%;
     left: 30%;
   }
-  #css{
+  #css {
     top: 65%;
     left: 70%;
   }
 
-  #photoeditor{
+  #photoeditor {
     left: 60%;
   }
 }
-
-
 
 /* NavbarSlide */
 
@@ -473,14 +457,11 @@ button:hover i::after {
   }
 }
 
-
 /* Footer */
 
-#footer_container{
+#footer_container {
   display: flex;
   justify-content: end;
-
-
 }
 
 .vibrate-1 {
@@ -489,8 +470,8 @@ button:hover i::after {
 
   color: #27272c;
   margin: 30px;
-	-webkit-animation: vibrate-1 0.3s linear infinite both;
-	        animation: vibrate-1 0.3s linear infinite both;
+  -webkit-animation: vibrate-1 0.3s linear infinite both;
+  animation: vibrate-1 0.3s linear infinite both;
 }
 
 /* ----------------------------------------------
@@ -505,55 +486,143 @@ button:hover i::after {
  * animation vibrate-1
  * ----------------------------------------
  */
- @-webkit-keyframes vibrate-1 {
+@-webkit-keyframes vibrate-1 {
   0% {
     -webkit-transform: translate(0);
-            transform: translate(0);
+    transform: translate(0);
   }
   20% {
     -webkit-transform: translate(-2px, 2px);
-            transform: translate(-2px, 2px);
+    transform: translate(-2px, 2px);
   }
   40% {
     -webkit-transform: translate(-2px, -2px);
-            transform: translate(-2px, -2px);
+    transform: translate(-2px, -2px);
   }
   60% {
     -webkit-transform: translate(2px, 2px);
-            transform: translate(2px, 2px);
+    transform: translate(2px, 2px);
   }
   80% {
     -webkit-transform: translate(2px, -2px);
-            transform: translate(2px, -2px);
+    transform: translate(2px, -2px);
   }
   100% {
     -webkit-transform: translate(0);
-            transform: translate(0);
+    transform: translate(0);
   }
 }
 @keyframes vibrate-1 {
   0% {
     -webkit-transform: translate(0);
-            transform: translate(0);
+    transform: translate(0);
   }
   20% {
     -webkit-transform: translate(-2px, 2px);
-            transform: translate(-2px, 2px);
+    transform: translate(-2px, 2px);
   }
   40% {
     -webkit-transform: translate(-2px, -2px);
-            transform: translate(-2px, -2px);
+    transform: translate(-2px, -2px);
   }
   60% {
     -webkit-transform: translate(2px, 2px);
-            transform: translate(2px, 2px);
+    transform: translate(2px, 2px);
   }
   80% {
     -webkit-transform: translate(2px, -2px);
-            transform: translate(2px, -2px);
+    transform: translate(2px, -2px);
   }
   100% {
     -webkit-transform: translate(0);
-            transform: translate(0);
+    transform: translate(0);
   }
+}
+
+/* Gallery */
+
+.container-gallery {
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  grid-template-rows: repeat(7, 1fr);
+  gap: 10px;
+  padding: 100px;
+  grid-template-areas:
+    "grid2 grid2     grid1      grid1    grid1"
+    "grid2 grid2     grid1     grid1     grid1"
+    "grid2 grid2     grid8         grid8      grid8 "
+    " grid2  grid2   grid8                grid8 grid8 "
+    "grid2  grid2    grid4  grid6        grid6"
+    "grid2  grid2    grid4  grid6        grid6"
+    "grid2  grid2    grid4  grid6        grid6"
+  ;
+}
+
+.grid1 {
+  grid-area: grid1;
+ height: 300px;
+
+  background-image: url(grid1.jpeg);
+  background-size: fill;
+  background-position: center;
+
+
+}
+.grid2 {
+  grid-area: grid2;
+  background-image: url(grid2.jpeg);
+  background-size: fill;
+  background-position: center;
+  background-repeat: no-repeat;
+
+}
+.grid3 {
+  grid-area: grid3;
+  background-image: url(grid3.jpeg);
+  background-size: fill;
+  background-position: center;
+  background-repeat: no-repeat;
+
+}
+.grid4 {
+  grid-area: grid4;
+  background-image: url(grid4.jpeg);
+  background-size: fill;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+.grid5 {
+  grid-area: grid5;
+  background-image: url(grid5.jpeg);
+  background-size: fill;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+.grid6 {
+  grid-area: grid6;
+  background-image: url(grid6.jpeg);
+  background-size: fill;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+.grid7 {
+  grid-area: grid7;
+  background-image: url(grid7.jpeg);
+  background-size: fill;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+.grid8 {
+  grid-area: grid8;
+  background-image: url(grid8.jpeg);
+  background-size: fill;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+.grid9 {
+  grid-area: grid9;
+  background-image: url(grid9.jpeg);
+  background-size: fill;
+  background-position: center;
+  background-repeat: no-repeat;
 }

@@ -384,3 +384,52 @@ export const usefulWebsites = [
     }
   ]
 
+  export const miscellaneous = [
+    {
+      "title": "AI Voice Generator",
+      "imageUrl": "./web.png",
+      "cardText": "Generate human-like AI voices.",
+      "cardLink": "http://lovo.ai"
+    },
+    {
+      "title": "AI Website Builder",
+      "imageUrl": "./web2.png",
+      "cardText": "Build websites using AI-powered tools.",
+      "cardLink": "http://10web.io"
+    },
+    {
+      "title": "Picture magic",
+      "imageUrl": "./web3.png",
+      "cardText": "Enhance and manipulate images with AI.",
+      "cardLink": "http://magicstudio.com"
+    },
+    {
+      "title": "Text-to-video",
+      "imageUrl": "./web4.png",
+      "cardText": "Convert text into videos using AI.",
+      "cardLink": "http://heygen.com"
+    },
+    {
+      "title": "Presentations",
+      "imageUrl": "./web5.png",
+      "cardText": "Create engaging presentations with AI assistance.",
+      "cardLink": "http://tome.app"
+    },
+    {
+      "title": "Stock photos",
+      "imageUrl": "./web7.png",
+      "cardText": "AI Person Generator",
+      "cardLink": "http://lucidpic.com"
+    },
+    {
+      "title": "Text paraphraser",
+      "imageUrl": "./web8.png",
+      "cardText": "Paraphrase text using AI technology.",
+      "cardLink": "http://paraphrasingtool.ai"
+    },
+    {
+      "title": "Business ideas",
+      "imageUrl": "./web99.png",
+      "cardText": "Explore a variety of business ideas.",
+      "cardLink": "http://amilliondollaridea.com"
+    },]
