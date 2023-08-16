@@ -129,30 +129,6 @@ function Welcome() {
           JavaScript
         </motion.p>
       </div>
-
-      {/* <div id="welcome-img">
-        <motion.img
-          src="./fonts_welcome.png"
-          alt=""
-          initial={{ opacity: 0, x: 1000 }}
-          animate={{ opacity: 1, x: 0 }}
-          transition={{ duration: 1 }}
-        />
-        <motion.img
-          src="colors_welcome.png"
-          alt=""
-          initial={{ opacity: 0, x: 1000 }}
-          animate={{ opacity: 1, x: 0 }}
-          transition={{ duration: 2 }}
-        />
-        <motion.img
-          src="./background_welcome.png"
-          alt=""
-          initial={{ opacity: 0, x: 1000 }}
-          animate={{ opacity: 1, x: 0 }}
-          transition={{ duration: 3 }}
-        />
-      </div> */}
     </div>
   );
 }

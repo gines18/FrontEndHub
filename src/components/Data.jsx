@@ -266,7 +266,7 @@ export const goodByAI = [
 export const usefulWebsites = [
   {
     "title": "CleanPNG",
-    "imageUrl": "./certificate.png",
+    "imageUrl": "./website.png",
     "cardText": "Find high-quality transparent PNG images.",
     "cardLink": "https://www.cleanpng.com/"
   },
