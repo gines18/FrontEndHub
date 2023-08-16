@@ -41,7 +41,7 @@ const category = [
     cardText: <Cards cardData={certificates} />,
   },
   {
-    title: "Free Google certificates",
+    title: "Miscellaneous",
     cardText: <Cards cardData={miscellaneous} />,
   },
 ];
