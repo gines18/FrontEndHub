@@ -433,3 +433,66 @@ export const usefulWebsites = [
       "cardText": "Explore a variety of business ideas.",
       "cardLink": "http://amilliondollaridea.com"
     },]
+
+    export const boostFrontEndSkills = [
+      {
+        title: "CodeWars",
+        imageUrl: "./frontendskills.png",
+        cardText: "Sharpen your coding skills through interactive challenges",
+        cardLink: "https://www.codewars.com/",
+      },
+      {
+        title: "Frontend Mentor",
+        imageUrl: "./frontendskills2.png",
+        cardText: "Improve your front-end coding skills with real-world projects",
+        cardLink: "https://www.frontendmentor.io/",
+      },
+      {
+        title: "Codewell",
+        imageUrl: "./frontendskills3.png",
+        cardText: "Complete front-end challenges and build your portfolio",
+        cardLink: "https://www.codewell.cc/",
+      },
+      {
+        title: "CSS Battle",
+        imageUrl: "./frontendskills4.png",
+        cardText: "Sharpen your CSS skills by replicating visual designs",
+        cardLink: "https://cssbattle.dev/",
+      },
+      {
+        title: "JavaScript30",
+        imageUrl: "./frontendskills5.png",
+        cardText: "Build 30 JavaScript projects in 30 days with Wes Bos",
+        cardLink: "https://javascript30.com/",
+      },
+      {
+        title: "Coderbyte",
+        imageUrl: "./frontendskills6.png",
+        cardText: "Improve your coding skills with challenges and exercises",
+        cardLink: "https://www.coderbyte.com/",
+      },
+      {
+        title: "FreeCodeCamp",
+        imageUrl: "./frontendskills7.png",
+        cardText: "Learn to code and help nonprofits with projects",
+        cardLink: "https://www.freecodecamp.org/",
+      },
+      {
+        title: "Frontend Practice",
+        imageUrl: "./frontendskills8.png",
+        cardText: "Sharpen your front-end skills by building real projects",
+        cardLink: "https://www.frontendpractice.com/",
+      },
+      {
+        title: "Dev Challenges",
+        imageUrl: "./frontendskills9.png",
+        cardText: "Take on development challenges and improve your skills",
+        cardLink: "https://devchallenges.io/",
+      },
+      {
+        title: "CodePen Challenges",
+        imageUrl: "./frontendskills10.png",
+        cardText: "Participate in weekly coding challenges on CodePen",
+        cardLink: "https://codepen.io/challenges/",
+      },
+    ];

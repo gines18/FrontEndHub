@@ -1,11 +1,10 @@
 import React from "react";
 import "./Styles.css";
 import Cards from "./Cards.jsx";
-
 import Tips from "./Tips";
 
 
-import { colors, fonts, background, photoEditor, photoEditorAI, goodByAI, usefulWebsites, certificates, miscellaneous } from "./Data";
+import { colors, fonts, background, photoEditor, photoEditorAI, goodByAI, usefulWebsites, certificates, miscellaneous, boostFrontEndSkills } from "./Data";
 
 const category = [
   {
@@ -44,6 +43,10 @@ const category = [
     title: "Miscellaneous",
     cardText: <Cards cardData={miscellaneous} />,
   },
+  {
+    title: "Boost Your Frontend Skills",
+    cardText: <Cards cardData={boostFrontEndSkills} />,
+  },
 ];
 
 const CardContainer = () => {
@@ -52,7 +55,6 @@ const CardContainer = () => {
     
     <div
       className="card-container-title"
-  initial={{ opacity: 0 }}
     >
         {category.map((card, index) => (
         
