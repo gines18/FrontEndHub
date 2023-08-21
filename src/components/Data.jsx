@@ -496,3 +496,31 @@ export const usefulWebsites = [
         cardLink: "https://codepen.io/challenges/",
       },
     ];
+
+    export const codeEditors = [
+      {
+        title: "Visual Studio Code",
+        imageUrl: "./codeEditor.png",
+        cardText: "A powerful and customizable code editor",
+        cardLink: "https://code.visualstudio.com/"
+      },
+      {
+        title: "Codepen",
+        imageUrl: "./codeEditor2.png",
+        cardText: "An online code editor for front-end developers",
+        cardLink: "https://codepen.io/"
+      },
+      {
+        title: "JSFiddle",
+        imageUrl: "./codeEditor3.png",
+        cardText: "A playground for web development",
+        cardLink: "https://jsfiddle.net/"
+      },
+      {
+        title: "Replit",
+        imageUrl: "./codeEditor4.png",
+        cardText: "An online coding platform for collaborative coding",
+        cardLink: "https://replit.com/"
+      }
+    ];
+    
