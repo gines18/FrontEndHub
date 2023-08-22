@@ -615,7 +615,7 @@ export const entrepreneurs = [
     title: "Thumbnail Creator",
     imageUrl: "./entrepreneurs14.png",
     cardText: "Design eye-catching thumbnails with ease. Increase click-through rates and make your content stand out.",
-    cardLink: "https://alphactr.com/v",
+    cardLink: "https://alphactr.com/",
   },
   {
     title: "Video Creation",
