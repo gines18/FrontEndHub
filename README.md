@@ -36,7 +36,7 @@ We welcome contributions from the frontend development community. If you have su
 
 ## Contact Us
 
-If you have any questions, feedback, or inquiries, please don't hesitate to get in touch with us. You can reach out to our support team at [Contact](ruczkowski.m@gmail.com).
+If you have any questions, feedback, or inquiries, please don't hesitate to get in touch with us. You can reach out to our support team at ruczkowski.m@gmail.com.
 
 Thank you for choosing FrontEndHub as your go-to resource for frontend development. We're excited to support your creative journey!
 
