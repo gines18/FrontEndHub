@@ -25,6 +25,7 @@ body {
   color: white;
   flex-direction: row;
   position: absolute;
+  cursor: pointer;
 }
 
 #nav-slide-button {
@@ -32,13 +33,15 @@ body {
   justify-content: center;
   align-items: center;
   flex-direction: row;
-  width: 100%;
+  width: 20%;
   height: 40px;
-
   padding-top: 100px;
 }
 
-
+#button{
+  display: flex;
+  justify-content: center;
+}
 
 
 /* Cards */

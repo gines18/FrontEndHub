@@ -28,7 +28,7 @@ const Hero = () => {
         variants={variants}
         
       >
-        <div className="welcome">
+        <div id="about" className="welcome">
           <h1>Welcome to Our Website</h1>
           <p>Your go-to destination for amazing content.</p>
         </div>

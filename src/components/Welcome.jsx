@@ -28,7 +28,7 @@ function Welcome() {
           animate={{ opacity: 1, x: 0 }}
           transition={{ duration: 1 }}
         >
-          Font
+         <span id="home">Font</span> 
         </motion.p>
 
         <motion.p
