@@ -14,7 +14,9 @@ function NavbarSlide() {
       toggleVisibility(); 
     }
   };
-  
+
+
+
   return (
     <>
         {isVisible && (

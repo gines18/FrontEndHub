@@ -4,12 +4,14 @@ import Welcome from "./components/Welcome";
 import CardContainer from "./components/CardsContainer";
 import NavbarSlide from "./components/NavbarSlide";
 import Footer from "./components/Footer";
+import Buttons from "./Buttons";
 
 
 function App() {
   return (
     <>
       <NavbarSlide />
+      <Buttons />
       <Welcome/>
       <Hero />
       <CardContainer />

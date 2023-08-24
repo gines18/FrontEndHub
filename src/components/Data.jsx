@@ -536,91 +536,156 @@ export const entrepreneurs = [
   {
     title: "Twitter / X Growth Expert",
     imageUrl: "./entrepreneurs.png",
-    cardText: "Transform your Twitter game with expert guidance. Enhance your follower count, engagement, and influence.",
+    cardText:
+      "Transform your Twitter game with expert guidance. Enhance your follower count, engagement, and influence.",
     cardLink: "https://tweethunter.io/",
   },
   {
     title: "Video Captions",
     imageUrl: "./entrepreneurs2.png",
-    cardText: "Elevate your videos with accurate and engaging captions. Enhance accessibility and captivate your audience.",
+    cardText:
+      "Elevate your videos with accurate and engaging captions. Enhance accessibility and captivate your audience.",
     cardLink: "https://www.submagic.co/",
   },
   {
     title: "Carousel Maker",
     imageUrl: "./entrepreneurs3.png",
-    cardText: "Create captivating carousels effortlessly. Share your content in a visually appealing and organized format.",
+    cardText:
+      "Create captivating carousels effortlessly. Share your content in a visually appealing and organized format.",
     cardLink: "https://www.aicarousels.com/",
   },
   {
     title: "Bio Generator",
     imageUrl: "./entrepreneurs4.png",
-    cardText: "Craft compelling bios for your profiles. Showcase your personality and expertise with professionally-written biographies.",
+    cardText:
+      "Craft compelling bios for your profiles. Showcase your personality and expertise with professionally-written biographies.",
     cardLink: "https://aisocialbio.com/",
   },
   {
     title: "Professional Avatar",
     imageUrl: "./entrepreneurs5.png",
-    cardText: "Establish a strong online presence with a polished avatar. Leave a lasting impression on your audience.",
+    cardText:
+      "Establish a strong online presence with a polished avatar. Leave a lasting impression on your audience.",
     cardLink: "https://prophotos.ai/",
   },
   {
     title: "Writing Templates",
     imageUrl: "./entrepreneurs6.png",
-    cardText: "Overcome writer's block with a collection of versatile writing templates. Streamline your content creation process.",
+    cardText:
+      "Overcome writer's block with a collection of versatile writing templates. Streamline your content creation process.",
     cardLink: "https://typeshare.co",
   },
   {
     title: "Blogs",
     imageUrl: "./entrepreneurs7.png",
-    cardText: "Fuel your website with engaging blog posts. Drive traffic, establish authority, and connect with your readers.",
+    cardText:
+      "Fuel your website with engaging blog posts. Drive traffic, establish authority, and connect with your readers.",
     cardLink: "https://www.rankwizardai.com/",
   },
   {
     title: "Video Avatar",
     imageUrl: "./entrepreneurs8.png",
-    cardText: "Bring your videos to life with customizable avatars. Add a personal touch to your content and enhance viewer engagement.",
+    cardText:
+      "Bring your videos to life with customizable avatars. Add a personal touch to your content and enhance viewer engagement.",
     cardLink: "https://app.heygen.com/",
   },
   {
     title: "Newsletter Creation",
     imageUrl: "./entrepreneurs9.png",
-    cardText: "Craft captivating newsletters to keep your audience informed and engaged. Build strong connections through consistent communication.",
+    cardText:
+      "Craft captivating newsletters to keep your audience informed and engaged. Build strong connections through consistent communication.",
     cardLink: "https://www.beehiiv.com/",
   },
   {
     title: "Comment Generator",
     imageUrl: "./entrepreneurs10.png",
-    cardText: "Effortlessly generate meaningful comments for your posts. Boost interaction and foster a vibrant online community.",
+    cardText:
+      "Effortlessly generate meaningful comments for your posts. Boost interaction and foster a vibrant online community.",
     cardLink: "https://social-comments-gpt.com/",
   },
   {
     title: "cardLinkedIn Growth",
     imageUrl: "./entrepreneurs11.png",
-    cardText: "Unlock the full potential of cardLinkedIn for professional growth. Expand your network, showcase expertise, and open new opportunities.",
+    cardText:
+      "Unlock the full potential of cardLinkedIn for professional growth. Expand your network, showcase expertise, and open new opportunities.",
     cardLink: "https://taplio.com/",
   },
   {
     title: "Video Repurposing",
     imageUrl: "./entrepreneurs12.png",
-    cardText: "Extend the reach of your videos by repurposing them across platforms. Maximize content value and visibility.",
+    cardText:
+      "Extend the reach of your videos by repurposing them across platforms. Maximize content value and visibility.",
     cardLink: "https://www.opus.pro/",
   },
   {
     title: "Podcast to Thread",
     imageUrl: "./entrepreneurs13.png",
-    cardText: "Transform your podcasts into threaded content. Share key insights and engage your audience in a new format.",
+    cardText:
+      "Transform your podcasts into threaded content. Share key insights and engage your audience in a new format.",
     cardLink: "https://autothreadai.com/",
   },
   {
     title: "Thumbnail Creator",
     imageUrl: "./entrepreneurs14.png",
-    cardText: "Design eye-catching thumbnails with ease. Increase click-through rates and make your content stand out.",
+    cardText:
+      "Design eye-catching thumbnails with ease. Increase click-through rates and make your content stand out.",
     cardLink: "https://alphactr.com/",
   },
   {
     title: "Video Creation",
     imageUrl: "./entrepreneurs15.png",
-    cardText: "Craft professional-quality videos without hassle. Share your message with impact and creativity.",
+    cardText:
+      "Craft professional-quality videos without hassle. Share your message with impact and creativity.",
     cardLink: "https://runwayml.com/",
   },
 ];
+
+export const game = [
+  {
+    title: "Flexbox Froggy",
+    imageUrl: "./game0.png",
+    cardText:
+      "Learn and practice CSS Flexbox layout with interactive challenges. Hop through frog-themed lessons!",
+    cardLink: "https://flexboxfroggy.com/",
+  },
+
+  {
+    title: "Codewars",
+    imageUrl: "./game1.png",
+    cardText:
+      "Sharpen your coding skills by solving programming challenges. Train your brain while having fun!",
+    cardLink: "https://www.codewars.com/",
+  },
+
+  {
+    title: "CodeMonkey",
+    imageUrl:  "./game2.png",
+    cardText:
+      "Teach kids programming through fun game-based activities. Coding made playful and engaging!",
+    cardLink: "https://www.playcodemonkey.com/",
+  },
+
+  {
+    title: "CodeCombat",
+    imageUrl:  "./game3.png",
+    cardText:
+      "Embark on coding adventures with interactive games. Learn to code while battling monsters!",
+    cardLink: "https://www.codecombat.com/",
+  },
+
+  {
+    title: "Screeps",
+    imageUrl:  "./game4.png",
+    cardText:
+      "Program your units to build and expand in this strategy game. Code your way to victory!",
+    cardLink: "https://screeps.com/",
+  },
+  {
+    title: "CodinGame",
+    imageUrl:  "./game5.png",
+    cardText:
+      "Play games to learn coding in various languages. Level up your skills through coding challenges!",
+    cardLink: "https://www.codingame.com/",
+  },
+];
+
