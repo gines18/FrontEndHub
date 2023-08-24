@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useRef } from "react"; // Import useRef
 import "./Styles.css";
 import Cards from "./Cards.jsx";
 import Tips from "./Tips";
@@ -61,6 +61,8 @@ const category = [
   },
 ];
 
+
+
 const CardContainer = () => {
   return (
     <>
@@ -70,7 +72,7 @@ const CardContainer = () => {
     >
         {category.map((card, index) => (
         
-          <div key={index} className="card-item">
+          <div key={index} className="card-item" id={card.title}>
             <div className="title">
               <h1>{card.title}</h1>
             </div>

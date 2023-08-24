@@ -4,7 +4,7 @@ import Welcome from "./components/Welcome";
 import CardContainer from "./components/CardsContainer";
 import NavbarSlide from "./components/NavbarSlide";
 import Footer from "./components/Footer";
-import Buttons from "./Buttons";
+import Buttons from "./components/Buttons";
 
 
 function App() {
