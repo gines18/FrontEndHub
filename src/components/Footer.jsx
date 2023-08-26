@@ -1,12 +1,11 @@
 import React from "react";
-import './Styles.css';
+import "./Styles.css";
 
 function Footer() {
   return (
-    <div id="footer_container">
-      <div   id="contact" className="vibrate-1">More soon :)</div>
-    
-    </div>
+<div id="container-footer">
+ <a href="https://github.com/gines18/" target="_blank">Github</a>
+</div>
   );
 }
 

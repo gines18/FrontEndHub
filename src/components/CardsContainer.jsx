@@ -4,7 +4,7 @@ import Cards from "./Cards.jsx";
 import Tips from "./Tips";
 
 
-import { colors, fonts, background, photoEditor, photoEditorAI, goodByAI, usefulWebsites, certificates, miscellaneous, boostFrontEndSkills, codeEditors, entrepreneurs, game } from "./Data";
+import { colors, fonts, background, photoEditor, photoEditorAI, goodByAI, usefulWebsites, certificates, miscellaneous, boostFrontEndSkills, codeEditors, entrepreneurs, game,mit } from "./Data";
 
 const category = [
   {
@@ -58,6 +58,10 @@ const category = [
   {
     title: "Coding Games",
     cardText: <Cards cardData={game} />,
+  },
+  {
+    title: "MIT University",
+    cardText: <Cards cardData={mit} />,
   },
 ];
 

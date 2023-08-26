@@ -3,6 +3,6 @@
     if(element) {
         element.scrollIntoView({behavior: 'smooth'});
     }
-    console.log(element)
+    
 };
 

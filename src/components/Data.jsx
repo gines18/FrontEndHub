@@ -689,3 +689,67 @@ export const game = [
   },
 ];
 
+export const mit = [
+  {
+    title: "Computer Science and Programming Using Python",
+    imageUrl: "./mit.png", 
+    cardText: "Master programming fundamentals using Python. Learn problem-solving and algorithmic thinking.",
+    cardLink: "https://www.edx.org/learn/computer-programming/massachusetts-institute-of-technology-introduction-to-computer-science-and-programming-7"
+  },
+  {
+    title: "Machine Learning with Python",
+    imageUrl: "./mit.png", 
+    cardText: "Explore machine learning concepts with Python. From linear models to deep learning.",
+    cardLink: "https://www.edx.org/learn/machine-learning/massachusetts-institute-of-technology-machine-learning-with-python-from-linear-models-to-deep-learning"
+  },
+  {
+    title: "Understanding the World Through Data",
+    imageUrl: "./mit.png", 
+    cardText: "Discover data science and its applications. Understand the world through data analysis.",
+    cardLink: "https://www.edx.org/learn/data-science/massachusetts-institute-of-technology-understanding-the-world-through-data"
+  },
+  {
+    title: "Data Analysis: Statistical Modeling and Computation in Applications",
+    imageUrl: "./mit.png",  
+    cardText: "Learn statistical modeling and computation in data analysis applications.",
+    cardLink: "https://www.edx.org/learn/data-analysis/massachusetts-institute-of-technology-data-analysis-statistical-modeling-and-computation-in-applications"
+  },
+  {
+    title: "Startup Success: How to Launch a Technology Company in 6 Steps",
+    imageUrl: "./mit.png",  
+    cardText: "Master the essentials of launching a successful technology startup in six steps.",
+    cardLink: "https://www.edx.org/learn/computer-programming/massachusetts-institute-of-technology-startup-success-how-to-launch-a-technology-company"
+  },
+  {
+    title: "Shaping Work of the Future",
+    imageUrl: "./mit.png", 
+    cardText: "Explore the future of work and how technology is shaping it.",
+    cardLink: "https://www.edx.org/learn/business-administration/massachusetts-institute-of-technology-shaping-work-of-the-future"
+  },
+  {
+    title: "Becoming an Entrepreneur",
+    imageUrl: "./mit.png",  
+    cardText: "Learn the fundamentals of becoming a successful entrepreneur.",
+    cardLink: "https://www.edx.org/learn/entrepreneurship/massachusetts-institute-of-technology-becoming-an-entrepreneur"
+  },
+  {
+    title: "Entrepreneurship 101",
+    imageUrl: "./mit.png",  
+    cardText: "Discover the basics of entrepreneurship and understanding your customers.",
+    cardLink: "https://www.edx.org/learn/entrepreneurship/massachusetts-institute-of-technology-entrepreneurship-101-who-is-your-customer"
+  },
+  {
+    title: "Entrepreneurship 102",
+    imageUrl: "./mit.png", 
+    cardText: "Explore ways to serve your customers and enhance your entrepreneurial journey.",
+    cardLink: "https://www.edx.org/learn/business-administration/massachusetts-institute-of-technology-entrepreneurship-102-what-can-you-do-for-your-cust"
+  },
+  {
+    title: "Entrepreneurship 103: Show Me The Money",
+    imageUrl: "./mit.png",  
+    cardText: "Gain insights into funding and financial strategies for entrepreneurs.",
+    cardLink: "https://www.edx.org/learn/entrepreneurship/massachusetts-institute-of-technology-entrepreneurship-103-show-me-the-money"
+  }
+
+];
+

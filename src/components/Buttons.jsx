@@ -41,6 +41,9 @@ const buttons = [
   {
     category: "Coding Games",
   },
+  {
+    category: "MIT University",
+  },
 ];
 
 export default function Buttons() {
