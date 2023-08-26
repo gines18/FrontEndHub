@@ -34,6 +34,13 @@ body {
   z-index: 10;
 }
 
+@media (max-width: 390px){
+  #nav-slide {
+    width: 100%;
+    right: 0px;
+  }
+}
+
 #nav-slide-button {
   display: flex;
   justify-content: center;
@@ -61,6 +68,13 @@ body {
   align-items: center;
   flex-wrap: wrap;
   padding: 30px;
+}
+
+@media (max-width: 390px){
+  #button-container{
+    padding: 12px;
+    margin-top: 30px;
+  }
 }
 
 #button-category{
