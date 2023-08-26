@@ -31,7 +31,7 @@ const Cards = ({cardData}) => {
                 {card.cardText}
               </Typography>
               <Typography variant="body2" color="text.secondary">
-                <a href={card.cardLink} target="_blank">
+                <a href={card.cardLink} target="_blank" style={{textDecoration: "none", color: "red"}}>
                   Visit website
                 </a>
               </Typography>
