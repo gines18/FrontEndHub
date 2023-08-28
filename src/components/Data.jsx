@@ -659,7 +659,7 @@ export const game = [
 
   {
     title: "CodeMonkey",
-    imageUrl:  "./game2.png",
+    imageUrl: "./game2.png",
     cardText:
       "Teach kids programming through fun game-based activities. Coding made playful and engaging!",
     cardLink: "https://www.playcodemonkey.com/",
@@ -667,7 +667,7 @@ export const game = [
 
   {
     title: "CodeCombat",
-    imageUrl:  "./game3.png",
+    imageUrl: "./game3.png",
     cardText:
       "Embark on coding adventures with interactive games. Learn to code while battling monsters!",
     cardLink: "https://www.codecombat.com/",
@@ -675,14 +675,14 @@ export const game = [
 
   {
     title: "Screeps",
-    imageUrl:  "./game4.png",
+    imageUrl: "./game4.png",
     cardText:
       "Program your units to build and expand in this strategy game. Code your way to victory!",
     cardLink: "https://screeps.com/",
   },
   {
     title: "CodinGame",
-    imageUrl:  "./game5.png",
+    imageUrl: "./game5.png",
     cardText:
       "Play games to learn coding in various languages. Level up your skills through coding challenges!",
     cardLink: "https://www.codingame.com/",
@@ -692,127 +692,252 @@ export const game = [
 export const mit = [
   {
     title: "Computer Science and Programming Using Python",
-    imageUrl: "./mit.png", 
-    cardText: "Master programming fundamentals using Python. Learn problem-solving and algorithmic thinking.",
-    cardLink: "https://www.edx.org/learn/computer-programming/massachusetts-institute-of-technology-introduction-to-computer-science-and-programming-7"
+    imageUrl: "./mit.png",
+    cardText:
+      "Master programming fundamentals using Python. Learn problem-solving and algorithmic thinking.",
+    cardLink:
+      "https://www.edx.org/learn/computer-programming/massachusetts-institute-of-technology-introduction-to-computer-science-and-programming-7",
   },
   {
     title: "Machine Learning with Python",
-    imageUrl: "./mit.png", 
-    cardText: "Explore machine learning concepts with Python. From linear models to deep learning.",
-    cardLink: "https://www.edx.org/learn/machine-learning/massachusetts-institute-of-technology-machine-learning-with-python-from-linear-models-to-deep-learning"
+    imageUrl: "./mit.png",
+    cardText:
+      "Explore machine learning concepts with Python. From linear models to deep learning.",
+    cardLink:
+      "https://www.edx.org/learn/machine-learning/massachusetts-institute-of-technology-machine-learning-with-python-from-linear-models-to-deep-learning",
   },
   {
     title: "Understanding the World Through Data",
-    imageUrl: "./mit.png", 
-    cardText: "Discover data science and its applications. Understand the world through data analysis.",
-    cardLink: "https://www.edx.org/learn/data-science/massachusetts-institute-of-technology-understanding-the-world-through-data"
+    imageUrl: "./mit.png",
+    cardText:
+      "Discover data science and its applications. Understand the world through data analysis.",
+    cardLink:
+      "https://www.edx.org/learn/data-science/massachusetts-institute-of-technology-understanding-the-world-through-data",
   },
   {
-    title: "Data Analysis: Statistical Modeling and Computation in Applications",
-    imageUrl: "./mit.png",  
-    cardText: "Learn statistical modeling and computation in data analysis applications.",
-    cardLink: "https://www.edx.org/learn/data-analysis/massachusetts-institute-of-technology-data-analysis-statistical-modeling-and-computation-in-applications"
+    title:
+      "Data Analysis: Statistical Modeling and Computation in Applications",
+    imageUrl: "./mit.png",
+    cardText:
+      "Learn statistical modeling and computation in data analysis applications.",
+    cardLink:
+      "https://www.edx.org/learn/data-analysis/massachusetts-institute-of-technology-data-analysis-statistical-modeling-and-computation-in-applications",
   },
   {
     title: "Startup Success: How to Launch a Technology Company in 6 Steps",
-    imageUrl: "./mit.png",  
-    cardText: "Master the essentials of launching a successful technology startup in six steps.",
-    cardLink: "https://www.edx.org/learn/computer-programming/massachusetts-institute-of-technology-startup-success-how-to-launch-a-technology-company"
+    imageUrl: "./mit.png",
+    cardText:
+      "Master the essentials of launching a successful technology startup in six steps.",
+    cardLink:
+      "https://www.edx.org/learn/computer-programming/massachusetts-institute-of-technology-startup-success-how-to-launch-a-technology-company",
   },
   {
     title: "Shaping Work of the Future",
-    imageUrl: "./mit.png", 
+    imageUrl: "./mit.png",
     cardText: "Explore the future of work and how technology is shaping it.",
-    cardLink: "https://www.edx.org/learn/business-administration/massachusetts-institute-of-technology-shaping-work-of-the-future"
+    cardLink:
+      "https://www.edx.org/learn/business-administration/massachusetts-institute-of-technology-shaping-work-of-the-future",
   },
   {
     title: "Becoming an Entrepreneur",
-    imageUrl: "./mit.png",  
+    imageUrl: "./mit.png",
     cardText: "Learn the fundamentals of becoming a successful entrepreneur.",
-    cardLink: "https://www.edx.org/learn/entrepreneurship/massachusetts-institute-of-technology-becoming-an-entrepreneur"
+    cardLink:
+      "https://www.edx.org/learn/entrepreneurship/massachusetts-institute-of-technology-becoming-an-entrepreneur",
   },
   {
     title: "Entrepreneurship 101",
-    imageUrl: "./mit.png",  
-    cardText: "Discover the basics of entrepreneurship and understanding your customers.",
-    cardLink: "https://www.edx.org/learn/entrepreneurship/massachusetts-institute-of-technology-entrepreneurship-101-who-is-your-customer"
+    imageUrl: "./mit.png",
+    cardText:
+      "Discover the basics of entrepreneurship and understanding your customers.",
+    cardLink:
+      "https://www.edx.org/learn/entrepreneurship/massachusetts-institute-of-technology-entrepreneurship-101-who-is-your-customer",
   },
   {
     title: "Entrepreneurship 102",
-    imageUrl: "./mit.png", 
-    cardText: "Explore ways to serve your customers and enhance your entrepreneurial journey.",
-    cardLink: "https://www.edx.org/learn/business-administration/massachusetts-institute-of-technology-entrepreneurship-102-what-can-you-do-for-your-cust"
+    imageUrl: "./mit.png",
+    cardText:
+      "Explore ways to serve your customers and enhance your entrepreneurial journey.",
+    cardLink:
+      "https://www.edx.org/learn/business-administration/massachusetts-institute-of-technology-entrepreneurship-102-what-can-you-do-for-your-cust",
   },
   {
     title: "Entrepreneurship 103: Show Me The Money",
-    imageUrl: "./mit.png",  
-    cardText: "Gain insights into funding and financial strategies for entrepreneurs.",
-    cardLink: "https://www.edx.org/learn/entrepreneurship/massachusetts-institute-of-technology-entrepreneurship-103-show-me-the-money"
-  }
-
+    imageUrl: "./mit.png",
+    cardText:
+      "Gain insights into funding and financial strategies for entrepreneurs.",
+    cardLink:
+      "https://www.edx.org/learn/entrepreneurship/massachusetts-institute-of-technology-entrepreneurship-103-show-me-the-money",
+  },
 ];
-
 
 export const microsoft = [
   {
-    "title": "Introduction to Machine Learning",
-    "imageUrl": "./microsoft.png",
-    "cardText": "Learn the fundamentals of machine learning and its applications.",
-    "cardLink": "https://learn.microsoft.com/en-us/training/paths/intro-to-ml-with-python/"
+    title: "Introduction to Machine Learning",
+    imageUrl: "./microsoft.png",
+    cardText:
+      "Learn the fundamentals of machine learning and its applications.",
+    cardLink:
+      "https://learn.microsoft.com/en-us/training/paths/intro-to-ml-with-python/",
   },
   {
-    "title": "Refine and Test Machine Learning Models",
-    "imageUrl": "./microsoft.png",
-    "cardText": "Explore techniques to improve and evaluate machine learning models.",
-    "cardLink": "https://learn.microsoft.com/en-us/training/modules/test-machine-learning-models/"
+    title: "Refine and Test Machine Learning Models",
+    imageUrl: "./microsoft.png",
+    cardText:
+      "Explore techniques to improve and evaluate machine learning models.",
+    cardLink:
+      "https://learn.microsoft.com/en-us/training/modules/test-machine-learning-models/",
   },
   {
-    "title": "Python for Beginners",
-    "imageUrl": "./microsoft.png",
-    "cardText": "Start your programming journey with Python programming language.",
-    "cardLink": "https://learn.microsoft.com/en-us/training/paths/beginner-python/"
+    title: "Python for Beginners",
+    imageUrl: "./microsoft.png",
+    cardText:
+      "Start your programming journey with Python programming language.",
+    cardLink:
+      "https://learn.microsoft.com/en-us/training/paths/beginner-python/",
   },
   {
-    "title": "Write Your First Code Using C#",
-    "imageUrl": "./microsoft.png",
-    "cardText": "Begin learning programming with C# and write your first code.",
-    "cardLink": "https://learn.microsoft.com/en-us/training/paths/get-started-c-sharp-part-1/"
+    title: "Write Your First Code Using C#",
+    imageUrl: "./microsoft.png",
+    cardText: "Begin learning programming with C# and write your first code.",
+    cardLink:
+      "https://learn.microsoft.com/en-us/training/paths/get-started-c-sharp-part-1/",
   },
   {
-    "title": "Get Started with Azure Cosmos DB",
-    "imageUrl": "./microsoft.png",
-    "cardText": "Discover how to use Azure Cosmos DB for building globally distributed apps.",
-    "cardLink": "https://learn.microsoft.com/en-us/training/paths/get-started-azure-cosmos-db-sql-api/"
+    title: "Get Started with Azure Cosmos DB",
+    imageUrl: "./microsoft.png",
+    cardText:
+      "Discover how to use Azure Cosmos DB for building globally distributed apps.",
+    cardLink:
+      "https://learn.microsoft.com/en-us/training/paths/get-started-azure-cosmos-db-sql-api/",
   },
   {
-    "title": "Secure Your Cloud Data",
-    "imageUrl": "./microsoft.png",
-    "cardText": "Learn best practices to ensure the security of your data in the cloud.",
-    "cardLink": "https://learn.microsoft.com/en-us/training/paths/secure-your-cloud-data/"
+    title: "Secure Your Cloud Data",
+    imageUrl: "./microsoft.png",
+    cardText:
+      "Learn best practices to ensure the security of your data in the cloud.",
+    cardLink:
+      "https://learn.microsoft.com/en-us/training/paths/secure-your-cloud-data/",
   },
   {
-    "title": "Get Started with AI on Azure",
-    "imageUrl": "./microsoft.png",
-    "cardText": "Dive into the world of AI and machine learning using Microsoft Azure.",
-    "cardLink": "https://learn.microsoft.com/en-us/training/modules/get-started-ai-fundamentals/"
+    title: "Get Started with AI on Azure",
+    imageUrl: "./microsoft.png",
+    cardText:
+      "Dive into the world of AI and machine learning using Microsoft Azure.",
+    cardLink:
+      "https://learn.microsoft.com/en-us/training/modules/get-started-ai-fundamentals/",
   },
   {
-    "title": "Introduction to Data Science with Python",
-    "imageUrl": "./microsoft.png",
-    "cardText": "Learn the basics of data science using the Python programming language.",
-    "cardLink": "https://learning.edx.org/course/course-v1:Microsoft+DAT101x+1T2018/home"
+    title: "Introduction to Data Science with Python",
+    imageUrl: "./microsoft.png",
+    cardText:
+      "Learn the basics of data science using the Python programming language.",
+    cardLink:
+      "https://learning.edx.org/course/course-v1:Microsoft+DAT101x+1T2018/home",
   },
   {
-    "title": "Microsoft Azure Fundamentals",
-    "imageUrl": "./microsoft.png",
-    "cardText": "Get an overview of Microsoft Azure cloud services and concepts.",
-    "cardLink": "https://learn.microsoft.com/en-us/training/paths/microsoft-azure-fundamentals-describe-cloud-concepts/"
+    title: "Microsoft Azure Fundamentals",
+    imageUrl: "./microsoft.png",
+    cardText: "Get an overview of Microsoft Azure cloud services and concepts.",
+    cardLink:
+      "https://learn.microsoft.com/en-us/training/paths/microsoft-azure-fundamentals-describe-cloud-concepts/",
   },
   {
-    "title": "Automate Development Tasks by Using GitHub",
-    "imageUrl": "./microsoft.png",
-    "cardText": "Explore automating software development workflows with GitHub.",
-    "cardLink": "https://learn.microsoft.com/en-us/training/modules/github-actions-automate-tasks/"
-  }
+    title: "Automate Development Tasks by Using GitHub",
+    imageUrl: "./microsoft.png",
+    cardText: "Explore automating software development workflows with GitHub.",
+    cardLink:
+      "https://learn.microsoft.com/en-us/training/modules/github-actions-automate-tasks/",
+  },
+];
+
+export const fontsUsage = [
+  {
+    header: "Fonts",
+    description:
+      " Remember, fonts play a crucial role in shaping your website's visual appeal and user experience. By carefully selecting and implementing fonts, you can create a design that not only looks great but also enhances the overall usability of your site.",
+    imgUrl: "./fontsimg.jpeg",
+  },
+];
+
+export const work = [
+  {
+    header: "Find work",
+    description:
+      "Browse design jobs and find your next career opportunity. Some of the world’s best design-forward companies including Apple, Airbnb, IDEO, Meta, Google, Shopify and tens of thousands more hire creatives on  . Find your next project today!",
+    imgUrl: "./work.jpeg",
+  },
+];
+
+export const job = [
+  {
+    title: "Toptal",
+    imageUrl: "./toptal.png",
+    cardText:
+      "Join Toptal's network of top freelancers and work with clients from around the world.",
+    cardLink: "https://www.toptal.com/",
+  },
+  {
+    title: "TextBroker",
+    imageUrl: "./job0.png",
+    cardText:
+      "Get paid to write content for various clients and publishers through TextBroker.",
+    cardLink: "https://www.textbroker.com/",
+  },
+  {
+    title: "Authentic Jobs",
+    imageUrl: "./job1.png",
+    cardText:
+      "Browse job listings for designers, developers, and creative professionals on Authentic Jobs.",
+    cardLink: "https://authenticjobs.com/",
+  },
+  {
+    title: "Dribbble",
+    imageUrl: "./job2.png",
+    cardText:
+      "Showcase your design work, connect with other designers, and find design inspiration on Dribbble.",
+    cardLink: "https://dribbble.com/",
+  },
+  {
+    title: "Hubstaff Talents",
+    imageUrl: "./job3.png",
+    cardText:
+      "Create a free profile and get hired by clients seeking remote talent on Hubstaff Talents.",
+    cardLink: "https://talent.hubstaff.com/",
+  },
+  {
+    title: "Monster",
+    imageUrl: "./job4.png",
+    cardText:
+      "Search for job opportunities and career advice on Monster's job board.",
+    cardLink: "https://www.monster.com/",
+  },
+  {
+    title: "Himalayas",
+    imageUrl: "./job5.png",
+    cardText:
+      "Find remote jobs and gigs across various industries on Himalayas.",
+    cardLink: "https://www.himalayas.app/",
+  },
+  {
+    title: "Working Nomads",
+    imageUrl: "./job6.png",
+    cardText:
+      "Browse remote job listings curated from various sources on Working Nomads.",
+    cardLink: "https://www.workingnomads.co/",
+  },
+  {
+    title: "SolidGigs",
+    imageUrl: "./job7.png",
+    cardText:
+      "Access a curated list of high-quality freelance gigs and projects on SolidGigs.",
+    cardLink: "https://www.solidgigs.com/",
+  },
+  {
+    title: "WellFound (Formerly AngelList)",
+    imageUrl: "./job8.png",
+    cardText:
+      "Explore startup jobs, angel investing opportunities, and company insights on WellFound (Formerly AngelList).",
+    cardLink: "https://wellfound.com/",
+  },
 ];

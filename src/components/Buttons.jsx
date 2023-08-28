@@ -47,6 +47,9 @@ const buttons = [
   {
     category: "Free Microsoft Certificates",
   },
+  {
+    category: "Get Remote Job",
+  },
 ];
 
 export default function Buttons() {

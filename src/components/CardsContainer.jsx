@@ -2,9 +2,8 @@ import React, { useRef } from "react"; // Import useRef
 import "./Styles.css";
 import Cards from "./Cards.jsx";
 import Tips from "./Tips";
-
-
-import { colors, fonts, background, photoEditor, photoEditorAI, goodByAI, usefulWebsites, certificates, miscellaneous, boostFrontEndSkills, codeEditors, entrepreneurs, game,mit, microsoft } from "./Data";
+import { colors, fonts, background, photoEditor, photoEditorAI, goodByAI, usefulWebsites, certificates, miscellaneous, boostFrontEndSkills, codeEditors, entrepreneurs, game,mit, microsoft,job } from "./Data";
+import {work, fontsUsage} from './Data.jsx'
 
 const category = [
   {
@@ -67,6 +66,10 @@ const category = [
     title: "Free Microsoft Certificates",
     cardText: <Cards cardData={microsoft} />,
   },
+  {
+    title: "Get Remote Job",
+    cardText: <Cards cardData={job} />,
+  },
 ];
 
 
@@ -86,7 +89,8 @@ const CardContainer = () => {
             </div>
             <h1>{card.cardText}</h1>
 
-            {card.title === "Fonts" && <Tips />}
+            {card.title === "Fonts" && <Tips tips={fontsUsage} />}
+            {card.title === "Free Microsoft Certificates" && <Tips tips={work}  />}
           </div>
         ))}
       </div>

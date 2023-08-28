@@ -183,7 +183,6 @@ body {
 .image-tips {
   flex: 1;
   height: 100%;
-  background-image: url(/img-tips.jpeg);
   background-size: cover;
   background-position: center;
 }
