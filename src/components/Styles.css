@@ -105,14 +105,13 @@ body {
   align-items: center;
   height: 600px;
   background-color: #f5f5f5;
-  margin: 120px 30px 30px;
+  margin: 170px 30px 30px;
   border-radius: 50px;
   
 }
 
 .welcome {
   flex: 0.5;
-
   text-align: center;
 }
 
