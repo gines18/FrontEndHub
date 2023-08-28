@@ -64,7 +64,7 @@ const category = [
     cardText: <Cards cardData={mit} />,
   },
   {
-    title: "Free Microsoft certificates",
+    title: "Free Microsoft Certificates",
     cardText: <Cards cardData={microsoft} />,
   },
 ];

@@ -45,7 +45,7 @@ const buttons = [
     category: "MIT University",
   },
   {
-    category: "Free Microsoft certificates",
+    category: "Free Microsoft Certificates",
   },
 ];
 
