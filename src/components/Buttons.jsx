@@ -18,13 +18,13 @@ const buttons = [
     category: "AI Photo Editor",
   },
   {
-    category: "AI tools",
+    category: "AI Tools",
   },
   {
-    category: "Useful websites",
+    category: "Useful Websites",
   },
   {
-    category: "Free Google certificates",
+    category: "Free Google Certificates",
   },
   {
     category: "Miscellaneous",
@@ -43,6 +43,9 @@ const buttons = [
   },
   {
     category: "MIT University",
+  },
+  {
+    category: "Free Microsoft certificates",
   },
 ];
 

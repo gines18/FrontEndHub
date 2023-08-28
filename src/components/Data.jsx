@@ -753,3 +753,66 @@ export const mit = [
 
 ];
 
+
+export const microsoft = [
+  {
+    "title": "Introduction to Machine Learning",
+    "imageUrl": "./microsoft.png",
+    "cardText": "Learn the fundamentals of machine learning and its applications.",
+    "cardLink": "https://learn.microsoft.com/en-us/training/paths/intro-to-ml-with-python/"
+  },
+  {
+    "title": "Refine and Test Machine Learning Models",
+    "imageUrl": "./microsoft.png",
+    "cardText": "Explore techniques to improve and evaluate machine learning models.",
+    "cardLink": "https://learn.microsoft.com/en-us/training/modules/test-machine-learning-models/"
+  },
+  {
+    "title": "Python for Beginners",
+    "imageUrl": "./microsoft.png",
+    "cardText": "Start your programming journey with Python programming language.",
+    "cardLink": "https://learn.microsoft.com/en-us/training/paths/beginner-python/"
+  },
+  {
+    "title": "Write Your First Code Using C#",
+    "imageUrl": "./microsoft.png",
+    "cardText": "Begin learning programming with C# and write your first code.",
+    "cardLink": "https://learn.microsoft.com/en-us/training/paths/get-started-c-sharp-part-1/"
+  },
+  {
+    "title": "Get Started with Azure Cosmos DB",
+    "imageUrl": "./microsoft.png",
+    "cardText": "Discover how to use Azure Cosmos DB for building globally distributed apps.",
+    "cardLink": "https://learn.microsoft.com/en-us/training/paths/get-started-azure-cosmos-db-sql-api/"
+  },
+  {
+    "title": "Secure Your Cloud Data",
+    "imageUrl": "./microsoft.png",
+    "cardText": "Learn best practices to ensure the security of your data in the cloud.",
+    "cardLink": "https://learn.microsoft.com/en-us/training/paths/secure-your-cloud-data/"
+  },
+  {
+    "title": "Get Started with AI on Azure",
+    "imageUrl": "./microsoft.png",
+    "cardText": "Dive into the world of AI and machine learning using Microsoft Azure.",
+    "cardLink": "https://learn.microsoft.com/en-us/training/modules/get-started-ai-fundamentals/"
+  },
+  {
+    "title": "Introduction to Data Science with Python",
+    "imageUrl": "./microsoft.png",
+    "cardText": "Learn the basics of data science using the Python programming language.",
+    "cardLink": "https://learning.edx.org/course/course-v1:Microsoft+DAT101x+1T2018/home"
+  },
+  {
+    "title": "Microsoft Azure Fundamentals",
+    "imageUrl": "./microsoft.png",
+    "cardText": "Get an overview of Microsoft Azure cloud services and concepts.",
+    "cardLink": "https://learn.microsoft.com/en-us/training/paths/microsoft-azure-fundamentals-describe-cloud-concepts/"
+  },
+  {
+    "title": "Automate Development Tasks by Using GitHub",
+    "imageUrl": "./microsoft.png",
+    "cardText": "Explore automating software development workflows with GitHub.",
+    "cardLink": "https://learn.microsoft.com/en-us/training/modules/github-actions-automate-tasks/"
+  }
+];

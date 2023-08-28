@@ -4,7 +4,7 @@ import Cards from "./Cards.jsx";
 import Tips from "./Tips";
 
 
-import { colors, fonts, background, photoEditor, photoEditorAI, goodByAI, usefulWebsites, certificates, miscellaneous, boostFrontEndSkills, codeEditors, entrepreneurs, game,mit } from "./Data";
+import { colors, fonts, background, photoEditor, photoEditorAI, goodByAI, usefulWebsites, certificates, miscellaneous, boostFrontEndSkills, codeEditors, entrepreneurs, game,mit, microsoft } from "./Data";
 
 const category = [
   {
@@ -28,15 +28,15 @@ const category = [
     cardText: <Cards cardData={photoEditorAI} />,
   },
   {
-    title: "AI tools",
+    title: "AI Tools",
     cardText: <Cards cardData={goodByAI} />,
   },
   {
-    title: "Useful websites",
+    title: "Useful Websites",
     cardText: <Cards cardData={usefulWebsites} />,
   },
   {
-    title: "Free Google certificates",
+    title: "Free Google Certificates",
     cardText: <Cards cardData={certificates} />,
   },
   {
@@ -62,6 +62,10 @@ const category = [
   {
     title: "MIT University",
     cardText: <Cards cardData={mit} />,
+  },
+  {
+    title: "Free Microsoft certificates",
+    cardText: <Cards cardData={microsoft} />,
   },
 ];
 
