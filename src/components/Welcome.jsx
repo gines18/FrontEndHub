@@ -96,7 +96,7 @@ function Welcome() {
           id="color"
           initial={{ opacity: 0, x: 1000 }}
           animate={{ opacity: 1, x: 0 }}
-          transition={{ duration: 2 }}
+          transition={{ duration: 1.5 }}
         >
           Color
         </motion.p>
@@ -106,7 +106,7 @@ function Welcome() {
           className="background-welcome"
           initial={{ opacity: 0, x: 1000 }}
           animate={{ opacity: 1, x: 0 }}
-          transition={{ duration: 3 }}
+          transition={{ duration: 2.5 }}
         >
           Background
         </motion.p>

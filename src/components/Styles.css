@@ -384,26 +384,59 @@ body {
 
 @media (max-width: 390px) {
   #javascript {
-    top: 65%;
+    top: 80%;
+    font-size: 3rem;
   }
   #html {
     top: 45%;
+    left: 15%;
+    font-size: 1.5rem;
   }
   #color {
     top: 15%;
+    font-size: 3rem;
   }
   #font {
     top: 20%;
-    left: 30%;
+    left: 10%;
+    font-size: 3rem;
   }
   #css {
     top: 65%;
-    left: 70%;
+    left: 65%;
+    font-size: 3rem;
   }
 
   #photoeditor {
     left: 60%;
+    font-size: 3rem;
   }
+  #background-react {
+    left: 20%;
+    top: 65%;
+    font-size: 3rem;
+  }
+  .background-welcome {
+    left: 15%;
+    top: 20%;
+    font-size: 2rem;
+  }
+  #photoeditor {
+    left: 45%;
+    top: 43%;
+    font-size: 2rem;
+  }
+  #FrontEnd{
+    font-size: 1rem;
+    left: 35%;
+    top: 43%;
+  }    
+  #node-js{
+    font-size: 1rem;
+    left: 15%;
+    top: 36%;
+  }
+  
 }
 
 /* NavbarSlide */
