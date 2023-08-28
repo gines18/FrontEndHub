@@ -10,8 +10,9 @@ const Hero = () => {
     visible: { 
       opacity: 1,
        y: 0,
-      transition: { duration: 1,
-      borderRadius: 2
+      transition: { duration: 2,
+      borderRadius: 2,
+      delay: 1
       }
       },
     hidden: { opacity: 0, y: 20 },
