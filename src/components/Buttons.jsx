@@ -52,6 +52,7 @@ const buttons = [
 export default function Buttons() {
   return (
     <>
+  
         <div id="button-container">
       {buttons.map((button, index) => (
         
