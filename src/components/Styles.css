@@ -1,5 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Assistant:wght@200&family=Cormorant+Garamond:ital,wght@1,600&family=Lato:wght@300&family=Montserrat:ital,wght@1,200&family=Quicksand:wght@300&family=Roboto+Serif:opsz,wght@8..144,200&display=swap');
-
+@import url("https://fonts.googleapis.com/css2?family=Assistant:wght@200&family=Cormorant+Garamond:ital,wght@1,600&family=Lato:wght@300&family=Montserrat:ital,wght@1,200&family=Quicksand:wght@300&family=Roboto+Serif:opsz,wght@8..144,200&display=swap");
 
 html,
 body {
@@ -17,51 +16,9 @@ body {
   background-size: cover;
 }
 
-/* NavbarSlide */
-
-#nav-slide {
-  display: flex;
-  justify-content: space-around;
-  align-items: center;
-  width: 100%;
-  height: 90px;
-  color: white;
-  flex-direction: row;
-  position: absolute;
-  cursor: pointer;
-  background-color: #cc5577;
-  right: 15px;
-  z-index: 10;
-}
-
-@media (max-width: 390px){
-  #nav-slide {
-    width: 100%;
-    right: 0px;
-  }
-}
-
-#nav-slide-button {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  flex-direction: row;
-  width: 20%;
-  height: 40px;
-  padding-top: 115px;
-
-}
-
-#button{
-  display: flex;
-  justify-content: center;
-  
-}
-
-
 /* Buttons */
 
-#button-container{
+#button-container {
   display: flex;
   justify-content: center;
   flex-direction: row;
@@ -70,14 +27,7 @@ body {
   padding: 30px;
 }
 
-@media (max-width: 390px){
-  #button-container{
-    padding: 12px;
-    margin-top: 30px;
-  }
-}
-
-#button-category{
+#button-category {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -91,13 +41,21 @@ body {
   cursor: pointer;
   border: 1px solid white;
   border-radius: 10px;
+  font-size: 75%;
+}
+
+@media (max-width: 390px) {
+  #button-container {
+    padding: 12px;
+    margin-top: 30px;
+    font-size: 90%;
+  }
 }
 
 #button-category:hover {
   background-color: #fff;
   color: #343e37;
   transform: scale(1.1);
-
 }
 
 /* Cards */
@@ -118,8 +76,6 @@ body {
 
 /* CardContainer */
 
-
-
 .card-container-title {
   display: flex;
   justify-content: center;
@@ -135,9 +91,8 @@ body {
 
 .title {
   margin: 40px;
-  font-family: 'Roboto Serif', serif;
+  font-family: "Roboto Serif", serif;
 }
-
 
 /* Hero */
 
@@ -188,7 +143,7 @@ body {
   }
   .image {
     height: 300px;
-}
+  }
 }
 
 @media (max-width: 858px) {
@@ -276,7 +231,7 @@ body {
 #node-js {
   position: absolute;
   top: 40%;
-  left: 25%;
+  left: 15%;
   font-size: 3vw;
   width: 200px;
   margin: 0;
@@ -293,7 +248,7 @@ body {
 
 #html {
   position: absolute;
-  top: 43%;
+  top: 48%;
   left: 45%;
   font-size: 3vw;
   width: 100px;
@@ -418,126 +373,28 @@ body {
   }
   .background-welcome {
     left: 15%;
-    top: 20%;
+    top: 30%;
     font-size: 2rem;
   }
   #photoeditor {
     left: 45%;
     top: 43%;
-    font-size: 2rem;
+    font-size: 1.5rem;
   }
-  #FrontEnd{
+  #FrontEnd {
     font-size: 1rem;
     left: 35%;
     top: 43%;
-  }    
-  #node-js{
+  }
+  #node-js {
     font-size: 1rem;
     left: 15%;
     top: 36%;
   }
-  
-}
-
-/* NavbarSlide */
-
-button {
-  position: relative;
-  background: #444;
-  color: #fff;
-  text-decoration: none;
-  text-transform: uppercase;
-  border: none;
-  letter-spacing: 0.1rem;
-  font-size: 1rem;
-  padding: 1rem 3rem;
-  transition: 0.2s;
-  cursor: pointer;
-}
-
-button:hover {
-  letter-spacing: 0.2rem;
-  padding: 1.1rem 3.1rem;
-  background: var(--clr);
-  color: var(--clr);
-  /* box-shadow: 0 0 35px var(--clr); */
-  animation: box 3s infinite;
-}
-
-button::before {
-  content: "";
-  position: absolute;
-  inset: 2px;
-  background: #272822;
-}
-
-button span {
-  position: relative;
-  z-index: 1;
-}
-button i {
-  position: absolute;
-  inset: 0;
-  display: block;
-}
-
-button i::before {
-  content: "";
-  position: absolute;
-  width: 10px;
-  height: 2px;
-  left: 80%;
-  top: -2px;
-  border: 2px solid var(--clr);
-  background: #272822;
-  transition: 0.2s;
-}
-
-button:hover i::before {
-  width: 15px;
-  left: 20%;
-  animation: move 3s infinite;
-}
-
-button i::after {
-  content: "";
-  position: absolute;
-  width: 10px;
-  height: 2px;
-  left: 20%;
-  bottom: -2px;
-  border: 2px solid var(--clr);
-  background: #272822;
-  transition: 0.2s;
-}
-
-button:hover i::after {
-  width: 15px;
-  left: 80%;
-  animation: move 3s infinite;
-}
-
-@keyframes move {
-  0% {
-    transform: translateX(0);
-  }
-  50% {
-    transform: translateX(5px);
-  }
-  100% {
-    transform: translateX(0);
-  }
-}
-
-@keyframes box {
-  0% {
-    box-shadow: #27272c;
-  }
-  50% {
-    box-shadow: 0 0 25px var(--clr);
-  }
-  100% {
-    box-shadow: #27272c;
+  #vscode {
+    font-size: 1rem;
+    left: 45%;
+    
   }
 }
 
@@ -550,14 +407,12 @@ button:hover i::after {
 }
 
 /* Footer */
-#container-footer{
+#container-footer {
   display: flex;
   justify-content: center;
 }
 
-
-
- #container-footer > a{
+#container-footer > a {
   text-decoration: none;
   margin: 20px;
- }
+}
