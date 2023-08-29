@@ -1,4 +1,4 @@
-import React, { useRef } from "react"; // Import useRef
+import React from "react"; // Import useRef
 import "./Styles.css";
 import Cards from "./Cards.jsx";
 import Tips from "./Tips";

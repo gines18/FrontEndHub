@@ -1,5 +1,8 @@
 @import url("https://fonts.googleapis.com/css2?family=Assistant:wght@200&family=Cormorant+Garamond:ital,wght@1,600&family=Lato:wght@300&family=Montserrat:ital,wght@1,200&family=Quicksand:wght@300&family=Roboto+Serif:opsz,wght@8..144,200&display=swap");
 
+@import url('https://fonts.googleapis.com/css2?family=Assistant:wght@200&family=Cormorant+Garamond:ital,wght@1,600&family=Lato:wght@300&family=Montserrat:ital,wght@1,200&family=Quicksand:wght@300&family=Roboto+Serif:opsz,wght@8..144,200&family=Work+Sans&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Assistant:wght@200&family=Cormorant+Garamond:ital,wght@1,600&family=Heebo:wght@500&family=Lato:wght@300&family=Montserrat:ital,wght@1,200&family=Quicksand:wght@300&family=Roboto+Serif:opsz,wght@8..144,200&family=Work+Sans&display=swap');
+
 html,
 body {
   width: 100%;
@@ -154,6 +157,11 @@ body {
 @media (max-width: 858px) {
   .card-container-title {
     margin: 0;
+  }
+  @media (max-width: 858px) {
+    .hero{
+      top: 90px;
+    }
   }
 }
 
@@ -420,4 +428,46 @@ body {
 #container-footer > a {
   text-decoration: none;
   margin: 20px;
+}
+
+
+/* Text */
+
+.text-container{
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+position: relative;
+top: 300px;
+}
+
+section{
+  width: 50%;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-content: center;
+  padding: 40px;
+  text-align: center;
+  font-family: 'Heebo', sans-serif;
+  gap: 30px;
+
+}
+
+@media (max-width: 390px){
+  .text-container{
+    top: 150px;
+  }
+  section{
+    width: 90% !important;
+ height: 70vh;
+  }
+}
+
+#text-img{
+  border-radius: 70px;
+border-top-right-radius: 300px;
+border-bottom-left-radius: 300px;
 }
