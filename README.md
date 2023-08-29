@@ -1,4 +1,5 @@
 # FrontEndHub
+[![Netlify Status](https://api.netlify.com/api/v1/badges/6f44523e-f28f-4328-81b5-79219c4e08a8/deploy-status)](https://app.netlify.com/sites/cuppajoy/deploys)
 
 FrontEndHub is your one-stop destination for all things related to frontend development. Our platform offers fast and convenient access to a variety of design resources and tools, making your frontend development process smoother and more efficient.
 
