@@ -1,12 +1,13 @@
+gsap.registerPlugin(ScrollTrigger);
+
 import React, {useEffect} from "react";
 import { gsap } from "gsap";
 import { ScrollTrigger } from "gsap/ScrollTrigger";
 
-gsap.registerPlugin(ScrollTrigger);
 
 function Info({ component }) {
   useEffect(() => {
-    const animation = document.querySelector('#info-component')
+    const animation = document.querySelector('#info-component-data')
 
     gsap.fromTo(animation.children, 
       {y:"+=100", opacity: 0}, 
