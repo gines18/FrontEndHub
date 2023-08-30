@@ -12,7 +12,7 @@ const Hero = () => {
        y: 0,
       transition: { duration: 1,
       borderRadius: 2,
-      delay: 3
+       delay: 3
       }
       },
     hidden: { opacity: 0, y: 10 },
@@ -30,7 +30,7 @@ const Hero = () => {
         
       >
         <div id="about" className="welcome">
-          <h1>Welcome to Our Websi</h1>
+          <h1>Welcome to Our Website</h1>
           <p>Your go-to destination for amazing content.</p>
         </div>
         <div className="image"></div>
