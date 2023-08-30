@@ -13,7 +13,8 @@ function Info({ component }) {
       {y:"+=100", opacity: 0}, 
       {y:0, opacity: 1, duration: 2.5, scrollTrigger: {
         trigger: animation,
-        start: "top 50%",
+        start: "top 70%",
+        toggleActions: "play pause resume reset",
         
       } })
   }, []);
