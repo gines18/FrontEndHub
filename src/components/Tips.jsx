@@ -2,25 +2,22 @@ import React from "react";
 import "./Styles.css";
 import { motion } from "framer-motion";
 
-
-const Tips = ({tips}) => {
+const Tips = ({ tips }) => {
   return (
     <header>
       <motion.div
         className="hero-tips"
-        
         initial={{ opacity: 0 }}
         animate={{ opacity: 1 }}
         transition={{
           duration: 1.5,
         }}
       >
+        <div
+          className="image-tips"
+          style={{ backgroundImage: `url(${tips[0].imgUrl})` }}
+        ></div>
 
-<div className="image-tips"
-    style={{ backgroundImage: `url(${tips[0].imgUrl})` }}></div>
-
-      
-     
         <div className="welcome-tips">
           {tips.map((tip, index) => (
             <div key={index}>

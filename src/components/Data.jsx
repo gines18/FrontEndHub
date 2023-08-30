@@ -862,7 +862,7 @@ export const fontsUsage = [
 
 export const work = [
   {
-    header: "Find work",
+    header: "Find job",
     description:
       "Browse design jobs and find your next career opportunity. Some of the world’s best design-forward companies including Apple, Airbnb, IDEO, Meta, Google, Shopify and tens of thousands more hire creatives on  . Find your next project today!",
     imgUrl: "./work.jpeg",
@@ -941,3 +941,11 @@ export const job = [
     cardLink: "https://wellfound.com/",
   },
 ];
+
+export const component = [
+  {
+    title: <span> <span className="redColor">Crafting Engaging User Experiences  <br /> Through Frontend Web Development</span></span>,
+    imgSrc: "./ilu3.jpeg",
+ 
+  },
+]
