@@ -2,21 +2,15 @@ import React, {useEffect} from "react";
 import { gsap } from "gsap";
 import { ScrollTrigger } from "gsap/ScrollTrigger";
 
-gsap.registerPlugin(ScrollTrigger);
-
-
-
-
-
-
 
 function Info({ component }) {
   useEffect(() => {
+    gsap.registerPlugin(ScrollTrigger);
     const animation = document.querySelector('#info-component')
 
     gsap.fromTo(animation.children, 
       {y:"+=100", opacity: 0}, 
-      {y:0, opacity: 1, duration: 2, scrollTrigger: {
+      {y:0, opacity: 1, duration: 2.5, scrollTrigger: {
         trigger: animation,
         start: "top 40%"
       } })
