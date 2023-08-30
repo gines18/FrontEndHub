@@ -12,7 +12,7 @@ const Hero = () => {
        y: 0,
       transition: { duration: 1,
       borderRadius: 2,
-       delay: 3
+       delay: 2
       }
       },
     hidden: { opacity: 0, y: 10 },

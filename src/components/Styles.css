@@ -478,7 +478,7 @@ section {
  margin: 200px 100px;
   border-radius: 10px;
   text-align: center;
-
+height: 100vh;
 }
 
 #info-img{
