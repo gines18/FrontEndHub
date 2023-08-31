@@ -1,13 +1,15 @@
-import React, { useEffect } from "react";
+import React, { useLayoutEffect } from "react";
 import { gsap } from "gsap";
 import { ScrollTrigger } from "gsap/ScrollTrigger";
 
 gsap.registerPlugin(ScrollTrigger);
 
 function Info({ component }) {
-  useEffect(() => {
-    const animation = document.getElementById("info-component");
 
+
+useLayoutEffect(() => {
+    const animation = document.getElementById("info-component");
+    let ctx = gsap.context(() => {
     gsap.fromTo(
       animation.children,
       { y: "+=100", opacity: 0 },
@@ -21,6 +23,8 @@ function Info({ component }) {
         },
       }
     );
+  });
+    return () => ctx.revert();
   }, []);
 
   return (
