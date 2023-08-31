@@ -505,3 +505,10 @@ height: 100vh;
   
 
 }
+
+.pin-container{
+
+    position: relative;
+    width: 100%;
+
+}

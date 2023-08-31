@@ -8,13 +8,14 @@ import Buttons from "./components/Buttons";
 import Menu from "./components/Menu";
 import Info from "./components/Info";
 import { component } from './components/Data';
-
+import Pin from "./components/Pin";
 function App() {
   return (
     <>
       <Menu/>
       <Welcome/>
       <Hero />
+      {/* <Pin /> */}
       <Buttons />
       <Info component={component}/>
       <CardContainer />
