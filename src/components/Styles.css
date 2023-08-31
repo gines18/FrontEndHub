@@ -481,20 +481,17 @@ section {
 height: 100vh;
 }
 
-#info-img{
+#cool-img{
   max-width: 100%;
   height: auto;
   width: 600px;
 }
 
-#info-text{
+#nice-text{
   font-size: 3rem;
   font-weight: 700;
   padding-bottom: 50px;
 }
-
-
-
 
 .gradient-text {
   
