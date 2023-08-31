@@ -4,7 +4,17 @@ import { ScrollTrigger } from "gsap/ScrollTrigger";
 
 gsap.registerPlugin(ScrollTrigger);
 
-function Info({ component }) {
+
+
+ const component = [
+  {
+    title: <span> <span className="gradient-text">Crafting Engaging User Experiences  <br /> Through Frontend Web Development</span></span>,
+    imgSrc: "./ilu3.jpeg",
+ 
+  },
+]
+
+function Info() {
   useLayoutEffect(() => {
     const animation = document.getElementById("info-component");
     let ctx = gsap.context(() => {

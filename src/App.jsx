@@ -8,7 +8,7 @@ import Buttons from "./components/Buttons";
 import Menu from "./components/Menu";
 import Info from "./components/Info";
 import { component } from './components/Data';
-import Pin from "./components/Pin";
+// import Pin from "./components/Pin";
 // import Box from "./components/Box";
 function App() {
   return (
