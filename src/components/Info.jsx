@@ -28,7 +28,7 @@ function Info() {
           scrollTrigger: {
             trigger: animation,
             start: "top 70%",
-            markers: true,
+            // markers: true,
           },
         }
       );
