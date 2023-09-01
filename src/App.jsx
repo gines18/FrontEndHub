@@ -1,6 +1,6 @@
 import React from "react";
 import Hero from "./components/Hero";
-import Welcome from "./components/Welcome";
+// import Welcome from "./components/Welcome";
 import CardContainer from "./components/CardsContainer";
 
 import Footer from "./components/Footer";
@@ -14,7 +14,7 @@ function App() {
   return (
     <>
       <Menu/>
-      <Welcome/>
+      {/* <Welcome/> */}
       <Hero />
       {/* <Pin /> */}
       <Buttons />
