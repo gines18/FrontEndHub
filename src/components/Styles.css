@@ -280,7 +280,7 @@ body {
   position: relative;
   top: 15%;
   left: 45%;
-  font-size: 3vw;
+  font-size: 2vw;
   width: 100px;
   margin: 0;
 }
@@ -290,7 +290,7 @@ body {
   top: -5%;
   left: 30%;
   font-size: 6vw;
-  width: 900px;
+  width: 300px;
   margin: 0;
 }
 
@@ -303,12 +303,7 @@ body {
   margin: 0;
 }
 
-.background-welcome {
-  position: relative;
-  top: -17%;
-  left: 50%;
-  font-size: 7vw;
-}
+
 
 #javascript {
   position: absolute;
