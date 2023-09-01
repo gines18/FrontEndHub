@@ -14,7 +14,7 @@ function Menu() {
 
   
   return (
-    <nav className='container-fluid fixed-top d-flex justify-content-end mt-2 mb-4 pe-4'>
+    <nav className='container-fluid fixed-top d-flex justify-content-end mt-2 mb-4 pe-6'>
        <button onClick={scrollToComponent} type="button" className="btn btn-danger">Menu</button>
        </nav>
    

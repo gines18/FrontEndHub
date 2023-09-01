@@ -348,6 +348,7 @@ body {
   #javascript {
     top: 80%;
     font-size: 3rem;
+    width: 230px;
   }
   #html {
     top: 45%;
@@ -369,24 +370,24 @@ body {
     font-size: 3rem;
   }
 
+
   #photoeditor {
     left: 60%;
     font-size: 3rem;
+    width: 200px;
   }
   #background-react {
     left: 20%;
     top: 65%;
     font-size: 3rem;
+    width: 230px;
   }
-  .background-welcome {
-    left: 15%;
-    top: 30%;
-    font-size: 2rem;
-  }
+
   #photoeditor {
-    left: 45%;
-    top: 43%;
+    left: 55%;
+    top: 53%;
     font-size: 1.5rem;
+    width: 150px;
   }
   #FrontEnd {
     font-size: 1rem;
@@ -401,6 +402,7 @@ body {
   #vscode {
     font-size: 1rem;
     left: 45%;
+    width: 150px;
   }
 }
 
