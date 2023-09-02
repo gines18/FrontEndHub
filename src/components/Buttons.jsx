@@ -1,6 +1,7 @@
-import React from "react";
+import React, { useLayoutEffect, useState } from "react";
 import { scrollToSection } from "./Helpers";
-
+import { gsap } from "gsap";
+import { ScrollTrigger } from "gsap/ScrollTrigger";
 const buttons = [
   {
     category: "Colors",
@@ -53,17 +54,48 @@ const buttons = [
 ];
 
 export default function Buttons() {
+  const [scrollTriggerInstance, setScrollTriggerInstance] = useState(null);
+
+  useLayoutEffect(() => {
+    let ctx = gsap.context(() => {
+      setScrollTriggerInstance(
+   ScrollTrigger.create({
+        
+        trigger: ".gallery",
+        start: "top top",
+        end: "bottom bottom",
+        pin: ".right",
+        markers: true,
+      })
+      );
+    });
+
+    return () => {
+      ctx.revert();
+      if (scrollTriggerInstance) {
+        scrollTriggerInstance.kill();
+      }
+    };
+  }, []);
+
   return (
     <>
-  
-        <div id="button-container">
-      {buttons.map((button, index) => (
-        
-          <p 
-          key={index}
-          onClick={() => scrollToSection(button.category)} id="button-category">{button.category}</p>
-          ))}
-          </div>
+      <div id="button-container">
+        {buttons.map((button, index) => (
+          <p
+            key={index}
+            onClick={() => {
+              if (scrollTriggerInstance) {
+                scrollTriggerInstance.kill();
+              }
+              scrollToSection(button.category);
+            }}
+            id="button-category"
+          >
+            {button.category}
+          </p>
+        ))}
+      </div>
     </>
   );
 }

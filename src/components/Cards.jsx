@@ -5,8 +5,8 @@ import CardMedia from "@mui/material/CardMedia";
 import Typography from "@mui/material/Typography";
 import "./Styles.css";
 
-const Cards = ({cardData}) => {
- 
+import ExpandCircleDownIcon from "@mui/icons-material/ExpandCircleDown";
+const Cards = ({ cardData }) => {
   return (
     <>
       <div className="card-container">
@@ -20,7 +20,6 @@ const Cards = ({cardData}) => {
               component="img"
               height="140"
               src={card.imageUrl}
-
               alt="Card Image"
             />
             <CardContent>
@@ -30,11 +29,15 @@ const Cards = ({cardData}) => {
               <Typography variant="body2" color="text.secondary">
                 {card.cardText}
               </Typography>
+              <div className="arrow">
               <Typography variant="body2" color="text.secondary">
-                <a href={card.cardLink} target="_blank" style={{textDecoration: "none", color: "red"}}>
-                  Visit website
+                <a href={card.cardLink} target="_blank">
+                  <ExpandCircleDownIcon
+                    style={{ width: "30px", rotate: "-140deg" }}
+                  />
                 </a>
               </Typography>
+              </div>
             </CardContent>
           </Card>
         ))}
@@ -42,6 +45,5 @@ const Cards = ({cardData}) => {
     </>
   );
 };
-
 
 export default Cards;
