@@ -59,14 +59,18 @@ export default function Buttons() {
   useLayoutEffect(() => {
     let ctx = gsap.context(() => {
       setScrollTriggerInstance(
-   ScrollTrigger.create({
-        
-        trigger: ".gallery",
-        start: "top top",
-        end: "bottom bottom",
-        pin: ".right",
-        markers: true,
-      })
+        ScrollTrigger.create({
+          trigger: ".gallery",
+          start: "top top",
+          end: "bottom bottom",
+          pin: ".right",
+          markers: true,
+          onEnter: () => {
+            if (scrollTriggerInstance) {
+              scrollTriggerInstance.restart();
+            }
+          },
+        })
       );
     });
 
@@ -78,18 +82,20 @@ export default function Buttons() {
     };
   }, []);
 
+  const handleButtonClick = (category) => {
+    if (scrollTriggerInstance) {
+      scrollTriggerInstance.kill();
+    }
+    scrollToSection(category);
+  };
+
   return (
     <>
       <div id="button-container">
         {buttons.map((button, index) => (
           <p
             key={index}
-            onClick={() => {
-              if (scrollTriggerInstance) {
-                scrollTriggerInstance.kill();
-              }
-              scrollToSection(button.category);
-            }}
+            onClick={() => handleButtonClick(button.category)}
             id="button-category"
           >
             {button.category}
