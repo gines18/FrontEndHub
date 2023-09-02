@@ -25,7 +25,10 @@ function Box() {
           </div>
         </div>
         <div className="right">
-          <div class="photos"></div>
+
+          <div >
+            <img class="photos" src="./design.jpeg" alt="" />
+          </div>
         </div>
       </div>
     </>
