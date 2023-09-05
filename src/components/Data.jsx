@@ -949,3 +949,43 @@ export const component = [
  
   },
 ]
+
+export const videoWebsites = [
+  {
+    title: "Synthesia",
+    imageUrl: "./videoWebsite4.png",
+    cardText: "AI-powered video generation platform",
+    cardLink: "http://synthesia.io",
+  },
+  {
+    title: "Pictory",
+    imageUrl: "./videoWebsite1.png",
+    cardText: "AI-driven storytelling",
+    cardLink: "http://pictory.ai",
+  },
+  {
+    title: "Vidyo .AI",
+    imageUrl: "./videoWebsite2.png",
+    cardText: "AI-powered video editing",
+    cardLink: "http://vidyo.ai",
+  },
+  {
+    title: "Fliki",
+    imageUrl: "./videoWebsite3.png",
+    cardText: "AI-generated art and design",
+    cardLink: "http://fliki.ai",
+  },
+  {
+    title: "Rephrase .AI",
+    imageUrl: "./videoWebsite0.png",
+    cardText: "AI-powered content rewriting",
+    cardLink: "http://rephrase.ai",
+  },
+  {
+    title: "Hour One",
+    imageUrl: "./videoWebsite5.png",
+    cardText: "AI-driven personalized content",
+    cardLink: "http://hourone.ai",
+  },
+
+];

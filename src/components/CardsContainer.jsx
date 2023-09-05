@@ -2,7 +2,7 @@ import React from "react"; // Import useRef
 import "./Styles.css";
 import Cards from "./Cards.jsx";
 import Tips from "./Tips";
-import { colors, fonts, background, photoEditor, photoEditorAI, goodByAI, usefulWebsites, certificates, miscellaneous, boostFrontEndSkills, codeEditors, entrepreneurs, game,mit, microsoft,job } from "./Data";
+import { colors, fonts, background, photoEditor, photoEditorAI, goodByAI, usefulWebsites, certificates, miscellaneous, boostFrontEndSkills, codeEditors, entrepreneurs, game,mit, microsoft, job, videoWebsites } from "./Data";
 import {work, fontsUsage} from './Data.jsx'
 
 const category = [
@@ -69,6 +69,10 @@ const category = [
   {
     title: "Get Remote Job",
     cardText: <Cards cardData={job} />,
+  },
+  {
+    title: "Make Videos",
+    cardText: <Cards cardData={videoWebsites} />,
   },
 ];
 

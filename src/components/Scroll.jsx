@@ -1,9 +1,5 @@
-import React, { useLayoutEffect } from "react";
-import { gsap } from "gsap";
-import { ScrollTrigger } from "gsap/ScrollTrigger";
-import "./Styles.css";
+import React from "react";
 
-gsap.registerPlugin(ScrollTrigger);
 
 function Box() {
 
@@ -27,7 +23,7 @@ function Box() {
         <div className="right">
 
           <div >
-            <img class="photos" src="./design.jpeg" alt="" />
+            <img className="photos" src="./design.jpeg" alt="" />
           </div>
         </div>
       </div>
