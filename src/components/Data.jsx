@@ -989,3 +989,108 @@ export const videoWebsites = [
   },
 
 ];
+
+export const programmingChannels = [
+  {
+    title: "C",
+    imageUrl: "./languages15.png",
+    cardText: "Jacob Sorber -  I cover beginner-to-advanced systems topics ranging from network programming, threads, processes, operating systems, embedded systems and others.",
+    cardLink: "https://www.youtube.com/@JacobSorber/featured",
+  },
+  {
+    title: "C++",
+    imageUrl: "./languages3.png",
+    cardText: "TheCherno",
+    cardLink: "https://www.youtube.com/results?search_query=TheCherno",
+  },
+  {
+    title: "Python",
+    imageUrl: "./languages9.png",
+    cardText: "Corey Schafer",
+    cardLink: "https://www.youtube.com/results?search_query=Corey+Schafer",
+  },
+  {
+    title: "JavaScript",
+    imageUrl: "./languages7.png",
+    cardText: "developedbyed",
+    cardLink: "https://www.youtube.com/results?search_query=developedbyed",
+  },
+  {
+    title: "Java",
+    imageUrl: "./languages6.png",
+    cardText: "amigoscode",
+    cardLink: "https://www.youtube.com/results?search_query=amigoscode",
+  },
+  {
+    title: "C#",
+    imageUrl: "./languages11.png",
+    cardText: "kudvenkat",
+    cardLink: "https://www.youtube.com/results?search_query=kudvenkat",
+  },
+  {
+    title: "Golang",
+    imageUrl: "./languages5.png",
+    cardText: "Jon Calhoun",
+    cardLink: "https://www.youtube.com/results?search_query=Jon+Calhoun",
+  },
+  {
+    title: "Swift",
+    imageUrl: "./languages0.png",
+    cardText: "CodeWithChris",
+    cardLink: "https://www.youtube.com/results?search_query=CodeWithChris",
+  },
+  {
+    title: "Kotlin",
+    imageUrl: "./kotlin.png",
+    cardText: "PhilippLackner",
+    cardLink: "https://www.youtube.com/results?search_query=PhilippLackner",
+  },
+  {
+    title: "PHP",
+    imageUrl: "./languages1.png",
+    cardText: "ProgramWithGio",
+    cardLink: "https://www.youtube.com/results?search_query=ProgramWithGio",
+  },
+  {
+    title: "Dart",
+    imageUrl: "./languages12.png",
+    cardText: "Flutterly",
+    cardLink: "https://www.youtube.com/results?search_query=Flutterly",
+  },
+  {
+    title: "Ruby",
+    imageUrl: "./languages10.png",
+    cardText: "DriftingRuby",
+    cardLink: "https://www.youtube.com/results?search_query=DriftingRuby",
+  },
+  {
+    title: "Rust",
+    imageUrl: "./languages13.png",
+    cardText: "NoBoilerplate",
+    cardLink: "https://www.youtube.com/results?search_query=NoBoilerplate",
+  },
+  {
+    title: "TypeScript",
+    imageUrl: "./languages2.png",
+    cardText: "Matt Pocock",
+    cardLink: "https://www.youtube.com/results?search_query=Matt+Pocock",
+  },
+  {
+    title: "Lua",
+    imageUrl: "./languages14.png",
+    cardText: "Steve's teacher",
+    cardLink: "https://www.youtube.com/@Stevesteacher",
+  },
+  {
+    title: "R",
+    imageUrl: "./languages4.png",
+    cardText: "marinstatlectures",
+    cardLink: "https://www.youtube.com/results?search_query=marinstatlectures",
+  },
+  {
+    title: "SQL",
+    imageUrl: "./languages8.png",
+    cardText: "Joey Blue",
+    cardLink: "https://www.youtube.com/results?search_query=Joey+Blue",
+  },
+]

@@ -54,6 +54,9 @@ const buttons = [
   {
     category: "Make Videos",
   },
+  {
+    category: "YouTube Programming",
+  },
 ];
 
 export default function Buttons() {
