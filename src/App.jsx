@@ -7,7 +7,7 @@ import Buttons from "./components/Buttons";
 import Menu from "./components/Menu";
 import Info from "./components/Info";
 import { component } from "./components/Data";
-import Box from './components/Scroll';
+// import Box from './components/Scroll';
 
 function App() {
   return (
@@ -17,7 +17,7 @@ function App() {
       <Hero />
       <Buttons />
       <Info component={component} />
-      <Box/>
+      {/* <Box/> */}
       <CardContainer />
       <Footer />
     </>

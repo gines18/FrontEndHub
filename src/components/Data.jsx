@@ -1094,3 +1094,66 @@ export const programmingChannels = [
     cardLink: "https://www.youtube.com/results?search_query=Joey+Blue",
   },
 ]
+
+export const stanford = [
+  {
+    title: "Computer Science 101",
+    imageUrl: "./stanford.png", 
+    cardText: "Learn the fundamentals of computer science.",
+    cardLink: "https://www.edx.org/learn/computer-science/stanford-university-computer-science-101",
+  },
+  {
+    title: "Intro to Artificial Intelligence",
+    imageUrl: "./stanford.png",  
+    cardText: "Get an introduction to the world of Artificial Intelligence.",
+    cardLink: "https://www.udacity.com/course/intro-to-artificial-intelligence--cs271",
+  },
+  {
+    title: "Artificial Intelligence for Robotics",
+    imageUrl: "./stanford.png",  
+    cardText: "Explore AI in the context of robotics.",
+    cardLink: "https://www.udacity.com/course/artificial-intelligence-for-robotics--cs373",
+  },
+  {
+    title: "Introduction to Python Programming",
+    imageUrl: "./stanford.png", 
+    cardText: "Start your programming journey with Python.",
+    cardLink: "https://www.udacity.com/course/introduction-to-python--ud1110",
+  },
+  {
+    title: "Introduction to Machine Learning Course",
+    imageUrl: "./stanford.png", 
+    cardText: "Learn the basics of machine learning.",
+    cardLink: "https://www.udacity.com/course/intro-to-machine-learning--ud120",
+  },
+  {
+    title: "Designing Your Career",
+    imageUrl: "./stanford.png", 
+    cardText: "Discover tips for designing your career path.",
+    cardLink: "https://www.edx.org/learn/career-development/stanford-university-designing-your-career",
+  },
+  {
+    title: "Database and SQL",
+    imageUrl: "./stanford.png", 
+    cardText: "Master database and SQL concepts.",
+    cardLink: "https://www.edx.org/learn/relational-databases/stanford-university-databases-relational-databases-and-sql",
+  },
+  {
+    title: "R Programming Fundamentals",
+    imageUrl: "./stanford.png", 
+    cardText: "Learn the basics of R programming.",
+    cardLink: "https://www.edx.org/learn/r-programming/stanford-university-r-programming-fundamentals",
+  },
+  {
+    title: "Statistical Learning",
+    imageUrl: "./stanford.png", 
+    cardText: "Dive into statistical learning techniques.",
+    cardLink: "https://www.edx.org/learn/statistics/stanford-university-statistical-learning",
+  },
+  {
+    title: "Max MSP Programming Course",
+    imageUrl: "./stanford.png", 
+    cardText: "Explore Max MSP programming for audio and music.",
+    cardLink: "https://www.kadenze.com/courses/max-msp-programming-course-structuring-interactive-software-for-digital-arts/info",
+  },
+];

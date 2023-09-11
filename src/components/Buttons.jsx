@@ -2,6 +2,9 @@ import React, { useLayoutEffect, useRef } from "react";
 import { scrollToSection } from "./Helpers";
 import { gsap } from "gsap";
 import { ScrollTrigger } from "gsap/ScrollTrigger";
+
+gsap.registerPlugin(ScrollTrigger)
+
 const buttons = [
   {
     category: "Colors",
@@ -57,44 +60,37 @@ const buttons = [
   {
     category: "YouTube Programming",
   },
+  {
+    category: "Free Stanford Certificates",
+  },
 ];
+
 
 export default function Buttons() {
   const scrollTriggerRef = useRef(null);
 
   useLayoutEffect(() => {
-    let ctx = gsap.context(() => {
-      scrollTriggerRef.current = ScrollTrigger.create({
-        trigger: ".gallery",
-        start: "top top",
-        end: "bottom bottom",
-        pin: ".right",
-        onEnter: () => {
-          if (scrollTriggerRef.current) {
-            scrollTriggerRef.current.restart();
-          }
-        },
-        onLeave: () => {
-          if (scrollTriggerRef.current) {
-            scrollTriggerRef.current.restart();
-          }
-        },
-      });
+    // Create the ScrollTrigger instance directly
+    scrollTriggerRef.current = ScrollTrigger.create({
+      trigger: ".gallery",
+      start: "top top",
+      end: "bottom bottom",
+      pin: ".right",
     });
 
     return () => {
-      ctx.revert();
+      // Revert or kill the ScrollTrigger instance when the component unmounts
+      if (scrollTriggerRef.current) {
+        scrollTriggerRef.current.kill();
+      }
     };
   }, []);
 
   const handleButtonClick = (category) => {
     if (scrollTriggerRef.current) {
-      scrollTriggerRef.current.kill();
+      scrollTriggerRef.current.refresh();
     }
     scrollToSection(category);
-    if (scrollTriggerRef.current) {
-      scrollTriggerRef.current.restart();
-    }
   };
 
   return (
@@ -102,7 +98,6 @@ export default function Buttons() {
       <div id="button-container">
         {buttons.map((button, index) => (
           <p
-       
             key={index}
             onClick={() => handleButtonClick(button.category)}
             id="button-category"
