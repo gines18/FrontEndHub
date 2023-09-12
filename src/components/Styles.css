@@ -593,7 +593,7 @@ section {
 
 /* Frontendhub */
 
-.frontend {
+#frontend {
   display: flex;
   justify-content: center;
   align-items: end;
