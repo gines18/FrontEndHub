@@ -2,7 +2,7 @@ import React from "react"; // Import useRef
 import "./Styles.css";
 import Cards from "./Cards.jsx";
 import Tips from "./Tips";
-import { colors, fonts, background, photoEditor, photoEditorAI, goodByAI, usefulWebsites, certificates, miscellaneous, boostFrontEndSkills, codeEditors, entrepreneurs, game,mit, microsoft, job, videoWebsites, programmingChannels, stanford } from "./Data";
+import { colors, fonts, background, photoEditor, photoEditorAI, goodByAI, usefulWebsites, certificates, miscellaneous, boostFrontEndSkills, codeEditors, entrepreneurs, game,mit, microsoft, job, videoWebsites, programmingChannels, stanford, resumeBuilders } from "./Data";
 import {work, fontsUsage} from './Data.jsx'
 
 const category = [
@@ -81,6 +81,10 @@ const category = [
   {
     title: "Free Stanford Certificates",
     cardText: <Cards cardData={stanford} />,
+  },
+  {
+    title: "Free AI CV Builder",
+    cardText: <Cards cardData={resumeBuilders} />,
   },
 ];
 

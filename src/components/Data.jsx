@@ -1157,3 +1157,72 @@ export const stanford = [
     cardLink: "https://www.kadenze.com/courses/max-msp-programming-course-structuring-interactive-software-for-digital-arts/info",
   },
 ];
+
+export const resumeBuilders = [
+  {
+    title: "Kickresume",
+    imageUrl: "./cv0.png", 
+    cardText: "Create professional resumes with Kickresume.",
+    cardLink: "https://kickresume.com",
+  },
+  {
+    title: "Enhancv",
+    imageUrl: "./cv1.png", 
+    cardText: "Enhance your resume with Enhancv.",
+    cardLink: "https://enhancv.com",
+  },
+  {
+    title: "Rezi AI",
+    imageUrl: "./cv2.png", 
+    cardText: "Utilize Rezi AI for resume building.",
+    cardLink: "https://rezi.ai",
+  },
+  {
+    title: "Jasper AI",
+    imageUrl: "./cv3.png", 
+    cardText: "Build resumes with Jasper AI.",
+    cardLink: "https://jasper.ai",
+  },
+  {
+    title: "HyreSnap",
+    imageUrl: "./cv4.png", 
+    cardText: "Create resumes with HyreSnap.",
+    cardLink: "https://hyresnap.com/resume-builder",
+  },
+  {
+    title: "Resumestar",
+    imageUrl: "./cv5.png", 
+    cardText: "Craft professional resumes with Resumestar.",
+    cardLink: "https://resumestar.io",
+  },
+  {
+    title: "Hiration",
+    imageUrl: "./cv6.png", 
+    cardText: "Optimize your resume with Hiration.",
+    cardLink: "https://hiration.com",
+  },
+  {
+    title: "Skillroads",
+    imageUrl: "./cv.png",  
+    cardText: "Build resumes with Skillroads.",
+    cardLink: "https://skillroads.com",
+  },
+  {
+    title: "Resumaker",
+    imageUrl: "./cv8.png",  
+    cardText: "Make resumes with Resumaker.",
+    cardLink: "https://resumaker.ai",
+  },
+  {
+    title: "ResumAI",
+    imageUrl: "./cv9.png", 
+    cardText: "Use ResumAI for resume creation.",
+    cardLink: "https://resumai.com",
+  },
+  {
+    title: "Resumeworded",
+    imageUrl: "./cv10.png", 
+    cardText: "Build resumes with Resumeworded.",
+    cardLink: "https://resume.io/resume-builder",
+  },
+];

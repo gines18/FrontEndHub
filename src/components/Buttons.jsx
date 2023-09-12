@@ -63,6 +63,9 @@ const buttons = [
   {
     category: "Free Stanford Certificates",
   },
+  {
+    category: "Free AI CV Builder",
+  },
 ];
 
 
