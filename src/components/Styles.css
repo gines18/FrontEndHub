@@ -2,7 +2,7 @@
 
 @import url("https://fonts.googleapis.com/css2?family=Assistant:wght@200&family=Cormorant+Garamond:ital,wght@1,600&family=Lato:wght@300&family=Montserrat:ital,wght@1,200&family=Quicksand:wght@300&family=Roboto+Serif:opsz,wght@8..144,200&family=Work+Sans&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Assistant:wght@200&family=Cormorant+Garamond:ital,wght@1,600&family=Heebo:wght@500&family=Lato:wght@300&family=Montserrat:ital,wght@1,200&family=Quicksand:wght@300&family=Roboto+Serif:opsz,wght@8..144,200&family=Work+Sans&display=swap");
-@import url('https://fonts.googleapis.com/css2?family=Assistant:wght@200&family=Bitter:wght@600&family=Cormorant+Garamond:ital,wght@1,600&family=Heebo:wght@500&family=Lato:wght@300&family=Montserrat:ital,wght@1,200&family=Quicksand:wght@300&family=Roboto+Serif:opsz,wght@8..144,200&family=Work+Sans&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Assistant:wght@200&family=Bitter:wght@600&family=Cormorant+Garamond:ital,wght@1,600&family=Heebo:wght@500&family=Lato:wght@300&family=Montserrat:ital,wght@1,200&family=Quicksand:wght@300&family=Roboto+Serif:opsz,wght@8..144,200&family=Work+Sans&display=swap");
 html,
 body {
   width: 100%;
@@ -303,8 +303,6 @@ body {
   margin: 0;
 }
 
-
-
 #javascript {
   position: absolute;
   top: 78%;
@@ -369,7 +367,6 @@ body {
     left: 65%;
     font-size: 3rem;
   }
-
 
   #photoeditor {
     left: 60%;
@@ -472,57 +469,55 @@ section {
   flex-direction: column;
   justify-content: center;
   align-items: center;
- margin: 200px 100px;
+  margin: 200px 100px;
   border-radius: 10px;
   text-align: center;
-height: 100vh;
+  height: 100vh;
 }
 
-#cool-img{
+#cool-img {
   max-width: 100%;
   height: auto;
   width: 600px;
 }
 
-#nice-text{
+#nice-text {
   font-size: 3rem;
   font-weight: 700;
   padding-bottom: 50px;
 }
 
 .gradient-text {
-  
   background-clip: text;
   -webkit-background-clip: text;
   color: transparent;
- background-image:linear-gradient(90deg, rgba(164,10,10,1) 0%, rgba(73,70,252,1) 100%);
-  
-
+  background-image: linear-gradient(
+    90deg,
+    rgba(164, 10, 10, 1) 0%,
+    rgba(73, 70, 252, 1) 100%
+  );
 }
 
-.pin-container{
-
-    position: relative;
-    width: 100%;
-
+.pin-container {
+  position: relative;
+  width: 100%;
 }
 
-.spacer{
+.spacer {
   width: 100%;
   height: 600px;
   background-color: #343e37;
 }
 
-.text-box{
+.text-box {
   display: flex;
   justify-content: space-around;
   align-items: center;
   width: 100%;
   height: 100vh;
-
 }
 
-.box{
+.box {
   width: 100px;
   height: 100px;
   background-color: #cc5577;
@@ -530,77 +525,83 @@ height: 100vh;
 
 /* Scroll */
 
-
-
-.spacer{
-	width: 100%;
-	height: 30vh;
-	background-color: black;
+.spacer {
+  width: 100%;
+  height: 30vh;
+  background-color: black;
 }
 
-.gallery{
-	display: flex;
-
+.gallery {
+  display: flex;
 }
-.left{
-	width: 50%;
-}
-
-.details{
-	height: 100vh;
-
-}
-
-.detailswrapper{
-	width: 80%;
-	margin: auto;
-}
-
-
-.headline {
-
-	border-radius:6px;
-	height:4em;
-	width:100%;
-}
-
-.text {
-	margin:0.8em 0 0 0;
-
-	border-radius:6px;
-	height:1em;
-	width:100%;
+.left {
+  width: 50%;
 }
 
 .details {
-	height:100vh;
+  height: 100vh;
+}
 
-	display:flex;
-	flex-direction:column;
-	justify-content:center;
+.detailswrapper {
+  width: 80%;
+  margin: auto;
+}
+
+.headline {
+  border-radius: 6px;
+  height: 4em;
+  width: 100%;
+}
+
+.text {
+  margin: 0.8em 0 0 0;
+
+  border-radius: 6px;
+  height: 1em;
+  width: 100%;
+}
+
+.details {
+  height: 100vh;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
   align-items: center;
-  font-family: 'Bitter', serif;
+  font-family: "Bitter", serif;
 }
 .right {
-
-	width:50%;
-	height:100vh;
-	display:flex;
-	flex-direction:column;
-	justify-content:center;
+  width: 50%;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
   align-items: center;
-  
 }
 
 .photos {
-	width:40vw;
-	height:40vw;
-
+  width: 40vw;
+  height: 40vw;
 
   border-radius: 10px;
 }
 
-.arrow{
+.arrow {
   display: flex;
   justify-content: end;
+}
+
+/* Frontendhub */
+
+.frontend {
+  display: flex;
+  justify-content: center;
+  align-items: end;
+  width: 100%;
+  height: 50vh;
+
+  font-size: 1rem;
+  font-size: 3rem;
+  font-size: clamp(3rem, 1.2500000000000002rem + 7.291666666666666vw, 10rem);
+  font-weight: 700;
 }

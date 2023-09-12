@@ -8,6 +8,7 @@ import Menu from "./components/Menu";
 import Info from "./components/Info";
 import { component } from "./components/Data";
 // import Box from './components/Scroll';
+import Frontendhub from './components/Frontendhub'
 
 function App() {
   return (
@@ -19,6 +20,7 @@ function App() {
       <Info component={component} />
       {/* <Box/> */}
       <CardContainer />
+      <Frontendhub />
       <Footer />
     </>
   );
