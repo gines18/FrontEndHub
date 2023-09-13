@@ -944,11 +944,18 @@ export const job = [
 
 export const component = [
   {
-    title: <span> <span className="gradient-text">Crafting Engaging User Experiences  <br /> Through Frontend Web Development</span></span>,
+    title: (
+      <span>
+        {" "}
+        <span className="gradient-text">
+          Crafting Engaging User Experiences <br /> Through Frontend Web
+          Development
+        </span>
+      </span>
+    ),
     imgSrc: "./ilu3.jpeg",
- 
   },
-]
+];
 
 export const videoWebsites = [
   {
@@ -987,14 +994,14 @@ export const videoWebsites = [
     cardText: "AI-driven personalized content",
     cardLink: "http://hourone.ai",
   },
-
 ];
 
 export const programmingChannels = [
   {
     title: "C",
     imageUrl: "./languages15.png",
-    cardText: "Jacob Sorber -  I cover beginner-to-advanced systems topics ranging from network programming, threads, processes, operating systems, embedded systems and others.",
+    cardText:
+      "Jacob Sorber -  I cover beginner-to-advanced systems topics ranging from network programming, threads, processes, operating systems, embedded systems and others.",
     cardLink: "https://www.youtube.com/@JacobSorber/featured",
   },
   {
@@ -1093,135 +1100,143 @@ export const programmingChannels = [
     cardText: "Joey Blue",
     cardLink: "https://www.youtube.com/results?search_query=Joey+Blue",
   },
-]
+];
 
 export const stanford = [
   {
     title: "Computer Science 101",
-    imageUrl: "./stanford.png", 
+    imageUrl: "./stanford.png",
     cardText: "Learn the fundamentals of computer science.",
-    cardLink: "https://www.edx.org/learn/computer-science/stanford-university-computer-science-101",
+    cardLink:
+      "https://www.edx.org/learn/computer-science/stanford-university-computer-science-101",
   },
   {
     title: "Intro to Artificial Intelligence",
-    imageUrl: "./stanford.png",  
+    imageUrl: "./stanford.png",
     cardText: "Get an introduction to the world of Artificial Intelligence.",
-    cardLink: "https://www.udacity.com/course/intro-to-artificial-intelligence--cs271",
+    cardLink:
+      "https://www.udacity.com/course/intro-to-artificial-intelligence--cs271",
   },
   {
     title: "Artificial Intelligence for Robotics",
-    imageUrl: "./stanford.png",  
+    imageUrl: "./stanford.png",
     cardText: "Explore AI in the context of robotics.",
-    cardLink: "https://www.udacity.com/course/artificial-intelligence-for-robotics--cs373",
+    cardLink:
+      "https://www.udacity.com/course/artificial-intelligence-for-robotics--cs373",
   },
   {
     title: "Introduction to Python Programming",
-    imageUrl: "./stanford.png", 
+    imageUrl: "./stanford.png",
     cardText: "Start your programming journey with Python.",
     cardLink: "https://www.udacity.com/course/introduction-to-python--ud1110",
   },
   {
     title: "Introduction to Machine Learning Course",
-    imageUrl: "./stanford.png", 
+    imageUrl: "./stanford.png",
     cardText: "Learn the basics of machine learning.",
     cardLink: "https://www.udacity.com/course/intro-to-machine-learning--ud120",
   },
   {
     title: "Designing Your Career",
-    imageUrl: "./stanford.png", 
+    imageUrl: "./stanford.png",
     cardText: "Discover tips for designing your career path.",
-    cardLink: "https://www.edx.org/learn/career-development/stanford-university-designing-your-career",
+    cardLink:
+      "https://www.edx.org/learn/career-development/stanford-university-designing-your-career",
   },
   {
     title: "Database and SQL",
-    imageUrl: "./stanford.png", 
+    imageUrl: "./stanford.png",
     cardText: "Master database and SQL concepts.",
-    cardLink: "https://www.edx.org/learn/relational-databases/stanford-university-databases-relational-databases-and-sql",
+    cardLink:
+      "https://www.edx.org/learn/relational-databases/stanford-university-databases-relational-databases-and-sql",
   },
   {
     title: "R Programming Fundamentals",
-    imageUrl: "./stanford.png", 
+    imageUrl: "./stanford.png",
     cardText: "Learn the basics of R programming.",
-    cardLink: "https://www.edx.org/learn/r-programming/stanford-university-r-programming-fundamentals",
+    cardLink:
+      "https://www.edx.org/learn/r-programming/stanford-university-r-programming-fundamentals",
   },
   {
     title: "Statistical Learning",
-    imageUrl: "./stanford.png", 
+    imageUrl: "./stanford.png",
     cardText: "Dive into statistical learning techniques.",
-    cardLink: "https://www.edx.org/learn/statistics/stanford-university-statistical-learning",
+    cardLink:
+      "https://www.edx.org/learn/statistics/stanford-university-statistical-learning",
   },
   {
     title: "Max MSP Programming Course",
-    imageUrl: "./stanford.png", 
+    imageUrl: "./stanford.png",
     cardText: "Explore Max MSP programming for audio and music.",
-    cardLink: "https://www.kadenze.com/courses/max-msp-programming-course-structuring-interactive-software-for-digital-arts/info",
+    cardLink:
+      "https://www.kadenze.com/courses/max-msp-programming-course-structuring-interactive-software-for-digital-arts/info",
   },
 ];
 
 export const resumeBuilders = [
   {
     title: "Kickresume",
-    imageUrl: "./cv0.png", 
+    imageUrl: "./cv0.png",
     cardText: "Create professional resumes with Kickresume.",
     cardLink: "https://kickresume.com",
   },
   {
     title: "Enhancv",
-    imageUrl: "./cv1.png", 
+    imageUrl: "./cv1.png",
     cardText: "Enhance your resume with Enhancv.",
     cardLink: "https://enhancv.com",
   },
   {
     title: "Rezi AI",
-    imageUrl: "./cv2.png", 
+    imageUrl: "./cv2.png",
     cardText: "Utilize Rezi AI for resume building.",
     cardLink: "https://rezi.ai",
   },
   {
     title: "Jasper AI",
-    imageUrl: "./cv3.png", 
+    imageUrl: "./cv3.png",
     cardText: "Build resumes with Jasper AI.",
     cardLink: "https://jasper.ai",
   },
   {
     title: "HyreSnap",
-    imageUrl: "./cv4.png", 
+    imageUrl: "./cv4.png",
     cardText: "Create resumes with HyreSnap.",
     cardLink: "https://hyresnap.com/resume-builder",
   },
   {
     title: "Resumestar",
-    imageUrl: "./cv5.png", 
+    imageUrl: "./cv5.png",
     cardText: "Craft professional resumes with Resumestar.",
     cardLink: "https://resumestar.io",
   },
   {
     title: "Hiration",
-    imageUrl: "./cv6.png", 
+    imageUrl: "./cv6.png",
     cardText: "Optimize your resume with Hiration.",
     cardLink: "https://hiration.com",
   },
   {
     title: "Skillroads",
-    imageUrl: "./cv.png",  
+    imageUrl: "./cv.png",
     cardText: "Build resumes with Skillroads.",
     cardLink: "https://skillroads.com",
   },
   {
     title: "Resumaker",
-    imageUrl: "./cv8.png",  
+    imageUrl: "./cv8.png",
     cardText: "Make resumes with Resumaker.",
     cardLink: "https://resumaker.ai",
   },
   {
     title: "ResumAI",
-    imageUrl: "./cv9.png", 
+    imageUrl: "./cv9.png",
     cardText: "Use ResumAI for resume creation.",
     cardLink: "https://resumai.com",
   },
   {
     title: "Resumeworded",
-    imageUrl: "./cv10.png", 
+    imageUrl: "./cv10.png",
     cardText: "Build resumes with Resumeworded.",
     cardLink: "https://resume.io/resume-builder",
   },

@@ -2,8 +2,29 @@ import React from "react"; // Import useRef
 import "./Styles.css";
 import Cards from "./Cards.jsx";
 import Tips from "./Tips";
-import { colors, fonts, background, photoEditor, photoEditorAI, goodByAI, usefulWebsites, certificates, miscellaneous, boostFrontEndSkills, codeEditors, entrepreneurs, game,mit, microsoft, job, videoWebsites, programmingChannels, stanford, resumeBuilders } from "./Data";
-import {work, fontsUsage} from './Data.jsx'
+import {
+  colors,
+  fonts,
+  background,
+  photoEditor,
+  photoEditorAI,
+  goodByAI,
+  usefulWebsites,
+  certificates,
+  miscellaneous,
+  boostFrontEndSkills,
+  codeEditors,
+  entrepreneurs,
+  game,
+  mit,
+  microsoft,
+  job,
+  videoWebsites,
+  programmingChannels,
+  stanford,
+  resumeBuilders,
+} from "./Data";
+import { work, fontsUsage } from "./Data.jsx";
 
 const category = [
   {
@@ -88,29 +109,21 @@ const category = [
   },
 ];
 
-programmingChannels
-
 const CardContainer = () => {
   return (
-    <>
-    
-    <div
-      className="card-container-title"
-    >
-        {category.map((card, index) => (
-        
-          <div key={index} className="card-item" id={card.title}>
-            <div className="title">
-              <h1>{card.title}</h1>
-            </div>
-            <h1>{card.cardText}</h1>
-
-            {card.title === "Fonts" && <Tips tips={fontsUsage} />}
-            {card.title === "Free Microsoft Certificates" && <Tips tips={work}  />}
+    <div className="card-container-title">
+      {category.map((card, index) => (
+        <div key={card.title} className="card-item" id={card.title}>
+          <div className="title">
+            <h1>{card.title}</h1>
           </div>
-        ))}
-      </div>
-    </>
+          <h1>{card.cardText}</h1>
+
+          {card.title === "Fonts" ? <Tips tips={fontsUsage} /> : null}
+          {card.title === "Free Microsoft Certificates" && <Tips tips={work} />}
+        </div>
+      ))}
+    </div>
   );
 };
 

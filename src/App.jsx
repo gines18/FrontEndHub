@@ -9,11 +9,12 @@ import Info from "./components/Info";
 import { component } from "./components/Data";
 // import Box from './components/Scroll';
 import Frontendhub from './components/Frontendhub'
-
+import Popup from "./components/Popup";
 function App() {
   return (
     <>
       <Menu/>
+      <Popup />
       {/* <Welcome/> */}
       <Hero />
       <Buttons />
