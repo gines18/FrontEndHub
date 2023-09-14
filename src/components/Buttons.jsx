@@ -66,6 +66,9 @@ const buttons = [
   {
     category: "Free AI CV Builder",
   },
+  {
+    category: "Free Azure Certificates",
+  },
 ];
 
 

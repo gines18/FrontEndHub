@@ -11,7 +11,7 @@ function Popup() {
   
       const hideTimeout = setTimeout(() => {
         setShowBox(false);
-      }, 6000);
+      }, 10000);
   
       return () => {
         clearTimeout(showTimeout);
@@ -23,7 +23,7 @@ function Popup() {
       <div className="popup-container">
         {showBox && (
           <div id="box-popup">
-            <p>Enjoy browsing!</p>
+            <p style={{color: "white"}}>Enjoy browsing!</p>
           </div>
         )}
       </div>

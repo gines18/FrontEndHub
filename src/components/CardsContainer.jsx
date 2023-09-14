@@ -23,8 +23,10 @@ import {
   programmingChannels,
   stanford,
   resumeBuilders,
+  azureCertifications,
+  work,
+  fontsUsage
 } from "./Data";
-import { work, fontsUsage } from "./Data.jsx";
 
 const category = [
   {
@@ -106,6 +108,10 @@ const category = [
   {
     title: "Free AI CV Builder",
     cardText: <Cards cardData={resumeBuilders} />,
+  },
+  {
+    title: "Free Azure Certificates",
+    cardText: <Cards cardData={azureCertifications} />,
   },
 ];
 

@@ -1241,3 +1241,25 @@ export const resumeBuilders = [
     cardLink: "https://resume.io/resume-builder",
   },
 ];
+
+
+export const azureCertifications = [
+  {
+    title: "Azure Data Scientist Associate",
+    imageUrl: "./azure.png",
+    cardText: "Become an Azure Data Scientist Associate.",
+    cardLink: "https://learn.microsoft.com/en-us/certifications/azure-data-scientist/",
+  },
+  {
+    title: "Azure Enterprise Data Analyst Associate",
+    imageUrl: "./azure.png", 
+    cardText: "Become an Azure Enterprise Data Analyst Associate.",
+    cardLink: "https://learn.microsoft.com/en-us/certifications/azure-enterprise-data-analyst-associate/",
+  },
+  {
+    title: "Azure Data Engineer Associate",
+    imageUrl: "./azure.png",
+    cardText: "Become an Azure Data Engineer Associate.",
+    cardLink: "https://learn.microsoft.com/en-us/certifications/azure-data-engineer/",
+  },
+];
