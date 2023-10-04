@@ -10,10 +10,13 @@ import { component } from "./components/Data";
 // import Box from './components/Scroll';
 import Frontendhub from './components/Frontendhub'
 // import Popup from "./components/Popup";
+import News from './components/News'
+
 function App() {
   return (
     <>
       <Menu/>
+      <News />
       {/* <Popup /> */}
       {/* <Welcome/> */}
       <Hero />
