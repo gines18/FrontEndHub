@@ -606,7 +606,7 @@ section {
   font-weight: 700;
 }
 
-.popup-container{
+.popup-container {
   display: flex;
   position: absolute;
   position: fixed;
@@ -615,11 +615,11 @@ section {
   align-items: center;
   width: 100%;
   height: 300px;
- 
+
   z-index: 100;
 }
 
-#box-popup{
+#box-popup {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -627,4 +627,29 @@ section {
   height: 100px;
   background-color: #cc5577;
   border-radius: 15px;
+}
+
+.compo {
+  display: flex;
+  flex-wrap: wrap; 
+  width: 100%;
+  margin-top: 55px;
+  justify-content: center;
+background-color: 65544C;
+  padding: 20px;
+
+}
+
+.news-component {
+  width: 50%;
+  background-color: #F9DF84;
+  ;
+  padding: 40px;
+
+}
+
+.card-news{
+  padding: 10px;
+  border: 1px solid red;
+
 }
