@@ -3,7 +3,7 @@ import { scrollToSection } from "./Helpers";
 import { gsap } from "gsap";
 import { ScrollTrigger } from "gsap/ScrollTrigger";
 
-gsap.registerPlugin(ScrollTrigger)
+gsap.registerPlugin(ScrollTrigger);
 
 const buttons = [
   {
@@ -69,14 +69,15 @@ const buttons = [
   {
     category: "Free Azure Certificates",
   },
+  {
+    category: "News",
+  },
 ];
-
 
 export default function Buttons() {
   const scrollTriggerRef = useRef(null);
 
   useLayoutEffect(() => {
-    // Create the ScrollTrigger instance directly
     scrollTriggerRef.current = ScrollTrigger.create({
       trigger: ".gallery",
       start: "top top",
@@ -85,7 +86,6 @@ export default function Buttons() {
     });
 
     return () => {
-      // Revert or kill the ScrollTrigger instance when the component unmounts
       if (scrollTriggerRef.current) {
         scrollTriggerRef.current.kill();
       }

@@ -113,6 +113,7 @@ const category = [
     title: "Free Azure Certificates",
     cardText: <Cards cardData={azureCertifications} />,
   },
+ 
 ];
 
 const CardContainer = () => {

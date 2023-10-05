@@ -20,21 +20,27 @@ function News() {
   }, []);
 
   return (
-<>
-  <div className="container-news">
-    {articles.map((article, index) => (
-   
+    <>
+    <div className="header-news">
+      <p>Take a break and read Latest News</p>
+    </div>
+      <div className="container-news">
+        {articles.map((article, index) => (
           <div className="card-news" key={index}>
-            <img src={article.image} style={{ width: "100%", height: "150px" }} alt="" />
+            <img
+              src={article.image}
+              style={{ width: "100%", height: "150px" }}
+              alt=""
+            />
             <h3 className="news-title">{article.title}</h3>
             <p>{article.description}</p>
-            <a className="news-link" href={article.url} target="_blank">Read more</a>
+            <a className="news-link" href={article.url} target="_blank">
+              Read more
+            </a>
           </div>
-   
-
-    ))}
-  </div>
-</>
+        ))}
+      </div>
+    </>
   );
 }
 
