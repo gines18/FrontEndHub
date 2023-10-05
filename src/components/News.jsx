@@ -16,25 +16,25 @@ function News() {
       })
       .then(function (data) {
         setArticles(data.articles);
-        console.log(data.articles);
       });
   }, []);
 
   return (
-    <>
-<div className="compo">
-      <div className="news-component">
-        {articles.map((article, index) => (
+<>
+  <div className="container-news">
+    {articles.map((article, index) => (
+   
           <div className="card-news" key={index}>
-            <img src={article.image} style={{ width: "100%" }} alt="" />
-            <h3>{article.title}</h3>
+            <img src={article.image} style={{ width: "100%", height: "150px" }} alt="" />
+            <h3 className="news-title">{article.title}</h3>
             <p>{article.description}</p>
-            <a href={article.url} target="_blank">Read</a>
+            <a className="news-link" href={article.url} target="_blank">Read more</a>
           </div>
-        ))}
-      </div>
-      </div>
-    </>
+   
+
+    ))}
+  </div>
+</>
   );
 }
 

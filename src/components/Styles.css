@@ -640,16 +640,35 @@ background-color: 65544C;
 
 }
 
-.news-component {
-  width: 50%;
-  background-color: #F9DF84;
-  ;
-  padding: 40px;
+/* News API */
+
+.container-news {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  justify-content: center;
+  gap: 20px;
+  position: relative;
+  top: 80px;
+  background-color: #2e3a42;
+  padding: 20px;
 
 }
 
 .card-news{
+  width: 300px;
   padding: 10px;
-  border: 1px solid red;
 
+  background-color:#7fa45e;
+}
+
+.news-title{
+  color: #fbfaf9;
+  font-size: 1.2rem;
+  padding: 3px;
+}
+
+.news-link{
+  text-decoration: none;
+color: #DCD8B0;
 }
