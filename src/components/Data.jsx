@@ -1263,3 +1263,68 @@ export const azureCertifications = [
     cardLink: "https://learn.microsoft.com/en-us/certifications/azure-data-engineer/",
   },
 ];
+
+export const linkedin = [
+  {
+      title: "Artificial Intelligence Foundations: Machine Learning",
+      imageUrl: "linkedin.jpeg",
+      cardText: "Learn the foundations of Artificial Intelligence and Machine Learning on LinkedIn Learning.",
+      cardLink: "https://www.linkedin.com/learning/artificial-intelligence-foundations-machine-learning-22345868"
+  },
+  {
+      title: "Learning Cloud Computing",
+      imageUrl: "linkedin.jpeg",
+      cardText: "Explore core concepts of Cloud Computing on LinkedIn Learning.",
+      cardLink: "https://www.linkedin.com/learning/learning-cloud-computing-core-concepts-13966302"
+  },
+  {
+      title: "Strategic Thinking",
+      imageUrl: "linkedin.jpeg",
+      cardText: "Develop strategic thinking skills with this LinkedIn Learning course.",
+      cardLink: "https://www.linkedin.com/learning/strategic-thinking-22616141"
+  },
+  {
+      title: "Selling to Executives",
+      imageUrl: "linkedin.jpeg",
+      cardText: "Learn effective strategies for selling to executives on LinkedIn Learning.",
+      cardLink: "https://www.linkedin.com/learning/selling-to-executives"
+  },
+  {
+      title: "Blockchain Basics",
+      imageUrl: "linkedin.jpeg",
+      cardText: "Get started with the basics of Blockchain technology on LinkedIn Learning.",
+      cardLink: "https://www.linkedin.com/learning/blockchain-basics-14414119"
+  },
+  {
+      title: "Learning Python",
+      imageUrl: "linkedin.jpeg",
+      cardText: "Start your Python learning journey on LinkedIn Learning.",
+      cardLink: "https://www.linkedin.com/learning/learning-python-14393370"
+  },
+  {
+      title: "Learning Video Production and Editing",
+      imageUrl: "linkedin.jpeg",
+      cardText: "Master video production and editing skills on LinkedIn Learning.",
+      cardLink: "https://www.linkedin.com/learning/learning-video-production-and-editing-3"
+  },
+  {
+      title: "Excel: Tips and Tricks",
+      imageUrl: "linkedin.jpeg",
+      cardText: "Discover useful tips and tricks for Microsoft Excel on LinkedIn Learning.",
+      cardLink: "https://www.linkedin.com/learning/excel-tips-and-tricks-18783079"
+  },
+  {
+      title: "Affiliate Marketing Foundations",
+      imageUrl: "linkedin.jpeg",
+      cardText: "Learn the fundamentals of Affiliate Marketing on LinkedIn Learning.",
+      cardLink: "https://www.linkedin.com/learning/affiliate-marketing-foundations"
+  },
+  {
+      title: "Marketing Tools: Digital Marketing Tools and Services",
+      imageUrl: "linkedin.jpeg",
+      cardText: "Explore digital marketing tools and services on LinkedIn Learning.",
+      cardLink: "https://www.linkedin.com/learning/marketing-tools-digital-marketing-tools-and-services-22370451"
+  }
+];
+
+

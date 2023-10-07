@@ -25,7 +25,8 @@ import {
   resumeBuilders,
   azureCertifications,
   work,
-  fontsUsage
+  fontsUsage,
+  linkedin
 } from "./Data";
 
 const category = [
@@ -112,6 +113,10 @@ const category = [
   {
     title: "Free Azure Certificates",
     cardText: <Cards cardData={azureCertifications} />,
+  },
+  {
+    title: "Linkedin Courses",
+    cardText: <Cards cardData={linkedin} />,
   },
  
 ];

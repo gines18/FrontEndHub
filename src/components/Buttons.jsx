@@ -70,7 +70,7 @@ const buttons = [
     category: "Free Azure Certificates",
   },
   {
-    category: "News",
+    category: "Linkedin Courses",
   },
 ];
 
