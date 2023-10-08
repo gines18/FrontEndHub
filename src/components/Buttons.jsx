@@ -72,6 +72,9 @@ const buttons = [
   {
     category: "Linkedin Courses",
   },
+  {
+    category: "Internships",
+  },
 ];
 
 export default function Buttons() {

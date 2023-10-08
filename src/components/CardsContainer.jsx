@@ -26,7 +26,8 @@ import {
   azureCertifications,
   work,
   fontsUsage,
-  linkedin
+  linkedin,
+  internships
 } from "./Data";
 
 const category = [
@@ -117,6 +118,10 @@ const category = [
   {
     title: "Linkedin Courses",
     cardText: <Cards cardData={linkedin} />,
+  },
+  {
+    title: "Internships",
+    cardText: <Cards cardData={internships} />,
   },
  
 ];

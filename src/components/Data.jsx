@@ -1242,89 +1242,153 @@ export const resumeBuilders = [
   },
 ];
 
-
 export const azureCertifications = [
   {
     title: "Azure Data Scientist Associate",
     imageUrl: "./azure.png",
     cardText: "Become an Azure Data Scientist Associate.",
-    cardLink: "https://learn.microsoft.com/en-us/certifications/azure-data-scientist/",
+    cardLink:
+      "https://learn.microsoft.com/en-us/certifications/azure-data-scientist/",
   },
   {
     title: "Azure Enterprise Data Analyst Associate",
-    imageUrl: "./azure.png", 
+    imageUrl: "./azure.png",
     cardText: "Become an Azure Enterprise Data Analyst Associate.",
-    cardLink: "https://learn.microsoft.com/en-us/certifications/azure-enterprise-data-analyst-associate/",
+    cardLink:
+      "https://learn.microsoft.com/en-us/certifications/azure-enterprise-data-analyst-associate/",
   },
   {
     title: "Azure Data Engineer Associate",
     imageUrl: "./azure.png",
     cardText: "Become an Azure Data Engineer Associate.",
-    cardLink: "https://learn.microsoft.com/en-us/certifications/azure-data-engineer/",
+    cardLink:
+      "https://learn.microsoft.com/en-us/certifications/azure-data-engineer/",
   },
 ];
 
 export const linkedin = [
   {
-      title: "Artificial Intelligence Foundations: Machine Learning",
-      imageUrl: "linkedin.jpeg",
-      cardText: "Learn the foundations of Artificial Intelligence and Machine Learning on LinkedIn Learning.",
-      cardLink: "https://www.linkedin.com/learning/artificial-intelligence-foundations-machine-learning-22345868"
+    title: "Artificial Intelligence Foundations: Machine Learning",
+    imageUrl: "linkedin.jpeg",
+    cardText:
+      "Learn the foundations of Artificial Intelligence and Machine Learning on LinkedIn Learning.",
+    cardLink:
+      "https://www.linkedin.com/learning/artificial-intelligence-foundations-machine-learning-22345868",
   },
   {
-      title: "Learning Cloud Computing",
-      imageUrl: "linkedin.jpeg",
-      cardText: "Explore core concepts of Cloud Computing on LinkedIn Learning.",
-      cardLink: "https://www.linkedin.com/learning/learning-cloud-computing-core-concepts-13966302"
+    title: "Learning Cloud Computing",
+    imageUrl: "linkedin.jpeg",
+    cardText: "Explore core concepts of Cloud Computing on LinkedIn Learning.",
+    cardLink:
+      "https://www.linkedin.com/learning/learning-cloud-computing-core-concepts-13966302",
   },
   {
-      title: "Strategic Thinking",
-      imageUrl: "linkedin.jpeg",
-      cardText: "Develop strategic thinking skills with this LinkedIn Learning course.",
-      cardLink: "https://www.linkedin.com/learning/strategic-thinking-22616141"
+    title: "Strategic Thinking",
+    imageUrl: "linkedin.jpeg",
+    cardText:
+      "Develop strategic thinking skills with this LinkedIn Learning course.",
+    cardLink: "https://www.linkedin.com/learning/strategic-thinking-22616141",
   },
   {
-      title: "Selling to Executives",
-      imageUrl: "linkedin.jpeg",
-      cardText: "Learn effective strategies for selling to executives on LinkedIn Learning.",
-      cardLink: "https://www.linkedin.com/learning/selling-to-executives"
+    title: "Selling to Executives",
+    imageUrl: "linkedin.jpeg",
+    cardText:
+      "Learn effective strategies for selling to executives on LinkedIn Learning.",
+    cardLink: "https://www.linkedin.com/learning/selling-to-executives",
   },
   {
-      title: "Blockchain Basics",
-      imageUrl: "linkedin.jpeg",
-      cardText: "Get started with the basics of Blockchain technology on LinkedIn Learning.",
-      cardLink: "https://www.linkedin.com/learning/blockchain-basics-14414119"
+    title: "Blockchain Basics",
+    imageUrl: "linkedin.jpeg",
+    cardText:
+      "Get started with the basics of Blockchain technology on LinkedIn Learning.",
+    cardLink: "https://www.linkedin.com/learning/blockchain-basics-14414119",
   },
   {
-      title: "Learning Python",
-      imageUrl: "linkedin.jpeg",
-      cardText: "Start your Python learning journey on LinkedIn Learning.",
-      cardLink: "https://www.linkedin.com/learning/learning-python-14393370"
+    title: "Learning Python",
+    imageUrl: "linkedin.jpeg",
+    cardText: "Start your Python learning journey on LinkedIn Learning.",
+    cardLink: "https://www.linkedin.com/learning/learning-python-14393370",
   },
   {
-      title: "Learning Video Production and Editing",
-      imageUrl: "linkedin.jpeg",
-      cardText: "Master video production and editing skills on LinkedIn Learning.",
-      cardLink: "https://www.linkedin.com/learning/learning-video-production-and-editing-3"
+    title: "Learning Video Production and Editing",
+    imageUrl: "linkedin.jpeg",
+    cardText:
+      "Master video production and editing skills on LinkedIn Learning.",
+    cardLink:
+      "https://www.linkedin.com/learning/learning-video-production-and-editing-3",
   },
   {
-      title: "Excel: Tips and Tricks",
-      imageUrl: "linkedin.jpeg",
-      cardText: "Discover useful tips and tricks for Microsoft Excel on LinkedIn Learning.",
-      cardLink: "https://www.linkedin.com/learning/excel-tips-and-tricks-18783079"
+    title: "Excel: Tips and Tricks",
+    imageUrl: "linkedin.jpeg",
+    cardText:
+      "Discover useful tips and tricks for Microsoft Excel on LinkedIn Learning.",
+    cardLink:
+      "https://www.linkedin.com/learning/excel-tips-and-tricks-18783079",
   },
   {
-      title: "Affiliate Marketing Foundations",
-      imageUrl: "linkedin.jpeg",
-      cardText: "Learn the fundamentals of Affiliate Marketing on LinkedIn Learning.",
-      cardLink: "https://www.linkedin.com/learning/affiliate-marketing-foundations"
+    title: "Affiliate Marketing Foundations",
+    imageUrl: "linkedin.jpeg",
+    cardText:
+      "Learn the fundamentals of Affiliate Marketing on LinkedIn Learning.",
+    cardLink:
+      "https://www.linkedin.com/learning/affiliate-marketing-foundations",
   },
   {
-      title: "Marketing Tools: Digital Marketing Tools and Services",
-      imageUrl: "linkedin.jpeg",
-      cardText: "Explore digital marketing tools and services on LinkedIn Learning.",
-      cardLink: "https://www.linkedin.com/learning/marketing-tools-digital-marketing-tools-and-services-22370451"
-  }
+    title: "Marketing Tools: Digital Marketing Tools and Services",
+    imageUrl: "linkedin.jpeg",
+    cardText:
+      "Explore digital marketing tools and services on LinkedIn Learning.",
+    cardLink:
+      "https://www.linkedin.com/learning/marketing-tools-digital-marketing-tools-and-services-22370451",
+  },
 ];
 
-
+export const internships = [
+  {
+    title: "Internships",
+    imageUrl: "./intern.png",
+    cardText:
+      "Find a wide range of internship opportunities on Internships.com.",
+    cardLink: "https://www.internships.com",
+  },
+  {
+    title: "Internmatch",
+    imageUrl: "./intern.png",
+    cardText:
+      "Discover internships that match your career goals on Internmatch.com.",
+    cardLink: "https://www.internmatch.com",
+  },
+  {
+    title: "AbsoluteInternship",
+    imageUrl: "./intern.png",
+    cardText:
+      "Explore global internship opportunities with AbsoluteInternship.com.",
+    cardLink: "https://www.absoluteinternship.com",
+  },
+  {
+    title: "Youtern",
+    imageUrl: "./intern.png",
+    cardText: "Connect with internships and entry-level jobs on Youtern.com.",
+    cardLink: "https://www.youtern.com",
+  },
+  {
+    title: "GoAbroad",
+    imageUrl: "./intern.png",
+    cardText:
+      "Find international internships and volunteer opportunities on GoAbroad.com.",
+    cardLink: "https://www.goabroad.com",
+  },
+  {
+    title: "GlobalExperience",
+    imageUrl: "./intern.png",
+    cardText:
+      "Gain global experience through internships with GlobalExperience.com.",
+    cardLink: "https://www.globalexperience.com",
+  },
+  {
+    title: "TechIntern",
+    imageUrl: "./intern.png",
+    cardText: "Explore tech-focused internship opportunities on TechIntern.io.",
+    cardLink: "https://www.techintern.io",
+  },
+];
