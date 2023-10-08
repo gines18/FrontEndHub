@@ -22,7 +22,7 @@ function News() {
   return (
     <>
     <div className="header-news">
-      <p>Take a break and read Latest News</p>
+      <p>Take a break and read <span className="underline-news">Latest News</span></p>
     </div>
       <div className="container-news">
         {articles.map((article, index) => (

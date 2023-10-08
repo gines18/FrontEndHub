@@ -691,7 +691,12 @@ section {
 @media (max-width: 480px) {
   .header-news {
     font-size: 1.5rem;
-   
-
   }
+}
+
+.underline-news{
+
+color: black;
+font-weight: 500;
+
 }
