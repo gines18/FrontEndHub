@@ -681,6 +681,7 @@ section {
   width: 100%;
   color: #fbfaf9;
   font-size: 3rem;
+  margin-top: 100px;
 }
 @media (max-width: 768px) {
   .header-news {
@@ -695,12 +696,11 @@ section {
 }
 
 .underline-news{
-
 color: black;
 font-weight: 500;
-
 }
 
+/* Logo website */
 .logo-container{
 display: flex;
 justify-content: center;

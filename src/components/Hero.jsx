@@ -32,6 +32,7 @@ const Hero = () => {
         <div id="about" className="welcome">
           <h1>Welcome to Our Website</h1>
           <p>Your go-to destination for amazing content.</p>
+        <img className="logo-img" src="logo-website.png" alt="" />
         </div>
         <div className="image"></div>
       </motion.div>
