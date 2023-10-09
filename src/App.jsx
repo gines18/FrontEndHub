@@ -1,16 +1,14 @@
 import React from "react";
 import Hero from "./components/Hero";
-
 import CardContainer from "./components/CardsContainer";
 import Footer from "./components/Footer";
 import Buttons from "./components/Buttons";
 import Menu from "./components/Menu";
 import Info from "./components/Info";
 import { component } from "./components/Data";
-
 import Frontendhub from "./components/Frontendhub";
-
 import News from "./components/News";
+import Logo from "./components/Logo";
 
 function App() {
   return (
@@ -19,8 +17,9 @@ function App() {
       <Hero />
       <Buttons />
       <Info component={component} />
-      <News />
+      <Logo />
       <CardContainer />
+      <News />
       <Frontendhub />
       <Footer />
     </>

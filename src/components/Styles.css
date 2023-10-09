@@ -700,3 +700,15 @@ color: black;
 font-weight: 500;
 
 }
+
+.logo-container{
+display: flex;
+justify-content: center;
+align-items: center;
+width: 100%;
+height: 50vh;
+}
+
+.logo-img{
+  width: 400px;
+}
