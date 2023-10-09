@@ -712,3 +712,9 @@ height: 50vh;
 .logo-img{
   width: 400px;
 }
+
+@media (max-width: 480px) {
+  .logo-img {
+    width: 300px;
+  }
+}
