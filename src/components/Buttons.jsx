@@ -82,10 +82,6 @@ export default function Buttons() {
 
   useLayoutEffect(() => {
     scrollTriggerRef.current = ScrollTrigger.create({
-      trigger: ".gallery",
-      start: "top top",
-      end: "bottom bottom",
-      pin: ".right",
     });
 
     return () => {
