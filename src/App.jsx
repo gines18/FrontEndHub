@@ -9,6 +9,7 @@ import { component } from "./components/Data";
 import Frontendhub from "./components/Frontendhub";
 import News from "./components/News";
 import Logo from "./components/Logo";
+import Content from "./components/Content";
 
 function App() {
   return (
@@ -20,6 +21,7 @@ function App() {
       <Logo />
       <CardContainer />
       <News />
+      <Content />
       <Frontendhub />
       <Footer />
     </>
