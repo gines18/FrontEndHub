@@ -3,6 +3,11 @@
 
 FrontEndHub is your one-stop destination for all things related to frontend development. Our platform offers fast and convenient access to a variety of design resources and tools, making your frontend development process smoother and more efficient.
 
+## Getting Started
+
+Visit our website at [Netlify](https://shiny-semolina-7d95a0.netlify.app) to start exploring our vast collection of fonts, colors, backgrounds, photo editors, and AI tools. Our intuitive interface and streamlined navigation ensure that you can quickly find and utilize the resources you need.
+
+
 <img src="https://github.com/gines18/FrontEndHub/blob/master/public/Screenshot%202023-08-11%20at%2017.19.24.png?raw=true"/>
 
 ## Features
@@ -26,10 +31,6 @@ Edit and optimize your images directly on our platform using powerful photo edit
 ### AI Tools
 
 Experience the future of frontend development with our AI-powered tools. Harness the capabilities of artificial intelligence to automate repetitive tasks, generate design suggestions, and enhance user interactions. FrontEndHub's AI tools empower you to work smarter and more creatively.
-
-## Getting Started
-
-Visit our website at [Netlify](https://shiny-semolina-7d95a0.netlify.app) to start exploring our vast collection of fonts, colors, backgrounds, photo editors, and AI tools. Our intuitive interface and streamlined navigation ensure that you can quickly find and utilize the resources you need.
 
 ## Contributing
 
