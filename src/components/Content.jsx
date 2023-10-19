@@ -27,21 +27,14 @@ const content = [
     },
 ]
 
-
-
-
-
 function Content() {
   return (
     <div className='container-content'>
-<div className='cool-background'>
-  
-</div>
-        <img src="logo-website.png" alt="" style={{width: "400px"}}/>
-        <p>Free Frontend tools</p>
-        <h1>Elevate your website's visual appeal and interactivity</h1>
-        <p>SEPT 20 | 03:00 PM CET | 09:00 AM EDT</p>
-        <button>Register</button>
+        <img src="logo-website.png" alt="logo" style={{width: "400px"}}/>
+        <div className='content-font'>
+        <p className='responsive-font'>Free Frontend tools</p>
+        <h1 className='responsive-font'>Elevate your website's visual appeal and interactivity</h1>
+      </div>
         <div className='img-content'>
             {content.map((item, index) => (
               <div className='img-data' key={index}>
@@ -49,7 +42,6 @@ function Content() {
                 <p>{item.text}</p>
                 </div>
             ))}
-     
         </div>
     </div>
   )

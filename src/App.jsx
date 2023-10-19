@@ -15,13 +15,13 @@ function App() {
   return (
     <>
       <Menu />
+      <Content />
       <Hero />
       <Buttons />
       <Info component={component} />
       <Logo />
       <CardContainer />
       <News />
-      <Content />
       <Frontendhub />
       <Footer />
     </>
