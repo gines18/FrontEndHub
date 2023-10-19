@@ -17,6 +17,7 @@ const Cards = ({ cardData }) => {
             sx={{ maxWidth: 345, minWidth: 350, margin: "16px" }}
           >
             <CardMedia
+            className="round-shadow-img"
               component="img"
               height="140"
               src={card.imageUrl}
