@@ -94,13 +94,6 @@ export const background = [
     cardLink: "https://bggenerator.com/",
   },
   {
-    title: "Cool background",
-    imageUrl: "./background2.png",
-    cardText:
-      "As a sample of a few options available, the following list of images are ready to use for any application",
-    cardLink: "https://coolbackgrounds.io/",
-  },
-  {
     title: "Super designer",
     imageUrl: "background3.png",
     cardText:
@@ -127,6 +120,73 @@ export const background = [
       "Create stunning websites easily with fullscreen graphics under 5KB",
     cardLink: "https://www.svgbackgrounds.com/",
   },
+  // jjj
+  {
+    "title": "10015",
+    "imageUrl": "./backgroundtools_0.png",
+    "cardText": "A website for creative background generation.",
+    "cardLink": "https://10015.io/tools/svg-pattern-generator"
+},
+{
+    "title": "Trianglify",
+    "imageUrl": "./backgroundtools_1.png",
+    "cardText": "Generate colorful and customizable triangle patterns.",
+    "cardLink": "https://trianglify.io/"
+},
+{
+    "title": "Codioful",
+    "imageUrl": "./backgroundtools_2.png",
+    "cardText": "Explore and create beautiful code-themed backgrounds.",
+    "cardLink": "https://codioful.com/"
+},
+{
+    "title": "Patternify",
+    "imageUrl": "./backgroundtools_3.png",
+    "cardText": "Design patterns and backgrounds with ease.",
+    "cardLink": "https://patternify.com/"
+},
+{
+    "title": "Css-gradient",
+    "imageUrl": "./backgroundtools_4.png",
+    "cardText": "Generate CSS gradients for your web projects.",
+    "cardLink": "https://cssgradient.io//"
+},
+{
+    "title": "Patternizer",
+    "imageUrl": "./backgroundtools_5.png",
+    "cardText": "Create patterns for your websites and designs.",
+    "cardLink": "https://patternizer.com/"
+},
+{
+    "title": "Meshgradient",
+    "imageUrl": "./backgroundtools_6.png",
+    "cardText": "Generate mesh gradients for your web content.",
+    "cardLink": "https://meshgradient.in/"
+},
+{
+    "title": "Css-pattern",
+    "imageUrl": "./backgroundtools_7.png",
+    "cardText": "Design and use CSS patterns in your projects.",
+    "cardLink": "https://css-pattern.com/"
+},
+{
+    "title": "Webgradients",
+    "imageUrl": "./backgroundtools_8.png",
+    "cardText": "Find beautiful web gradients for your designs.",
+    "cardLink": "https://webgradients.com/"
+},
+{
+    "title": "Coolbackgrounds",
+    "imageUrl": "./backgroundtools_9.png",
+    "cardText": "Discover and create cool backgrounds for your projects.",
+    "cardLink": "https://coolbackgrounds.io/"
+},
+{
+    "title": "Magicpattern",
+    "imageUrl": "./backgroundtools_10.png",
+    "cardText": "Design and customize magical patterns for your projects.",
+    "cardLink": "https://magicpattern.design/"
+}
 ];
 
 export const photoEditor = [
