@@ -832,3 +832,20 @@ section {
     font-size: 24px;
   }
 }
+
+
+::-webkit-scrollbar {
+  width: 15px; /* You can adjust the width as needed */
+  
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: red; /* Set the thumb color to red */
+  border: 2px solid lime; /* Add a border around the thumb */
+  background-image: url(cv7.png);
+
+}
+
+::-webkit-scrollbar-track {
+  background-color: black; /* Set the track color (optional) */
+}
