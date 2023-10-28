@@ -748,13 +748,6 @@ section {
   width: 100%;
 }
 
-@media (max-width: 480px) {
-  .container-content {
-    height: 40vh;
-    margin-top: 100px;
-  }
-}
-
 .img-content {
   display: flex;
   justify-content: center;
@@ -767,6 +760,27 @@ section {
   border-radius: 50%;
   height: 155px;
   width: 155px;
+}
+
+.img-data {
+  display: flex;
+  justify-content: space-around;
+  height: 240px;
+  flex-direction: column;
+  align-items: center;
+  color: white;
+  z-index: 1;
+}
+
+.responsive-font {
+  font-size: 16px;
+}
+
+@media (max-width: 480px) {
+  .container-content {
+    height: 40vh;
+    margin-top: 100px;
+  }
 }
 
 @media (max-width: 1440px) and (min-width: 480px) {
@@ -805,20 +819,14 @@ section {
     height: 120px !important;
     min-width: 100px !important;
   }
-}
+  .responsive-font {
+    font-size: 1rem;
+  }
+  
+  .responsive-fontHeader {
+    font-size: 1.5rem;
+  }
 
-.img-data {
-  display: flex;
-  justify-content: space-around;
-  height: 240px;
-  flex-direction: column;
-  align-items: center;
-  color: white;
-  z-index: 1;
-}
-
-.responsive-font {
-  font-size: 16px;
 }
 
 @media (min-width: 768px) {
@@ -833,19 +841,16 @@ section {
   }
 }
 
-
+/* Scrollbar */
 ::-webkit-scrollbar {
-  width: 15px; /* You can adjust the width as needed */
-  
+  width: 15px;
 }
 
 ::-webkit-scrollbar-thumb {
-  background-color: red; /* Set the thumb color to red */
-  border: 2px solid lime; /* Add a border around the thumb */
-  background-image: url(cv7.png);
-
+  background-color: red; 
+  border: 2px solid lime;
 }
 
 ::-webkit-scrollbar-track {
-  background-color: black; /* Set the track color (optional) */
+  background-color: black;
 }

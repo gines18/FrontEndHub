@@ -32,7 +32,7 @@ function Content() {
     <div className='container-content'>
         <img src="logo-website.png" alt="logo" style={{width: "400px"}}/>
         <div className='content-font'>
-        <p className='responsive-font'>Free Frontend tools</p>
+        <p className='responsive-fontHeader'>Free Frontend tools</p>
         <h1 className='responsive-font'>Elevate your website's visual appeal and interactivity</h1>
       </div>
         <div className='img-content'>
