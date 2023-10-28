@@ -4,7 +4,6 @@
 @import url("https://fonts.googleapis.com/css2?family=Assistant:wght@200&family=Cormorant+Garamond:ital,wght@1,600&family=Heebo:wght@500&family=Lato:wght@300&family=Montserrat:ital,wght@1,200&family=Quicksand:wght@300&family=Roboto+Serif:opsz,wght@8..144,200&family=Work+Sans&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Assistant:wght@200&family=Bitter:wght@600&family=Cormorant+Garamond:ital,wght@1,600&family=Heebo:wght@500&family=Lato:wght@300&family=Montserrat:ital,wght@1,200&family=Quicksand:wght@300&family=Roboto+Serif:opsz,wght@8..144,200&family=Work+Sans&display=swap");
 
-
 body {
   position: absolute;
   padding: 0;
@@ -747,15 +746,6 @@ section {
   background-image: cover;
   background-size: cover;
   width: 100%;
-
-  
-}
-
-@media (max-width: 768px) {
-  .container-content {
-    
-    
-  }
 }
 
 @media (max-width: 480px) {
@@ -828,12 +818,12 @@ section {
 }
 
 .responsive-font {
-  font-size: 16px; 
+  font-size: 16px;
 }
 
 @media (min-width: 768px) {
   .responsive-font {
-    font-size: 20px; 
+    font-size: 20px;
   }
 }
 
