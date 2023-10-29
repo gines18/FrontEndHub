@@ -715,6 +715,10 @@ section {
   font-weight: 500;
 }
 
+#no-articles{
+  color: #f5f5f5;
+}
+
 /* Logo website */
 .logo-container {
   display: flex;
