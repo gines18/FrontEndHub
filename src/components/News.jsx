@@ -3,7 +3,7 @@ import * as React from "react";
 
 function News() {
   const [articles, setArticles] = useState([]);
-  const [showArticles, setShowArticles] = useState(false); // Add a state to control whether to display articles or not
+  const [showArticles, setShowArticles] = useState(true); // Add a state to control whether to display articles or not
 
   useEffect(() => {
     const apikey = "2e7a023c0e31506f9945a4fc2eedac41";
@@ -16,8 +16,13 @@ function News() {
         return response.json();
       })
       .then(function (data) {
-        setArticles(data.articles);
-        setShowArticles(true); // Set the state to true when articles are fetched
+        if (data.articles.length === 0 ) {
+          setArticles(false);
+        } else {
+          
+          setArticles(data.articles);
+        }
+        
       });
   }, []);
 
@@ -29,7 +34,7 @@ function News() {
         </p>
       </div>
       <div className="container-news">
-        {setShowArticles === true ? (
+        {showArticles ? (
           articles.map((article, index) => (
             <div className="card-news" key={index}>
               <img
