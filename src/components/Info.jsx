@@ -10,7 +10,6 @@ gsap.registerPlugin(ScrollTrigger);
   {
     title: <span> <span className="gradient-text">Crafting Engaging User Experiences  <br /> Through Frontend Web Development</span></span>,
     imgSrc: "./ilu3.jpeg",
- 
   },
 ]
 
