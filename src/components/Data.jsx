@@ -122,71 +122,71 @@ export const background = [
   },
   // jjj
   {
-    "title": "10015",
-    "imageUrl": "./backgroundtools_0.png",
-    "cardText": "A website for creative background generation.",
-    "cardLink": "https://10015.io/tools/svg-pattern-generator"
-},
-{
-    "title": "Trianglify",
-    "imageUrl": "./backgroundtools_1.png",
-    "cardText": "Generate colorful and customizable triangle patterns.",
-    "cardLink": "https://trianglify.io/"
-},
-{
-    "title": "Codioful",
-    "imageUrl": "./backgroundtools_2.png",
-    "cardText": "Explore and create beautiful code-themed backgrounds.",
-    "cardLink": "https://codioful.com/"
-},
-{
-    "title": "Patternify",
-    "imageUrl": "./backgroundtools_3.png",
-    "cardText": "Design patterns and backgrounds with ease.",
-    "cardLink": "https://patternify.com/"
-},
-{
-    "title": "Css-gradient",
-    "imageUrl": "./backgroundtools_4.png",
-    "cardText": "Generate CSS gradients for your web projects.",
-    "cardLink": "https://cssgradient.io//"
-},
-{
-    "title": "Patternizer",
-    "imageUrl": "./backgroundtools_5.png",
-    "cardText": "Create patterns for your websites and designs.",
-    "cardLink": "https://patternizer.com/"
-},
-{
-    "title": "Meshgradient",
-    "imageUrl": "./backgroundtools_6.png",
-    "cardText": "Generate mesh gradients for your web content.",
-    "cardLink": "https://meshgradient.in/"
-},
-{
-    "title": "Css-pattern",
-    "imageUrl": "./backgroundtools_7.png",
-    "cardText": "Design and use CSS patterns in your projects.",
-    "cardLink": "https://css-pattern.com/"
-},
-{
-    "title": "Webgradients",
-    "imageUrl": "./backgroundtools_8.png",
-    "cardText": "Find beautiful web gradients for your designs.",
-    "cardLink": "https://webgradients.com/"
-},
-{
-    "title": "Coolbackgrounds",
-    "imageUrl": "./backgroundtools_9.png",
-    "cardText": "Discover and create cool backgrounds for your projects.",
-    "cardLink": "https://coolbackgrounds.io/"
-},
-{
-    "title": "Magicpattern",
-    "imageUrl": "./backgroundtools_10.png",
-    "cardText": "Design and customize magical patterns for your projects.",
-    "cardLink": "https://magicpattern.design/"
-}
+    title: "10015",
+    imageUrl: "./backgroundtools_0.png",
+    cardText: "A website for creative background generation.",
+    cardLink: "https://10015.io/tools/svg-pattern-generator",
+  },
+  {
+    title: "Trianglify",
+    imageUrl: "./backgroundtools_1.png",
+    cardText: "Generate colorful and customizable triangle patterns.",
+    cardLink: "https://trianglify.io/",
+  },
+  {
+    title: "Codioful",
+    imageUrl: "./backgroundtools_2.png",
+    cardText: "Explore and create beautiful code-themed backgrounds.",
+    cardLink: "https://codioful.com/",
+  },
+  {
+    title: "Patternify",
+    imageUrl: "./backgroundtools_3.png",
+    cardText: "Design patterns and backgrounds with ease.",
+    cardLink: "https://patternify.com/",
+  },
+  {
+    title: "Css-gradient",
+    imageUrl: "./backgroundtools_4.png",
+    cardText: "Generate CSS gradients for your web projects.",
+    cardLink: "https://cssgradient.io//",
+  },
+  {
+    title: "Patternizer",
+    imageUrl: "./backgroundtools_5.png",
+    cardText: "Create patterns for your websites and designs.",
+    cardLink: "https://patternizer.com/",
+  },
+  {
+    title: "Meshgradient",
+    imageUrl: "./backgroundtools_6.png",
+    cardText: "Generate mesh gradients for your web content.",
+    cardLink: "https://meshgradient.in/",
+  },
+  {
+    title: "Css-pattern",
+    imageUrl: "./backgroundtools_7.png",
+    cardText: "Design and use CSS patterns in your projects.",
+    cardLink: "https://css-pattern.com/",
+  },
+  {
+    title: "Webgradients",
+    imageUrl: "./backgroundtools_8.png",
+    cardText: "Find beautiful web gradients for your designs.",
+    cardLink: "https://webgradients.com/",
+  },
+  {
+    title: "Coolbackgrounds",
+    imageUrl: "./backgroundtools_9.png",
+    cardText: "Discover and create cool backgrounds for your projects.",
+    cardLink: "https://coolbackgrounds.io/",
+  },
+  {
+    title: "Magicpattern",
+    imageUrl: "./backgroundtools_10.png",
+    cardText: "Design and customize magical patterns for your projects.",
+    cardLink: "https://magicpattern.design/",
+  },
 ];
 
 export const photoEditor = [
@@ -1450,5 +1450,98 @@ export const internships = [
     imageUrl: "./intern.png",
     cardText: "Explore tech-focused internship opportunities on TechIntern.io.",
     cardLink: "https://www.techintern.io",
+  },
+];
+
+export const money = [
+  {
+    title: "JumpTask",
+    imageUrl: "freemoney_9.png", 
+    cardText:
+      "Users can make money by completing various digital tasks such as gaming, surveys, app installations, and social engagement.",
+    cardLink: "https://app.jumptask.io",
+  },
+  {
+    title: "Grow on X or Linkedin",
+    imageUrl: "freemoney_6.png", 
+    cardText:
+      "Do you want to grow on X or Linkedin? I can help you create amazing content that X likes, actively engage with the community, and do everything that is required to achieve more followers. I've mastered the game, so you don't have to!",
+  },
+  {
+    title: "FreeCash.Com",
+    imageUrl: "freemoney_0.png", 
+    cardText:
+      "You can earn money by filling out surveys, completing tasks, signing up, or playing games. Users have already earned $28,000,000+.",
+    cardLink: "https://freecash.com",
+  },
+  {
+    title: "Earn With Koji",
+    imageUrl: "freemoney_10.png", 
+    cardText:
+      "Koji is a free, digital storefront that makes it easy to sell to your audience through social media. Have digital downloads? Premium content? Whatever it is you create, you can sell it on social with your Koji.",
+    cardLink: "https://withkoji.com/",
+  },
+  {
+    title: "FreshBooks Affiliate",
+    imageUrl: "freemoney_4.png", 
+    cardText:
+      "If you get someone to sign up for a free trial, you'll get $10. This makes it easy to start making money right away.",
+    cardLink: "https://freshbooks.com",
+  },
+  {
+    title: "Fatllama",
+    imageUrl: "freemoney_2.png", 
+    cardText:
+      "Fat Lama lets you rent your belongings to those who need it, for the price you want. You can earn from an average of $50 a week to $10,000 a month, just by lending your unused belongings for a short period of time.",
+    cardLink: "https://fatllama.com/",
+  },
+  {
+    title: "miPic",
+    imageUrl: "freemoney_3.png", 
+    cardText:
+      "miPic is a phenomenal platform that allows artists, photographers, hobbyists, and art lovers to print, buy, and sell pictures as custom-made art and design products. On miPic, you can sell your images and earn up to 20% commission.",
+    cardLink: "https://mipic.co",
+  },
+  {
+    title: "Zirtual",
+    imageUrl: "freemoney_9.png", 
+    cardText:
+      "As a virtual assistant, you can work remotely and take care of tasks that clients don’t have time to manage, such as scheduling meetings, paying bills, booking travel, etc.",
+    cardLink: "https://zirtual.com",
+  },
+  {
+    title: "Swagbucks",
+    imageUrl: "freemoney_8.png", 
+    cardText:
+      "Swagbucks is one of the most popular online survey sites. When you sign up for a free Swagbucks account, you’ll get a $10 welcome bonus.",
+    cardLink: "https://swagbucks.com",
+  },
+  {
+    title: "Taskrabbit",
+    imageUrl: "freemoney_11.png", 
+    cardText:
+      "TaskRabbit is a platform that helps employees together connect with people who need small services. TaskRabbit is a place where people can get small services from 'Taskers'.",
+    cardLink: "https://taskrabbit.com",
+  },
+  {
+    title: "JustAnswer",
+    imageUrl: "freemoney_1.png", 
+    cardText:
+      "JustAnswer is an online paid question-and-answer service. For trained experts, it is a place where you can make up to $7,000/month by answering questions in your area of expertise.",
+    cardLink: "https://justanswer.com",
+  },
+  {
+    title: "Rewardy.io",
+    imageUrl: "rewardy_money.png", 
+    cardText:
+      "Rewardy.io is an innovative platform to earn money online. Methods include watching twitch streams, completing quizzes, playing games, taking offers/surveys, referring friends, and daily incentives.",
+    cardLink: "https://rewardy.io",
+  },
+  {
+    title: "GoTranscript",
+    imageUrl: "gotranscript_money.png", 
+    cardText:
+      "An example of a well-known web business that hires inexperienced transcribers remotely is GoTranscript. You can make money as a transcriber on the site even if you have no prior experience.",
+    cardLink: "https://gotranscript.com",
   },
 ];

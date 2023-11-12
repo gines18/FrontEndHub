@@ -75,6 +75,9 @@ const buttons = [
   {
     category: "Internships",
   },
+  {
+    category: "Earn Money",
+  },
 ];
 
 export default function Buttons() {

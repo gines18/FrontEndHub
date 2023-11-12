@@ -27,7 +27,8 @@ import {
   work,
   fontsUsage,
   linkedin,
-  internships
+  internships,
+  money
 } from "./Data";
 
 const category = [
@@ -122,6 +123,10 @@ const category = [
   {
     title: "Internships",
     cardText: <Cards cardData={internships} />,
+  },
+  {
+    title: "Earn Money",
+    cardText: <Cards cardData={money} />,
   },
  
 ];
