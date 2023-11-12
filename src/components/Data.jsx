@@ -1462,12 +1462,6 @@ export const money = [
     cardLink: "https://app.jumptask.io",
   },
   {
-    title: "Grow on X or Linkedin",
-    imageUrl: "freemoney_6.png", 
-    cardText:
-      "Do you want to grow on X or Linkedin? I can help you create amazing content that X likes, actively engage with the community, and do everything that is required to achieve more followers. I've mastered the game, so you don't have to!",
-  },
-  {
     title: "FreeCash.Com",
     imageUrl: "freemoney_0.png", 
     cardText:
