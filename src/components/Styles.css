@@ -29,8 +29,8 @@ html {
   flex-direction: row;
   align-items: center;
   flex-wrap: wrap;
-  padding: 60px;
-  position: relative;
+  padding: 20px;
+  position: sticky;
   top: 30px;
 }
 
@@ -95,6 +95,8 @@ html {
   margin: 0px 40px 0px 40px;
   overflow: hidden;
   position: relative;
+  flex: 1 0 400px;
+
 }
 .card-container-title.animations-complete {
   overflow: auto;
@@ -863,4 +865,17 @@ section {
 
 ::-webkit-scrollbar-track {
   background-color: black;
+}
+
+
+
+.main_container{
+  display: flex;
+  flex-direction: row;
+
+}
+/* Menu left */
+.menu_left{
+  width: 300px;
+  padding: 20px;
 }

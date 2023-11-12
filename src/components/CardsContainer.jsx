@@ -30,6 +30,7 @@ import {
   internships,
   money
 } from "./Data";
+import Buttons from "./Buttons";
 
 const category = [
   {
@@ -132,7 +133,13 @@ const category = [
 ];
 
 const CardContainer = () => {
+
   return (
+    <>
+    <div className="main_container">
+    <div className="menu_left">
+      <Buttons  />
+    </div>
     <div className="card-container-title">
       {category.map((card, index) => (
         <div key={card.title} className="card-item" id={card.title}>
@@ -146,7 +153,10 @@ const CardContainer = () => {
         </div>
       ))}
     </div>
+    </div>
+    </>
   );
+ 
 };
 
 export default CardContainer;

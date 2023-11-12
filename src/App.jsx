@@ -13,18 +13,19 @@ import Content from "./components/Content";
 
 function App() {
   return (
-    <>
-      <Menu />
-      <Content />
-      <Hero />
-      <Buttons />
-      <Info component={component} />
-      <Logo />
-      <CardContainer />
-      <News />
-      <Frontendhub />
-      <Footer />
-    </>
+<>
+  <Menu />
+  <Content />
+  <Hero />
+  <CardContainer>
+    <Buttons />
+  </CardContainer>
+  <Info component={component} />
+  <Logo />
+  <News />
+  <Frontendhub />
+  <Footer />
+</>
   );
 }
 
