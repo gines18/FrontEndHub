@@ -78,6 +78,11 @@ const buttons = [
   {
     category: "Earn Money",
   },
+  {
+    category: "Free Oxford Certificates",
+  },
+
+  
 ];
 
 export default function Buttons() {

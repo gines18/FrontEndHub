@@ -29,7 +29,17 @@ const Cards = ({ cardData }) => {
                 {card.title}
               </Typography>
               <Typography variant="body2" color="text.secondary">
-                {card.cardText}
+                {Array.isArray(card.cardText) ? (
+
+                <ul>
+                  {card.cardText.map((item, index) => (
+                  <li key={index}>{item}</li>
+                  ))}
+                </ul>
+                ) : (
+                  card.cardText
+                )}
+
               </Typography>
               <div className="arrow">
               <Typography variant="body2" color="text.secondary">

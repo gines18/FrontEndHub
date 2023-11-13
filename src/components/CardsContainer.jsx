@@ -28,7 +28,8 @@ import {
   fontsUsage,
   linkedin,
   internships,
-  money
+  money,
+  oxford
 } from "./Data";
 import Buttons from "./Buttons";
 
@@ -128,6 +129,10 @@ const category = [
   {
     title: "Earn Money",
     cardText: <Cards cardData={money} />,
+  },
+  {
+    title: "Free Oxford Certificates",
+    cardText: <Cards cardData={oxford} />,
   },
  
 ];

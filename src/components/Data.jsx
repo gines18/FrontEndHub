@@ -1061,7 +1061,7 @@ export const programmingChannels = [
     title: "C",
     imageUrl: "./languages15.png",
     cardText:
-      "Jacob Sorber -  I cover beginner-to-advanced systems topics ranging from network programming, threads, processes, operating systems, embedded systems and others.",
+      "Jacob Sorber -  I cover beginner-to-advanced systems cardText ranging from network programming, threads, processes, operating systems, embedded systems and others.",
     cardLink: "https://www.youtube.com/@JacobSorber/featured",
   },
   {
@@ -1456,86 +1456,202 @@ export const internships = [
 export const money = [
   {
     title: "JumpTask",
-    imageUrl: "freemoney_9.png", 
+    imageUrl: "freemoney_9.png",
     cardText:
       "Users can make money by completing various digital tasks such as gaming, surveys, app installations, and social engagement.",
     cardLink: "https://app.jumptask.io",
   },
   {
     title: "FreeCash.Com",
-    imageUrl: "freemoney_0.png", 
+    imageUrl: "freemoney_0.png",
     cardText:
       "You can earn money by filling out surveys, completing tasks, signing up, or playing games. Users have already earned $28,000,000+.",
     cardLink: "https://freecash.com",
   },
   {
     title: "Earn With Koji",
-    imageUrl: "freemoney_10.png", 
+    imageUrl: "freemoney_10.png",
     cardText:
       "Koji is a free, digital storefront that makes it easy to sell to your audience through social media. Have digital downloads? Premium content? Whatever it is you create, you can sell it on social with your Koji.",
     cardLink: "https://withkoji.com/",
   },
   {
     title: "FreshBooks Affiliate",
-    imageUrl: "freemoney_4.png", 
+    imageUrl: "freemoney_4.png",
     cardText:
       "If you get someone to sign up for a free trial, you'll get $10. This makes it easy to start making money right away.",
     cardLink: "https://freshbooks.com",
   },
   {
     title: "Fatllama",
-    imageUrl: "freemoney_2.png", 
+    imageUrl: "freemoney_2.png",
     cardText:
       "Fat Lama lets you rent your belongings to those who need it, for the price you want. You can earn from an average of $50 a week to $10,000 a month, just by lending your unused belongings for a short period of time.",
     cardLink: "https://fatllama.com/",
   },
   {
     title: "miPic",
-    imageUrl: "freemoney_3.png", 
+    imageUrl: "freemoney_3.png",
     cardText:
       "miPic is a phenomenal platform that allows artists, photographers, hobbyists, and art lovers to print, buy, and sell pictures as custom-made art and design products. On miPic, you can sell your images and earn up to 20% commission.",
     cardLink: "https://mipic.co",
   },
   {
     title: "Zirtual",
-    imageUrl: "freemoney_9.png", 
+    imageUrl: "freemoney_9.png",
     cardText:
       "As a virtual assistant, you can work remotely and take care of tasks that clients don’t have time to manage, such as scheduling meetings, paying bills, booking travel, etc.",
     cardLink: "https://zirtual.com",
   },
   {
     title: "Swagbucks",
-    imageUrl: "freemoney_8.png", 
+    imageUrl: "freemoney_8.png",
     cardText:
       "Swagbucks is one of the most popular online survey sites. When you sign up for a free Swagbucks account, you’ll get a $10 welcome bonus.",
     cardLink: "https://swagbucks.com",
   },
   {
     title: "Taskrabbit",
-    imageUrl: "freemoney_11.png", 
+    imageUrl: "freemoney_11.png",
     cardText:
       "TaskRabbit is a platform that helps employees together connect with people who need small services. TaskRabbit is a place where people can get small services from 'Taskers'.",
     cardLink: "https://taskrabbit.com",
   },
   {
     title: "JustAnswer",
-    imageUrl: "freemoney_1.png", 
+    imageUrl: "freemoney_1.png",
     cardText:
       "JustAnswer is an online paid question-and-answer service. For trained experts, it is a place where you can make up to $7,000/month by answering questions in your area of expertise.",
     cardLink: "https://justanswer.com",
   },
   {
     title: "Rewardy.io",
-    imageUrl: "rewardy_money.png", 
+    imageUrl: "rewardy_money.png",
     cardText:
       "Rewardy.io is an innovative platform to earn money online. Methods include watching twitch streams, completing quizzes, playing games, taking offers/surveys, referring friends, and daily incentives.",
     cardLink: "https://rewardy.io",
   },
   {
     title: "GoTranscript",
-    imageUrl: "gotranscript_money.png", 
+    imageUrl: "gotranscript_money.png",
     cardText:
       "An example of a well-known web business that hires inexperienced transcribers remotely is GoTranscript. You can make money as a transcriber on the site even if you have no prior experience.",
     cardLink: "https://gotranscript.com",
+  },
+];
+
+export const oxford = [
+  {
+    title: "Leadership & Management",
+    imageUrl: "oxford.png",
+    cardText: [
+      "Managing Performance",
+      "Servant Leadership",
+      "Consequential Thinking",
+      "Influence Strategies",
+    ],
+    cardLink:
+      "https://www.oxfordhomestudy.com/courses/leadership-courses-online/leadership-v-management-free",
+  },
+  {
+    title: "Interpersonal Skills",
+    imageUrl: "oxford.png",
+    cardText: [
+      "Basics of Communication Skills",
+      "Getting Better with Communication",
+      "Probing Techniques",
+    ],
+    cardLink:
+      "https://oxfordhomestudy.com/courses/leadership-courses-online/free-interpersonal-skills-training",
+  },
+  {
+    title: "Diploma in Personal Development",
+    imageUrl: "oxford.png",
+    cardText: [
+      "Personal Efficiency and Productivity",
+      "Building Block of a Good Organizational System",
+      "Prioritising Work and Routine",
+      "Developing Creativity",
+    ],
+    cardLink:
+      "https://oxfordhomestudy.com/courses/leadership-courses-online/personality-development-course-online",
+  },
+  {
+    title: "Starting Online Business",
+    imageUrl: "oxford.png",
+    cardText: [
+      "Starting an Online Business",
+      "Creating a Business Plan",
+      "Executing any Business Plan",
+    ],
+    cardLink:
+      "https://oxfordhomestudy.com/courses/business-studies-online/starting-online-business-course",
+  },
+  {
+    title: "Diploma in Entrepreneurship",
+    imageUrl: "oxford.png",
+    cardText: [
+      "Traits of an Entrepreneur",
+      "Developing a Business or Product Idea",
+      "Building a Marketing Plan and Sales Strategy",
+    ],
+    cardLink:
+      "https://oxfordhomestudy.com/courses/business-studies-online/entrepreneurial-management-course",
+  },
+  {
+    title: "Diploma in Business Management",
+    imageUrl: "oxford.png",
+    cardText: [
+      "Introduction to Operations Management",
+      "Strategic Planning Process",
+      "Building an Effective Team",
+    ],
+    cardLink:
+      "https://oxfordhomestudy.com/courses/business-studies-online/free-business-management-course",
+  },
+  {
+    title: "How to Start a Consulting Business",
+    imageUrl: "oxford.png",
+    cardText: [
+      "Business Building Blocks",
+      "Setting Income Targets",
+      "Setting Your Base Hourly Rate",
+    ],
+    cardLink:
+      "https://oxfordhomestudy.com/courses/business-studies-online/starting-a-consulting-business",
+  },
+  {
+    title: "Introduction to Business Ethics",
+    imageUrl: "oxford.png",
+    cardText: [
+      "Defining Ethics and Morals",
+      "Values Identification",
+      "Kohlberg’s Six Stages",
+    ],
+    cardLink:
+      "https://oxfordhomestudy.com/courses/business-studies-online/business-code-of-ethics",
+  },
+  {
+    title: "Diploma in Digital Marketing",
+    imageUrl: "oxford.png",
+    cardText: [
+      "Introduction to Digital Marketing",
+      "How to Create a Social Media Strategy",
+      "SEO Fundamentals",
+    ],
+    cardLink:
+      "https://oxfordhomestudy.com/courses/digital-marketing-certificate-programs-online/digital-marketing-diploma",
+  },
+  {
+    title: "Diploma in E-Commerce",
+    imageUrl: "oxford.png",
+    cardText: [
+      "Getting to Know E-Commerce",
+      "Creating an Engaging User Experience",
+      "Marketing Your E-Commerce Business",
+      "E-Commerce Analytics",
+    ],
+    cardLink:
+      "https://oxfordhomestudy.com/courses/marketing-online-courses/diploma-in-ecommerce",
   },
 ];
