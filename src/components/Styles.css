@@ -33,6 +33,11 @@ html {
   padding: 20px;
   position: sticky;
   top: 30px;
+
+  max-height: 900px; /* Set a maximum height to limit the scrollable area */
+  overflow-y: auto; /* Enable vertical scrolling */
+ 
+
 }
 
 #button-category {
