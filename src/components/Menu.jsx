@@ -1,10 +1,7 @@
-import React from 'react'
-import 'bootstrap/dist/css/bootstrap.min.css';
-
-
+import React from "react";
+import "bootstrap/dist/css/bootstrap.min.css";
 
 function Menu() {
-
   function scrollToComponent() {
     const targetComponent = document.getElementById("button-container");
     if (targetComponent) {
@@ -12,13 +9,19 @@ function Menu() {
     }
   }
 
-  
   return (
-<nav className='container-fluid fixed-top d-flex justify-content-end mt-2 mb-4 pe-6'>
-   <button onClick={scrollToComponent} type="button" className="btn btn-danger">Menu</button>
-   </nav>
-   
-  )
+
+      <nav className="container-fluid fixed-top d-flex justify-content-end mt-2 mb-4 pe-6">
+        <button
+          onClick={scrollToComponent}
+          type="button"
+          className="btn btn-danger"
+        >
+          Menu
+        </button>
+      </nav>
+    
+  );
 }
 
-export default Menu
+export default Menu;

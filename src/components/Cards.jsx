@@ -4,18 +4,24 @@ import CardContent from "@mui/material/CardContent";
 import CardMedia from "@mui/material/CardMedia";
 import Typography from "@mui/material/Typography";
 import "./Styles.css";
-
+import { useMediaQuery } from '@mui/material';
 import ExpandCircleDownIcon from "@mui/icons-material/ExpandCircleDown";
 
 const Cards = ({ cardData }) => {
+  const isSmallScreen = useMediaQuery('(max-width:600px)');
   return (
     <>
       <div className="card-container">
         {cardData.map((card, index) => (
           <Card
             key={index}
+            className="card-width"
             id="card_hover"
-            sx={{ maxWidth: 345, minWidth: 350, margin: "16px" }}
+            sx={{
+              maxWidth: isSmallScreen ? 250 : 345,
+              minWidth: isSmallScreen ? 250 : 350,
+              margin: "16px",
+            }}
           >
             <CardMedia
             className="round-shadow-img"

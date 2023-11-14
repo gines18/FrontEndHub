@@ -10,7 +10,7 @@ const content = [
         text: "Background"
     },
     {
-        img: "font-content.png",
+        img: "font0.png",
         text: "Fonts"
     },
     {

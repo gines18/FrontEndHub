@@ -16,43 +16,44 @@ function News() {
         return response.json();
       })
       .then(function (data) {
-        if (data.articles.length === 0 ) {
+        if (data.articles.length === 0) {
           setArticles(false);
         } else {
-          
           setArticles(data.articles);
         }
-        
       });
   }, []);
 
   return (
     <>
-      <div className="header-news">
-        <p>
-          Take a break and read <span className="underline-news">Latest News</span>
-        </p>
-      </div>
-      <div className="container-news">
-        {showArticles ? (
-          articles.map((article, index) => (
-            <div className="card-news" key={index}>
-              <img
-                src={article.image}
-                style={{ width: "100%", height: "150px" }}
-                alt=""
-              />
-              <h3 className="news-title">{article.title}</h3>
-              <p>{article.description}</p>
-              <a className="news-link" href={article.url} target="_blank">
-                Read more
-              </a>
-            </div>
-          ))
-        ) : (
-          <p id="no-articles">No articles to display. Check later.</p>
-        )}
-      </div>
+   
+        <div className="header-news">
+          <p>
+            Take a break and read{" "}
+            <span className="underline-news">Latest News</span>
+          </p>
+        </div>
+        <div className="container-news">
+          {showArticles ? (
+            articles.map((article, index) => (
+              <div className="card-news" key={index}>
+                <img
+                  src={article.image}
+                  style={{ width: "100%", height: "150px" }}
+                  alt=""
+                />
+                <h3 className="news-title">{article.title}</h3>
+                <p>{article.description}</p>
+                <a className="news-link" href={article.url} target="_blank">
+                  Read more
+                </a>
+              </div>
+            ))
+          ) : (
+            <p id="no-articles">No articles to display. Check later.</p>
+          )}
+        </div>
+      
     </>
   );
 }

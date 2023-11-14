@@ -131,7 +131,7 @@ const category = [
     cardText: <Cards cardData={money} />,
   },
   {
-    title: "Free Oxford Certificates",
+    title: "Oxford (OHSC) Certificates",
     cardText: <Cards cardData={oxford} />,
   },
  
@@ -141,6 +141,7 @@ const CardContainer = () => {
 
   return (
     <>
+    <main>
     <div className="main_container">
     <div className="menu_left">
       <Buttons  />
@@ -159,6 +160,7 @@ const CardContainer = () => {
       ))}
     </div>
     </div>
+    </main>
     </>
   );
  

@@ -79,7 +79,7 @@ const buttons = [
     category: "Earn Money",
   },
   {
-    category: "Free Oxford Certificates",
+    category: "Oxford (OHSC) Certificates",
   },
 
   
@@ -108,6 +108,7 @@ export default function Buttons() {
 
   return (
     <>
+  
       <div id="button-container">
         {buttons.map((button, index) => (
           <p
@@ -119,6 +120,7 @@ export default function Buttons() {
           </p>
         ))}
       </div>
+    
     </>
   );
 }
