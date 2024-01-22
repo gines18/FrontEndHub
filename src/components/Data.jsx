@@ -1655,3 +1655,13 @@ export const oxford = [
       "https://oxfordhomestudy.com/courses/marketing-online-courses/diploma-in-ecommerce",
   },
 ];
+
+
+export const aws = [
+  {
+    title: "AWS Cloud",
+    imageUrl: "aws-bootcamp.png",
+    cardText: "You'll learn about containers, authentication, Postgres, caching, CI/CD, and much more.",
+    cardLink: "https://www.freecodecamp.org/news/free-107-hour-aws-cloud-project-bootcamp/"
+  }
+]

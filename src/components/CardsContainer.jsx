@@ -29,7 +29,8 @@ import {
   linkedin,
   internships,
   money,
-  oxford
+  oxford,
+  aws
 } from "./Data";
 import Buttons from "./Buttons";
 
@@ -133,6 +134,10 @@ const category = [
   {
     title: "Oxford (OHSC) Certificates",
     cardText: <Cards cardData={oxford} />,
+  },
+  {
+    title: "AWS Cloude",
+    cardText: <Cards cardData={aws} />,
   },
  
 ];
