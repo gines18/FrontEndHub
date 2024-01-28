@@ -1665,3 +1665,22 @@ export const aws = [
     cardLink: "https://www.freecodecamp.org/news/free-107-hour-aws-cloud-project-bootcamp/"
   }
 ]
+
+export const books = [
+  
+    {
+      title: "Power Vs Force by David R. Hawkins",
+      imageUrl: "book0.png",
+      cardText: "Life changing to say the least. Do yourself a favor and read the book if you haven’t already. ",
+    },
+    {
+      title: " Poor Charlie’s Almanack by Charles T. Munger and Peter D. Kaufman",
+      imageUrl: "book1.png",
+      cardText: "His Almanack is one of the best books I’ve ever read in my entire life. This man left a strong legacy behind.",
+    },
+    {
+      title: "Crucial Conversations by Joseph Grenny, Kerry Patterson, Ron McMillan, Al Switzler, Emily Gregory",
+      imageUrl: "book2.png",
+      cardText: "Anytime you find yourself stuck, there’s likely a crucial conversation you’re either not holding or not holding well. A must-read book.",
+    },
+]

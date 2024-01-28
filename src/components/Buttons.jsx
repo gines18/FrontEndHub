@@ -84,7 +84,9 @@ const buttons = [
   {
     category: "AWS Cloude",
   },
-  
+  {
+    category: "Books"
+  }
 ];
 
 export default function Buttons() {

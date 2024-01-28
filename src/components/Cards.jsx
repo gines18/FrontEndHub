@@ -49,11 +49,17 @@ const Cards = ({ cardData }) => {
               </Typography>
               <div className="arrow">
               <Typography variant="body2" color="text.secondary">
+              {card.cardLink ? (
                 <a href={card.cardLink} target="_blank">
                   <ExpandCircleDownIcon
                     style={{ width: "30px", rotate: "-140deg" }}
                   />
-                </a>
+                </a> 
+                ) : (
+                  card.cardLink
+                )}
+                
+        
               </Typography>
               </div>
             </CardContent>

@@ -30,7 +30,8 @@ import {
   internships,
   money,
   oxford,
-  aws
+  aws,
+  books
 } from "./Data";
 import Buttons from "./Buttons";
 
@@ -138,6 +139,10 @@ const category = [
   {
     title: "AWS Cloude",
     cardText: <Cards cardData={aws} />,
+  },
+  {
+    title: "Books",
+    cardText: <Cards cardData={books} />,
   },
  
 ];
