@@ -89,7 +89,7 @@ html {
 
 @media (max-width: 600px){
   .card-container{
-    width: 80%;
+    width: 100%;
   }
 }
 
@@ -112,16 +112,29 @@ html {
   margin: 0px 40px 0px 40px;
   overflow: hidden;
   position: relative;
-  flex: 1 0 400px;
+
 }
 .card-container-title.animations-complete {
   overflow: auto;
 }
 
 .title {
-  margin: 40px;
+
   font-family: "Roboto Serif", serif;
 }
+
+@media (max-width: 600px){
+.title{
+  width: 50%
+}
+  .card-container-title {
+width: 100%;
+  }
+
+}
+
+
+
 
 /* Hero */
 
@@ -235,7 +248,7 @@ html {
       flex-direction: column;
       justify-content: center;
       height: auto;
-      width: 80%;
+      width: 69%;
     }
   }
   
