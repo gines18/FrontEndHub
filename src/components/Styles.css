@@ -33,7 +33,7 @@ html {
   padding: 20px;
   position: sticky;
   top: 30px;
-  max-height: 900px; /* Set a maximum height to limit the scrollable area */
+  max-height: 700px; /* Set a maximum height to limit the scrollable area */
   overflow-y: auto; /* Enable vertical scrolling */
 }
 
@@ -64,9 +64,13 @@ html {
 
 @media (max-width: 390px) {
   #button-container {
+ 
     padding: 60px 10px 10px 10px;
     margin-top: 30px;
     font-size: 100%;
+    position: relative;
+    width: 100%;
+
   }
 }
 
@@ -119,7 +123,6 @@ html {
 }
 
 .title {
-
   font-family: "Roboto Serif", serif;
 }
 
@@ -133,7 +136,11 @@ width: 100%;
 
 }
 
-
+@media (max-width: 390px){
+  .title{
+    margin-left: 40px;
+  }
+}
 
 
 /* Hero */
@@ -730,8 +737,23 @@ section {
     top: 100px;
   }
 }
+
+@media (max-width: 390px ){
+  .main_container{
+    display: flex;
+    flex-direction: column;
+    
+  }
+}
+
 /* Menu left */
 .menu_left {
   width: 300px;
   padding: 20px;
+}
+
+@media (max-width: 390px ){
+  .menu_left{
+    width: 100%;
+  }
 }
