@@ -97,6 +97,7 @@ html {
   }
 }
 
+
 #card_hover:hover {
   scale: 1.03;
   transition: 0.1s;
@@ -139,6 +140,7 @@ width: 100%;
 @media (max-width: 390px){
   .title{
     margin-left: 40px;
+    margin-top: 20px;
   }
 }
 
@@ -276,6 +278,17 @@ width: 100%;
   p {
     padding: 6px;
   }
+  .hero-tips{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 !important;
+  }
+  .header-tips{
+    display: flex;
+    justify-content: center;
+  }
+
 }
 
 /* Footer */
@@ -692,11 +705,13 @@ section {
     min-width: 100px !important;
   }
   .responsive-font {
-    font-size: 1rem;
+    font-size: 1.5rem;
+    padding: 4px;
+    margin: 4px;
   }
 
   .responsive-fontHeader {
-    font-size: 1.5rem;
+    font-size: 2rem;
   }
 }
 

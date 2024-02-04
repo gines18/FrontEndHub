@@ -4,7 +4,7 @@ import { motion } from "framer-motion";
 
 const Tips = ({ tips }) => {
   return (
-    <header>
+    <header className="header-tips">
       <motion.div
         className="hero-tips"
         initial={{ opacity: 0 }}
