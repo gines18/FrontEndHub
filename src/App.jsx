@@ -21,7 +21,7 @@ function App() {
     <Buttons />
   </CardContainer>
   <Info component={component} />
-  <Logo />
+  {/* <Logo /> */}
   <News />
   <Frontendhub />
   <Footer />
