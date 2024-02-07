@@ -37,7 +37,7 @@ function News() {
           {showArticles ? (
             articles.map((article, index) => (
               <div className="card-news" key={index}>
-                <img
+                <img className="news-img"
                   src={article.image}
                   style={{ width: "100%", height: "150px" }}
                   alt=""
