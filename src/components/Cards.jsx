@@ -18,8 +18,8 @@ const Cards = ({ cardData }) => {
             className="card-width"
             id="card_hover"
             sx={{
+              minWidth: isSmallScreen ? 350 : 350,
               maxWidth: isSmallScreen ? 250 : 345,
-              minWidth: isSmallScreen ? 250 : 350,
               margin: "16px",
             }}
           >
