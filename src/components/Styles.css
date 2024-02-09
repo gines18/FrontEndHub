@@ -790,9 +790,27 @@ section {
   padding: 20px;
 }
 
+.menu_left_mobile{
+  position: relative;
+  display: none ;
+}
+
 @media (max-width: 390px ){
   .menu_left{
+    display: none;
+  }
+}
+
+@media (max-width: 390px ){
+  .menu_left_mobile{
     width: 100%;
-    visibility: hidden;
+    display: none;
+    position: fixed;
+    top: 55px;
+    z-index: 11;
+    background-color: blue;
+    height: 700px;
+    margin: 0px;
+    padding: 0px;
   }
 }

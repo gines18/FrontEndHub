@@ -103,11 +103,19 @@ export default function Buttons() {
     };
   }, []);
 
+function closeButtonsOnMobile() {
+  const closeButtons = document.querySelector('.menu_left_mobile');
+  closeButtons.style.display = 'none'
+}
+
+
   const handleButtonClick = (category) => {
+    scrollToSection(category);
+    closeButtonsOnMobile();
     if (scrollTriggerRef.current) {
       scrollTriggerRef.current.refresh();
     }
-    scrollToSection(category);
+   
   };
 
   return (

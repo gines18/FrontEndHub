@@ -11,13 +11,11 @@ function Menu() {
   }
 
   function showMenu() {
-    const menu = document.getElementsByClassName('menu_left')[0]; // Select the first element with class 'menu_left'
+    const menu = document.getElementsByClassName('menu_left_mobile')[0]; // Select the first element with class 'menu_left'
     if (menu) {
-      menu.style.visibility = "visible"; // Show the menu
+      menu.style.display = "block"; // Show the menu
     }
   }
-
-
 
   return (
 

@@ -149,9 +149,6 @@ const category = [
 
 const CardContainer = () => {
 
-
-
-  
   return (
     <>
     <main>

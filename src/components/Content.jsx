@@ -1,4 +1,5 @@
 import React from 'react'
+import Buttons from  './Buttons.jsx';
 
 const content = [
     {
@@ -30,6 +31,9 @@ const content = [
 function Content() {
   return (
     <div className='container-content'>
+           <div className="menu_left_mobile">
+      <Buttons  />
+    </div>
         <img src="logo-website.png" alt="logo" style={{width: "400px"}}/>
         <div className='content-font'>
         <p className='responsive-fontHeader'>Free Frontend tools</p>
