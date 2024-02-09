@@ -808,7 +808,7 @@ section {
     position: fixed;
     top: 55px;
     z-index: 11;
-    background-color: blue;
+    background-image: url(shapes.svg);
     height: 700px;
     margin: 0px;
     padding: 0px;
