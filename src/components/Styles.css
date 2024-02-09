@@ -806,12 +806,16 @@ section {
     width: 100%;
     display: none;
     position: fixed;
-    top: 55px;
+    top: 95px;
     z-index: 11;
     background: white;
-    background-image: url(./shapes.svg);
+    background-image: url(bg.png);
     height: 700px;
     margin: 0px;
     padding: 0px;
+  }
+  #button-category{
+    position: relative;
+    top: -35px;
   }
 }
