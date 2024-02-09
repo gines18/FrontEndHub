@@ -808,7 +808,8 @@ section {
     position: fixed;
     top: 55px;
     z-index: 11;
-    background-image: url(shapes.svg);
+    background: white;
+    background-image: url(./shapes.svg);
     height: 700px;
     margin: 0px;
     padding: 0px;
