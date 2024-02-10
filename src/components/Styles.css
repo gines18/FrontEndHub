@@ -231,7 +231,7 @@ width: 100%;
   padding: 60px;
   text-align: center;
   border-radius: 50px;
-}
+  }
 
 .welcome-tips h1 {
   font-size: 2rem;
@@ -278,6 +278,7 @@ width: 100%;
     justify-content: center;
     position: relative;
     left: 20px;
+    margin-bottom: 20px;
   }
 }
 
