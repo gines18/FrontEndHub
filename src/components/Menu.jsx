@@ -3,7 +3,7 @@ import "bootstrap/dist/css/bootstrap.min.css";
 
 function Menu() {
   function scrollToComponent() {
-    const targetComponent = document.getElementById("button-container");
+    const targetComponent = document.querySelector(".menu_left");
 
     if (targetComponent) {
       targetComponent.scrollIntoView({ behavior: "smooth" });
@@ -20,14 +20,19 @@ function Menu() {
   return (
 
       <nav className="container-fluid fixed-top d-flex justify-content-end mt-2 mb-4 pe-6">
-        <button
-          onClick={() => {showMenu(), scrollToComponent()}}
-
-          type="button"
-          className="btn btn-danger"
-        >
-          Menu
-        </button>
+   <button
+  onClick={() => {
+    if (window.innerWidth > 390) {
+      scrollToComponent();
+    } else {
+      showMenu();
+    }
+  }}
+  type="button"
+  className="btn btn-danger"
+>
+  Menu
+</button>
       </nav>
     
   );
