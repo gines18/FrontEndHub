@@ -9,6 +9,7 @@ import { component } from "./components/Data";
 import Frontendhub from "./components/Frontendhub";
 import News from "./components/News";
 import Content from "./components/Content";
+// import Alerty from  './components/Alert';
 
 function App() {
 
@@ -57,6 +58,7 @@ function App() {
 <>
   <Menu />
   <Content />
+    {/* <Alerty /> */}
   <Hero />
   <CardContainer>
     <Buttons />
