@@ -1,6 +1,7 @@
 import React from 'react'
 import Buttons from  './Buttons.jsx';
 
+
 const content = [
     {
         img: "colors-content.jpeg",
@@ -39,6 +40,9 @@ function Content() {
         <p className='responsive-fontHeader'>Free Frontend tools</p>
         <h1 className='responsive-font'>Elevate your website's visual appeal and interactivity</h1>
       </div>
+      <h1 className="text-3xl font-bold underline">
+      Hello world!
+    </h1>
         <div className='img-content'>
             {content.map((item, index) => (
               <div className='img-data' key={index}>
